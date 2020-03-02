@@ -85,17 +85,14 @@ export default {
       })
     },
     rightAvailable(){
-      console.log(this.rightItem[this.leftActive])
       let res = this.rightItem[this.leftActive].filter(k => {
         for(let c of k.access){
-          console.log(c)
           if(this.cardnum.startsWith(c)){
             return true
           }
         }
         return false
       })
-      console.log(res)
       return res
     }
   },
@@ -104,10 +101,9 @@ export default {
       // 在服务器端
       if(query.ticket){
         // 如果有 ticket 则验证
-        console.log(query)
         try {
         let casInfo = await $axios.get(`https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}&ticket=${query.ticket}&json=1`)
-        console.log(casInfo.data)
+        console.log(`${casInfo.data.cas_info.name}-${casInfo.data.cas_info.cardnum} 访问自助服务`)
         return {name:casInfo.data.cas_info.name, cardnum:casInfo.data.cas_info.cardnum}
         } catch (e) {
           redirect(`https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}`)
