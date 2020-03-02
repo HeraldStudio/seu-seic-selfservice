@@ -7,11 +7,8 @@
     </div>
     <div id="banner">
       <el-carousel :interval="4000" height="44.9vw" indicator-position="none">
-        <el-carousel-item class="banner-item">
-          <img class="banner-img" src="~/assets/banner/yqfk.png" />
-        </el-carousel-item>
-        <el-carousel-item class="banner-item">
-          <img class="banner-img" src="~/assets/banner/yqfk.png" />
+        <el-carousel-item class="banner-item" v-for="item in bannerAvailable" :key="item.key">
+          <img class="banner-img" :src="item.src" @click="openUrl(item.url)"/>
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -21,14 +18,19 @@
     <div id="content">
       <div id="left-side">
         <div class="padding"></div>
-        <div class="left-side-item" v-for="item in leftItem" :key="item.name" @click="leftChange(item.name)">
+        <div class="left-side-item" v-for="item in leftAvailable" :key="item.name" @click="leftChange(item.name)">
           <img class="left-side-item-icon" v-if="item.name === leftActive" :src="item.activeIcon" />
           <img class="left-side-item-icon" v-else :src="item.icon" />
           <div class="left-side-item-text" :class="{'left-side-item-text-active': item.name === leftActive }">{{item.name}}</div>
         </div>
       </div>
       <div id="right-side">
-
+        <div id="right-inner">
+          <div class="right-item" v-for="item in rightAvailable" :key="item.key" @click="openUrl(item.url)">
+            <img class="right-item-icon" :src="item.icon" />
+            <div class="right-item-name">{{item.name}}</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -37,6 +39,7 @@
 <script>
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem } from "element-ui";
+import {banner, leftItem, rightItem} from './data.js';
 
 export default {
   components: {
@@ -47,37 +50,53 @@ export default {
   data(){
     return { 
       leftActive:'疫情防控',
-      leftItem:[
-        { 
-          name:"疫情防控",
-          access:['2', '1', '3'],
-          activeIcon: require("~/assets/left-icon/yqfk-orange.svg"),
-          icon: require("~/assets/left-icon/yqfk-white.svg"),
-        },
-        { 
-          name:"中心服务",
-          access:['2', '1', '3'],
-          activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
-          icon: require("~/assets/left-icon/fwlc-white.svg"),
-        },
-        { 
-          name:"便捷查询",
-          access:['2', '1', '3'],
-          activeIcon: require("~/assets/left-icon/bjcx-orange.svg"),
-          icon: require("~/assets/left-icon/bjcx-white.svg"),
-        },
-        { 
-          name:"工作流程",
-          access:['1', '3'],
-          activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
-          icon: require("~/assets/left-icon/gzlc-white.svg"),
-        },
-      ]
+      banner, leftItem, rightItem
     }
   },
   methods: {
     leftChange(index){
       this.leftActive = index
+    },
+    openUrl(url){
+      if(url){
+        window.location = url
+      }
+    }
+  },
+  computed:{
+    bannerAvailable(){
+      return this.banner.filter(k => {
+        for(let c of k.access){
+          if(this.cardnum.startsWith(c)){
+            return true
+          }
+        }
+        return false
+      })
+    },
+    leftAvailable(){
+      return this.leftItem.filter(k => {
+        for(let c of k.access){
+          if(this.cardnum.startsWith(c)){
+            return true
+          }
+        }
+        return false
+      })
+    },
+    rightAvailable(){
+      console.log(this.rightItem[this.leftActive])
+      let res = this.rightItem[this.leftActive].filter(k => {
+        for(let c of k.access){
+          console.log(c)
+          if(this.cardnum.startsWith(c)){
+            return true
+          }
+        }
+        return false
+      })
+      console.log(res)
+      return res
     }
   },
   async asyncData({req, res, $axios, query, route, redirect}){
@@ -188,5 +207,30 @@ export default {
 }
 .left-side-item-text-active {
   color: #f08200;
+}
+#right-side{
+  width: 100%;
+}
+#right-inner {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.right-item {
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.right-item-icon{
+  width: 30px;
+  height: 30px;
+}
+.right-item-name {
+  font-size: 14px;
+  margin-top: 10px;
 }
 </style>
