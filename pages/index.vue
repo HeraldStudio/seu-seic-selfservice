@@ -39,7 +39,7 @@
 <script>
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem } from "element-ui";
-import {banner, leftItem, rightItem} from './data.js';
+import {banner, leftItem, rightItem} from '~/pages/data.js';
 
 export default {
   components: {
