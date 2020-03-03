@@ -19,16 +19,16 @@ module.exports = {
             icon: require("~/assets/left-icon/fwlc-white.svg"),
         },
         {
-            name: "便捷查询",
-            access: ['2', '1', '3'],
-            activeIcon: require("~/assets/left-icon/bjcx-orange.svg"),
-            icon: require("~/assets/left-icon/bjcx-white.svg"),
-        },
-        {
             name: "工作流程",
             access: ['1', '3', '2'],
             activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
             icon: require("~/assets/left-icon/gzlc-white.svg"),
+        },
+        {
+            name: "便捷查询",
+            access: ['2', '1', '3'],
+            activeIcon: require("~/assets/left-icon/bjcx-orange.svg"),
+            icon: require("~/assets/left-icon/bjcx-white.svg"),
         },
     ],
     rightItem: {
