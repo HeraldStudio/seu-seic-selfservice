@@ -56,7 +56,7 @@ module.exports = {
             },
             {
                 key: "入校申请",
-                name: "入校申请",
+                name: "入校申请审批",
                 access: ['1', '3'],
                 icon: require("~/assets/right-icon/rxsq.svg"),
             }
