@@ -140,11 +140,11 @@ export default {
   height: 40px;
 }
 #head-name {
-  height: 40px;
+  height: 30px;
   margin-left: 10px;
 }
 #head-nic {
-  font-size: 24px;
+  font-size: 20px;
   margin-left: 10px;
   color: white;
   font-weight: bold;
@@ -181,14 +181,13 @@ export default {
   flex-basis: 20px;
 }
 .left-side-item {
-  height: 65px; 
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  margin-top: 10px;
+  margin-top:20px;
 }
 .left-side-item-active {
   background-color: white;
@@ -202,7 +201,7 @@ export default {
   color: white;
 }
 .left-side-item-text-active {
-  color: #f08200;
+  color: #fdd000;
 }
 #right-side{
   width: 100%;
@@ -222,11 +221,11 @@ export default {
   margin-top: 20px;
 }
 .right-item-icon{
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 .right-item-name {
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 10px;
+  margin-top: 5px;
 }
 </style>

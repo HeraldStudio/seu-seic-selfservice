@@ -20,7 +20,7 @@ module.exports = {
         },
         {
             name: "工作流程",
-            access: ['1', '3', '2'],
+            access: ['1', '3'],
             activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
             icon: require("~/assets/left-icon/gzlc-white.svg"),
         },
