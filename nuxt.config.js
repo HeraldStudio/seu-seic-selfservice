@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   router:{
-    base:'/self-service/'
+    base:process.env.NODE_ENV === 'production' ? 'https://cdn-seicwxbz.seu.edu.cn/self-service/' : '/self-service/'
   },
   axios: {
     // proxyHeaders: false
