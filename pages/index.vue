@@ -129,7 +129,7 @@ const rightItem = {
             icon: require("~/assets/right-icon/rxsq.svg"),
         }
     ],
-    "中心服务": [
+    "个人服务": [
         {
             key: "服务指南",
             name: "服务指南",
