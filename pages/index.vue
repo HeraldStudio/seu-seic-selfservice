@@ -186,13 +186,6 @@ const rightItem = {
             url: 'http://zhkp.seu.edu.cn/mobile/login/login'
         },
         {
-            key: "总务服务",
-            name: "总务服务",
-            access: ['1', '2', '3'],
-            icon: require("~/assets/right-icon/zwfw-gray.svg"),
-            url: ''
-        },
-        {
             key: "课程表",
             name: "课表查询",
             access: ['1', '2'],
@@ -206,6 +199,13 @@ const rightItem = {
             icon: require("~/assets/right-icon/xcsk.svg"),
             url: ''
         },
+        {
+            key: "总务服务",
+            name: "总务服务",
+            access: ['1', '2', '3'],
+            icon: require("~/assets/right-icon/zwfw-gray.svg"),
+            url: ''
+        }
     ],
     "部门服务": [
         {
