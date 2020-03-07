@@ -122,7 +122,7 @@ const leftItem = [
 const rightItem = {
     "疫情防控": [
         {
-            key: "疫情防控教职工",
+            key: "疫情防控",
             name: "健康申报",
             access: ['1', '3', '2'],
             icon: require("~/assets/right-icon/yqfk.svg"),
@@ -133,6 +133,7 @@ const rightItem = {
             name: "入校申请审批",
             access: ['1', '3'],
             icon: require("~/assets/right-icon/rxsq.svg"),
+            url: 'http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do'
         }
     ],
     "个人服务": [
@@ -155,7 +156,7 @@ const rightItem = {
             name: "移动OA",
             access: ['1', '2', '3'],
             icon: require("~/assets/right-icon/oa.svg"),
-            url: 'https://nic.seu.edu.cn/wxfwlc/'
+            url: 'http://mcp.seu.edu.cn/public/download/index.html'
         },
         {
             key: "上网充值",
@@ -197,7 +198,7 @@ const rightItem = {
             name: "校车查询",
             access: ['1', '2', '3'],
             icon: require("~/assets/right-icon/xcsk.svg"),
-            url: ''
+            url: 'https://zwc.seu.edu.cn/2015/0428/c4297a122944/page.htm'
         },
         {
             key: "总务服务",
@@ -255,7 +256,7 @@ const rightItem = {
             name: "域名变更",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/ymbg.svg"),
-            url: 'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq'
         },
     ],
 }
