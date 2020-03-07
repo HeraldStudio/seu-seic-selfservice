@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   router:{
-    base:process.env.NODE_ENV === 'production' ? 'https://cdn-seicwxbz.seu.edu.cn/self-service/' : '/self-service/'
+    base:'/self-service/'
   },
   axios: {
     // proxyHeaders: false
@@ -53,6 +53,7 @@ module.exports = {
   */
   build: {
     transpile: [/^element-ui/],
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn-seicwxbz.seu.edu.cn/self-service/' : '/self-service/',
     /*
     ** You can extend webpack config here
     */
