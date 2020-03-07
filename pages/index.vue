@@ -46,6 +46,12 @@ const banner = [{
     url: ''
 },
 {
+    key: '健康申报',
+    access: ['1', '2', '3'],
+    src: require('~/assets/banner/jksb.jpg'),
+    url: 'https://mp.weixin.qq.com/s/7WqhaWrIUe8ruBjAbFg-Ew'
+},
+{
     key: '校园网新套路',
     access: ['1', '2', '3'],
     src: require('~/assets/banner/xyw.jpeg'),
@@ -201,7 +207,7 @@ const rightItem = {
             url: ''
         },
     ],
-    "工作流程": [
+    "部门服务": [
         {
             key: "二级网站",
             name: "二级网站申请",
