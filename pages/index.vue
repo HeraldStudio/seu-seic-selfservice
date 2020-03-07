@@ -101,23 +101,17 @@ const leftItem = [
         icon: require("~/assets/left-icon/yqfk-white.svg"),
     },
     {
-        name: "中心服务",
+        name: "个人服务",
         access: ['2', '1', '3'],
         activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
         icon: require("~/assets/left-icon/fwlc-white.svg"),
     },
     {
-        name: "工作流程",
+        name: "部门服务",
         access: ['1', '3'],
         activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
         icon: require("~/assets/left-icon/gzlc-white.svg"),
-    },
-    {
-        name: "便捷查询",
-        access: ['2', '1', '3'],
-        activeIcon: require("~/assets/left-icon/bjcx-orange.svg"),
-        icon: require("~/assets/left-icon/bjcx-white.svg"),
-    },
+    }
 ]
 const rightItem = {
     "疫情防控": [
@@ -192,8 +186,6 @@ const rightItem = {
             icon: require("~/assets/right-icon/zwfw-gray.svg"),
             url: ''
         },
-    ],
-    "便捷查询": [
         {
             key: "课程表",
             name: "课表查询",
@@ -367,6 +359,7 @@ export default {
   width: 100%;
   border-bottom: #44573a solid 2px;
   position: fixed;
+  z-index: 1000;
 }
 #head-img {
   height: 40px;
