@@ -123,22 +123,8 @@ const rightItem = {
     "疫情防控": [
         {
             key: "疫情防控教职工",
-            name: "疫情防控",
-            access: ['1', '3'],
-            icon: require("~/assets/right-icon/yqfk.svg"),
-            url: 'http://ehall.seu.edu.cn/qljfwapp/sys/lwReportEpidemic/*default/index.do'
-        },
-        {
-            key: "疫情防控本科生",
-            name: "疫情防控",
-            access: ['21'],
-            icon: require("~/assets/right-icon/yqfk.svg"),
-            url: 'https://xgbxscwx.seu.edu.cn/'
-        },
-        {
-            key: "疫情防控研究生",
-            name: "疫情防控",
-            access: ['22', '23'],
+            name: "健康申报",
+            access: ['1', '3', '2'],
             icon: require("~/assets/right-icon/yqfk.svg"),
             url: 'http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do'
         },
