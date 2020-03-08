@@ -285,13 +285,13 @@ export default {
     openBannerUrl(){
       let url = this.banner[this.bannerIndex].url
       if(url){
-        window.location = url
+        window.location.replace(url)
       }
     },
     openUrl(url){
       console.log(url)
       if(url){
-        window.location = url
+        window.location.repalce(url)
       }
     }
   },
