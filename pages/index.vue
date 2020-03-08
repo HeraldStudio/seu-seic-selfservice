@@ -291,7 +291,7 @@ export default {
     openUrl(url){
       console.log(url)
       if(url){
-        window.location.repalce(url)
+        window.location.replace(url)
       }
     }
   },
