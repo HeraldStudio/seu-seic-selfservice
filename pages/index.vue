@@ -260,6 +260,7 @@ const rightItem = {
         },
     ],
 }
+import moment from 'moment'
 export default {
   components: {
     Logo,
@@ -337,10 +338,10 @@ export default {
         console.log(`${casInfo.data.cas_info.name}-${casInfo.data.cas_info.cardnum} 访问自助服务`)
         return {name:casInfo.data.cas_info.name, cardnum:casInfo.data.cas_info.cardnum}
         } catch (e) {
-          redirect(`https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}`)
+          redirect(`https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}&timestamp=${+moment()}`)
         }
       } else {
-        redirect(`https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}`)
+        redirect(`https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent('https://seicwxbz.seu.edu.cn/self-service')}&timestamp=${+moment()}`)
       }
     } else {
       
