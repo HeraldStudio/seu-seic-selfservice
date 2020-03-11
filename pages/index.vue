@@ -214,49 +214,49 @@ const rightItem = {
             name: "二级网站申请",
             access: ['1', '2', '3'],
             icon: require("~/assets/right-icon/ejwz.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0'
         },
         {
             key: "三级网站",
             name: "三级网站申请",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/sjwz.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq&appload=0'
         },
         {
             key: "统一通信平台",
             name: "统一通信平台",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/tytxpt.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt&appload=0'
         },
         {
             key: "短信接口",
             name: "短信接口",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/dxjk.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy&appload=0'
         },
         {
             key: "虚拟机申请",
             name: "虚拟机申请",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/xnjsq.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq&appload=0'
         },
         {
             key: "域名申请",
             name: "域名申请",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/ymsq.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq&appload=0'
         },
         {
             key: "域名变更",
             name: "域名变更",
             access: ['1', '2'],
             icon: require("~/assets/right-icon/ymbg.svg"),
-            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq'
+            url: 'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0'
         },
     ],
 }
