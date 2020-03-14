@@ -69,7 +69,7 @@
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
             早上好～
-            网络与信息中心提醒您：勤洗手，多通风，报平安。三两句问候，愿一切安好。
+            网络与信息中心提醒您：勤洗手，多通风，报平安。三两句问候，愿一切安好❤️❤️❤️
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -77,14 +77,15 @@
         </div>
       </div>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="disableVoice">不再提示</el-button>
-        <el-button @click="closeVoiceDialog">知道啦</el-button>
+        <el-button @click="disableVoice" type="danger" plain>不再提示</el-button>
+        <el-button @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button>
+        <el-button @click="closeVoiceDialog" type="success" plain>知道啦</el-button>
       </span>
     </el-dialog>
     <div>
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
     </div>
-    <audio ref="voice" :src="voice" />
+    <audio ref="voice" :src="voice[currentVoice].voice" />
   </div>
 </template>
 
@@ -343,7 +344,15 @@ export default {
       voiceIcon: require("~/assets/voice.png"),
       voicePlayingIcon: require("~/assets/voice-playing.gif"),
       voiceDialogVisible: false,
-      voice: require("~/assets/voice/gyp_2020_3_9.mp3"),
+      currentVoice:0,
+      voice: [{
+        voice:require("~/assets/voice/gyp_2020_3_9.mp3"),
+        nextHint:'换个小姐姐'
+        }, 
+      {
+        voice:require("~/assets/voice/gxy_2020_3_9.mp3"),
+        nextHint:'换个小哥哥'
+        }],
       voicePlaying: false,
       showVoiceTip: true
     };
@@ -385,6 +394,11 @@ export default {
     },
     disableVoice() {
       window.localStorage.setItem("disable_voice", true);
+    },
+    changeVoice(){
+      this.voicePlaying = false;
+      this.$refs["voice"].pause();
+      this.currentVoice = (this.currentVoice + 1) % this.voice.length
     }
   },
   computed: {
