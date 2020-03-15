@@ -74,11 +74,11 @@
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
           >要调大手机音量才能听到哟</div>
+          <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button>
         </div>
       </div>
       <span slot="footer" class="dialog-footer">
         <el-button @click="disableVoice" type="danger" plain>不再提示</el-button>
-        <el-button @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button>
         <el-button @click="closeVoiceDialog" type="success" plain>知道啦</el-button>
       </span>
     </el-dialog>
