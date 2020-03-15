@@ -94,16 +94,22 @@ import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
   {
-    key: "疫情防控",
+    key: "自助服务",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/yqfk.png"),
-    url: ""
+    src: require("~/assets/banner/zzfw.jpeg"),
+    url: "https://mp.weixin.qq.com/s/Xo7sHxC0I77TLeWQZ0qRqw"
   },
   {
     key: "健康申报",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/jksb.jpg"),
     url: "https://mp.weixin.qq.com/s/7WqhaWrIUe8ruBjAbFg-Ew"
+  },
+  {
+    key: "carsi",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/carsi.png"),
+    url: "https://mp.weixin.qq.com/s/HIs79knB-D8xTwgjvOMivA"
   },
   {
     key: "校园网新套路",
@@ -140,12 +146,6 @@ const banner = [
     access: ["1", "2", "3"],
     src: require("~/assets/banner/kycxfw.png"),
     url: "https://mp.weixin.qq.com/s/nZ9uQQTa2tE7Odcde69xgA"
-  },
-  {
-    key: "carsi",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/carsi.png"),
-    url: "https://mp.weixin.qq.com/s/HbHx1-xO5V6sdGx9vjOqeA"
   },
   {
     key: "bx",
