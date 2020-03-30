@@ -400,6 +400,7 @@ export default {
     },
     disableVoice() {
       window.localStorage.setItem("disable_voice", true);
+      this.closeVoiceDialog()
     },
     changeVoice(){
       this.voicePlaying = false;
@@ -494,7 +495,6 @@ export default {
           moment().format("YYYY-MM-DD")
         );
         setTimeout(()=>{this.showVoiceDialog()}, 10)
-        
       }
     }
     // 检查是否需要播放语音
