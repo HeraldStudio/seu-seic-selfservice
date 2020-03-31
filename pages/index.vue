@@ -100,6 +100,18 @@ const banner = [
     url: ""
   },
   {
+    key: "小猴偷米App安卓测试",
+    access: ["213"],
+    src: require("~/assets/banner/小猴偷米App安卓测试.jpg"),
+    url: "https://mp.weixin.qq.com/s/YocaWUUIHkfr4y5ELFl6Iw"
+  },
+  {
+    key: "网络报修3个月",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/网络报修3个月.jpeg"),
+    url: "https://mp.weixin.qq.com/s/Zf3wR3adLREuYqb_nBZUXw"
+  },
+  {
     key: "自助服务介绍",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/zzfw.jpeg"),
