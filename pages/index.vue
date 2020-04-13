@@ -68,13 +68,14 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            早上好～
-            网络与信息中心提醒您：勤洗手，多通风，报平安。三两句问候，愿一切安好❤️❤️❤️
+            2020 版 Matlab 来啦～
+            正版免费下载，大师直播带教，你想要的尽在东大信息化！
+            后续还有更多惊喜哟🎉
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
           >要调大手机音量才能听到哟</div>
-          <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button>
+          <!-- <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button> -->
         </div>
       </div>
       <span slot="footer" class="dialog-footer">
@@ -93,6 +94,12 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
+  {
+    key: "Matlab-2020",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/matlab-2020.png"),
+    url: "https://mp.weixin.qq.com/s/u6OGLsq5XGuc7kIOWdG8mw"
+  },
   {
     key: "自助服务疫情防控",
     access: ["1", "2", "3"],
@@ -274,7 +281,7 @@ const rightItem = {
       name: "校车查询",
       access: ["1", "2", "3"],
       icon: require("~/assets/right-icon/xcsk.svg"),
-      url: "https://zwc.seu.edu.cn/2015/0428/c4297a122944/page.htm"
+      url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
     },
     {
       key: "总务服务",
@@ -364,13 +371,10 @@ export default {
       voiceDialogVisible: false,
       currentVoice:0,
       voice: [{
-        voice:require("~/assets/voice/gyp_2020_3_9.mp3"),
+        voice:require("~/assets/voice/matlab-2020.mp3"),
         nextHint:'换个小姐姐'
         }, 
-      {
-        voice:require("~/assets/voice/gxy_2020_3_9.mp3"),
-        nextHint:'换个小哥哥'
-        }],
+      ],
       voicePlaying: false,
       showVoiceTip: true
     };
