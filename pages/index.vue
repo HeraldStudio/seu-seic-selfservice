@@ -97,7 +97,7 @@ const banner = [
   {
     key: "Matlab-2020",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/matlab-2020.png"),
+    src: require("~/assets/banner/matlab-2020.jpg"),
     url: "https://mp.weixin.qq.com/s/u6OGLsq5XGuc7kIOWdG8mw"
   },
   {
