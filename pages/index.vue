@@ -95,10 +95,10 @@ import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
   {
-    key: "Matlab-2020",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/matlab-2020.jpg"),
-    url: "https://mp.weixin.qq.com/s/u6OGLsq5XGuc7kIOWdG8mw"
+    key: "小猴偷米App",
+    access: ["21"],
+    src: require("~/assets/banner/小猴偷米App.jpg"),
+    url: "https://mp.weixin.qq.com/s/ntWJdaCfHddMrWswTK28aQ"
   },
   {
     key: "自助服务疫情防控",
@@ -106,11 +106,11 @@ const banner = [
     src: require("~/assets/banner/yqfk.png"),
     url: ""
   },
-  {
-    key: "小猴偷米App安卓测试",
-    access: ["213"],
-    src: require("~/assets/banner/小猴偷米App安卓测试.jpg"),
-    url: "https://mp.weixin.qq.com/s/YocaWUUIHkfr4y5ELFl6Iw"
+    {
+    key: "Matlab-2020",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/matlab-2020.jpg"),
+    url: "https://mp.weixin.qq.com/s/u6OGLsq5XGuc7kIOWdG8mw"
   },
   {
     key: "网络报修3个月",
