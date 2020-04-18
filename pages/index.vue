@@ -216,6 +216,14 @@ const rightItem = {
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
         "http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
+    },
+    {
+      key: "浴室预约",
+      name: "浴室预约",
+      access: ["1","2","3"],
+      icon: require("~/assets/right-icon/ysyy.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex"
     }
   ],
   个人服务: [
