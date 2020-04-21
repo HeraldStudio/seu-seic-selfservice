@@ -212,7 +212,7 @@ const rightItem = {
     {
       key: "入校申请",
       name: "入校申请审批",
-      access: ["1", "3"],
+      access: ["1","2", "3"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
         "http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
