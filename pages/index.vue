@@ -68,9 +68,7 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            2020 版 Matlab 来啦～
-            正版免费下载，大师直播带教，你想要的尽在东大信息化！
-            后续还有更多惊喜哟🎉
+            校园信息门户专属新皮肤来了！你最心水哪一款？快投票送 TA 出道吧！
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -94,6 +92,18 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
+  {
+    key: "信息门户新皮肤",
+    access: ["1","2","3"],
+    src: require("~/assets/banner/信息门户新皮肤.jpg"),
+    url: "https://mp.weixin.qq.com/s/dZWW9B90U2_sKdtoQ1cLhg"
+  },
+  {
+    key: "创新实践平台",
+    access: ["2"],
+    src: require("~/assets/banner/实践平台.jpg"),
+    url: "https://mp.weixin.qq.com/s/ISDp2gainqGENweJXS2Rjg"
+  },
   {
     key: "小猴偷米App",
     access: ["21"],
@@ -379,7 +389,7 @@ export default {
       voiceDialogVisible: false,
       currentVoice:0,
       voice: [{
-        voice:require("~/assets/voice/matlab-2020.mp3"),
+        voice:require("~/assets/voice/校园信息门户专属新皮肤.mp3"),
         nextHint:'换个小姐姐'
         }, 
       ],
