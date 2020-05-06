@@ -478,9 +478,11 @@ export default {
   async asyncData({ req, res, $axios, query, route, redirect }) {
     if (process.server) {
       // 在服务器端
+      console.log(req)
       if (query.ticket) {
         // 如果有 ticket 则验证
         try {
+          console.log('开始换取ticket信息')
           let casInfo = await $axios.get(
             `https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
@@ -494,6 +496,7 @@ export default {
             cardnum: casInfo.data.cas_info.cardnum
           };
         } catch (e) {
+          console.log('获取信息失败', e)
           redirect(
             `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
@@ -508,6 +511,7 @@ export default {
         );
       }
     } else {
+      
     }
   },
   created() {
