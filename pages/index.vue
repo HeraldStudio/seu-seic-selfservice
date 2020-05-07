@@ -501,7 +501,7 @@ export default {
           //     "https://seicwxbz.seu.edu.cn/self-service"
           //   )}&timestamp=${+moment()}`
           // );
-          redirect('http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do')
+          return '服务正忙'
         }
       } else {
         redirect(
