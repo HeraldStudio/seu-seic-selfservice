@@ -214,7 +214,7 @@ const rightItem = {
     {
       key: "疫情防控",
       name: "健康申报",
-      access: ["1", "3", "2"],
+      access: ["8"],
       icon: require("~/assets/right-icon/yqfk.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do"
@@ -222,7 +222,7 @@ const rightItem = {
     {
       key: "入校申请",
       name: "入校申请审批",
-      access: ["1","2", "3"],
+      access: ["8"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
         "http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
