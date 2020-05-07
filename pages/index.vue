@@ -496,11 +496,12 @@ export default {
           };
         } catch (e) {
           console.log('获取信息失败', e)
-          redirect(
-            `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-              "https://seicwxbz.seu.edu.cn/self-service"
-            )}&timestamp=${+moment()}`
-          );
+          // redirect(
+          //   `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
+          //     "https://seicwxbz.seu.edu.cn/self-service"
+          //   )}&timestamp=${+moment()}`
+          // );
+          redirect('http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do')
         }
       } else {
         redirect(
