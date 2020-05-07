@@ -497,7 +497,7 @@ export default {
             cardnum: casInfo.data.cas_info.cardnum
           };
         } catch (e) {
-          console.log('获取信息失败', e)
+          console.log('获取信息失败', e.data)
           redirect(
             `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
