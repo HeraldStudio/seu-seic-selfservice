@@ -501,7 +501,7 @@ export default {
           //     "https://seicwxbz.seu.edu.cn/self-service"
           //   )}&timestamp=${+moment()}`
           // );
-          return '服务正忙'
+          redirect('http://127.0.0.1/')
         }
       } else {
         redirect(
