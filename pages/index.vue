@@ -218,7 +218,7 @@ const rightItem = {
       access: ["2","1","3"],
       icon: require("~/assets/right-icon/yqfk.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do"
+        "http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do"
     },
     {
       key: "入校申请",
