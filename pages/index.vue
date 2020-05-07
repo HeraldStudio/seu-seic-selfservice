@@ -496,13 +496,12 @@ export default {
             cardnum: casInfo.data.cas_info.cardnum
           };
         } catch (e) {
-          console.log('获取信息失败', e)
-          // redirect(
-          //   `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-          //     "https://seicwxbz.seu.edu.cn/self-service"
-          //   )}&timestamp=${+moment()}`
-          // );
-          redirect('http://127.0.0.1/')
+          redirect(
+            `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
+              "https://seicwxbz.seu.edu.cn/self-service"
+            )}&timestamp=${+moment()}`
+          );
+          // redirect('http://127.0.0.1/')
         }
       } else {
         redirect(
