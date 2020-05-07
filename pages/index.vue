@@ -478,7 +478,6 @@ export default {
   async asyncData({ req, res, $axios, query, route, redirect }) {
     if (process.server) {
       // 在服务器端
-      console.log('请求到达self-service')
       // redirect('http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do')
       if (query.ticket) {
         // 如果有 ticket 则验证
