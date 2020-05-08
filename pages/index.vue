@@ -114,6 +114,12 @@ const banner = [
     key: "自助服务疫情防控",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/yqfk.png"),
+    url: "https://mp.weixin.qq.com/s/TS-7kLZz3qBHi-0QKqgb9g"
+  },
+  {
+    key: "正版Visio来了",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/visio.jpg"),
     url: ""
   }
   // ,
@@ -389,10 +395,12 @@ export default {
       voicePlayingIcon: require("~/assets/voice-playing.gif"),
       voiceDialogVisible: false,
       currentVoice:0,
-      voice: [{
-        voice:require("~/assets/voice/校园信息门户专属新皮肤.mp3"),
-        nextHint:'换个小姐姐'
+      voice: [
+        {
+          voice:require("~/assets/voice/校园信息门户专属新皮肤.mp3"),
+          nextHint:'换个小姐姐'
         }, 
+
       ],
       voicePlaying: false,
       showVoiceTip: true
