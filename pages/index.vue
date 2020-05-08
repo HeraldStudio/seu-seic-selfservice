@@ -93,6 +93,12 @@ import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
   {
+    key: "正版Visio来了",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/visio.jpg"),
+    url: "https://mp.weixin.qq.com/s/TS-7kLZz3qBHi-0QKqgb9g"
+  },
+  {
     key: "信息门户新皮肤",
     access: ["1","2","3"],
     src: require("~/assets/banner/信息门户新皮肤.jpg"),
@@ -116,12 +122,6 @@ const banner = [
     src: require("~/assets/banner/yqfk.png"),
     url: ""
   },
-  {
-    key: "正版Visio来了",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/visio.jpg"),
-    url: "https://mp.weixin.qq.com/s/TS-7kLZz3qBHi-0QKqgb9g"
-  }
   // ,
   //   {
   //   key: "Matlab-2020",
