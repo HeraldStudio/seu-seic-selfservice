@@ -114,13 +114,13 @@ const banner = [
     key: "自助服务疫情防控",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/yqfk.png"),
-    url: "https://mp.weixin.qq.com/s/TS-7kLZz3qBHi-0QKqgb9g"
+    url: ""
   },
   {
     key: "正版Visio来了",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/visio.jpg"),
-    url: ""
+    url: "https://mp.weixin.qq.com/s/TS-7kLZz3qBHi-0QKqgb9g"
   }
   // ,
   //   {
