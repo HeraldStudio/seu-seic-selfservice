@@ -498,12 +498,14 @@ export default {
       // redirect('http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do')
       if (query.ticket) {
         // 如果有 ticket 则验证
+        console.log(query.ticket, '请求到达服务器')
         try {
           let casInfo = await $axios.get(
             `https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
             )}&ticket=${query.ticket}&json=1`
           );
+          console.log(query.ticket, '验证成功')
           console.log(
             `${casInfo.data.cas_info.name}-${casInfo.data.cas_info.cardnum} 访问自助服务`
           );
