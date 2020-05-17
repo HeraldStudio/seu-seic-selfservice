@@ -68,7 +68,7 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            嘿！正版Visio可以免费安装啦！还有微软讲师直播代教，这是东大人的专属福利哦～
+            校园信息门户专属新皮肤来了！你最心水哪一款？快投票送 TA 出道吧！
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -399,13 +399,13 @@ export default {
       currentVoice:0,
       voice: [
         {
-          voice:require("~/assets/voice/visio.mp3"),
+          voice:require("~/assets/voice/校园信息门户专属新皮肤.mp3"),
           nextHint:'换个小姐姐'
         }, 
 
       ],
       voicePlaying: false,
-      showVoiceTip: true
+      showVoiceTip: false
     };
   },
   methods: {
