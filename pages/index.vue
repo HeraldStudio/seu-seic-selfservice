@@ -405,7 +405,7 @@ export default {
       currentVoice:0,
       voice: [
         {
-          voice:require("~/assets/voice/gxy_2020_3_9.mp3"),
+          voice:require("~/assets/voice/gyp_2020_3_9.mp3"),
           nextHint:'没得换了'
         }, 
 
