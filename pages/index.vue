@@ -68,7 +68,7 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            校园信息门户专属新皮肤来了！你最心水哪一款？快投票送 TA 出道吧！
+            早上好！网络与信息中心提醒您勤洗手、多通风、报平安。三两句问候，愿一切安好！
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -92,18 +92,18 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
-  {
-    key: "信息门户新皮肤",
-    access: ["1","2","3"],
-    src: require("~/assets/banner/信息门户新皮肤.jpg"),
-    url: "https://mp.weixin.qq.com/s/dZWW9B90U2_sKdtoQ1cLhg"
-  },
-  {
-    key: "创新实践平台",
-    access: ["2"],
-    src: require("~/assets/banner/实践平台.jpg"),
-    url: "https://mp.weixin.qq.com/s/ISDp2gainqGENweJXS2Rjg"
-  },
+  // {
+  //   key: "信息门户新皮肤",
+  //   access: ["1","2","3"],
+  //   src: require("~/assets/banner/信息门户新皮肤.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/dZWW9B90U2_sKdtoQ1cLhg"
+  // },
+  // {
+  //   key: "创新实践平台",
+  //   access: ["2"],
+  //   src: require("~/assets/banner/实践平台.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/ISDp2gainqGENweJXS2Rjg"
+  // },
   {
     key: "小猴偷米App",
     access: ["21"],
@@ -113,8 +113,14 @@ const banner = [
   {
     key: "自助服务疫情防控",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/yqfk.png"),
+    src: require("~/assets/banner/yqfk2.png"),
     url: ""
+  },
+  {
+    key: "设置校内IP可见的网站",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/ip.png"),
+    url: "https://mp.weixin.qq.com/s/1U7ogzr0I6l_eFopJhXHhg"
   },
   // ,
   //   {
@@ -399,8 +405,8 @@ export default {
       currentVoice:0,
       voice: [
         {
-          voice:require("~/assets/voice/校园信息门户专属新皮肤.mp3"),
-          nextHint:'换个小姐姐'
+          voice:require("~/assets/voice/gxy_2020_3_9.mp3"),
+          nextHint:'没得换了'
         }, 
 
       ],
