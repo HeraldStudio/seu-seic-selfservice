@@ -243,8 +243,8 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex"
     },
     {
-      key: "外出审批（测试）",
-      name: "外出审批（测试）",
+      key: "外出审批",
+      name: "疫情期间外出审批系统",
       access: ["1","3"],
       icon: require("~/assets/right-icon/wcsp.svg"),
       url:
