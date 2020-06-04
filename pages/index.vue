@@ -122,6 +122,12 @@ const banner = [
     src: require("~/assets/banner/ip.png"),
     url: "https://mp.weixin.qq.com/s/1U7ogzr0I6l_eFopJhXHhg"
   },
+  {
+    key: "毕业生还书提醒",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/hs.png"),
+    url: "https://mp.weixin.qq.com/s/ZJ47ErkZe993EzLVfYRoCw"
+  },
   // ,
   //   {
   //   key: "Matlab-2020",
