@@ -125,7 +125,7 @@ const banner = [
   {
     key: "毕业生还书提醒",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/hs.png"),
+    src: require("~/assets/banner/hs.jpg"),
     url: "https://mp.weixin.qq.com/s/ZJ47ErkZe993EzLVfYRoCw"
   },
   // ,
