@@ -68,7 +68,7 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            早上好！网络与信息中心提醒您勤洗手、多通风、报平安。三两句问候，愿一切安好！
+            共克时艰，奋进东南！庆祝东南大学建校118周年，祝东大生日快乐。
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -92,18 +92,6 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
-  // {
-  //   key: "信息门户新皮肤",
-  //   access: ["1","2","3"],
-  //   src: require("~/assets/banner/信息门户新皮肤.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/dZWW9B90U2_sKdtoQ1cLhg"
-  // },
-  // {
-  //   key: "创新实践平台",
-  //   access: ["2"],
-  //   src: require("~/assets/banner/实践平台.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/ISDp2gainqGENweJXS2Rjg"
-  // },
   {
     key: "小猴偷米App",
     access: ["21"],
@@ -117,90 +105,17 @@ const banner = [
     url: ""
   },
   {
-    key: "设置校内IP可见的网站",
+    key: "云校庆",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/ip.png"),
-    url: "https://mp.weixin.qq.com/s/1U7ogzr0I6l_eFopJhXHhg"
+    src: require("~/assets/banner/xy.jpg"),
+    url: "https://mp.weixin.qq.com/s/PWfcRTdYw-dpEhhh_fXD6g"
   },
   {
     key: "毕业生还书提醒",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/hs.jpg"),
     url: "https://mp.weixin.qq.com/s/ZJ47ErkZe993EzLVfYRoCw"
-  },
-  // ,
-  //   {
-  //   key: "Matlab-2020",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/matlab-2020.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/u6OGLsq5XGuc7kIOWdG8mw"
-  // },
-  // {
-  //   key: "网络报修3个月",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/网络报修3个月.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/Zf3wR3adLREuYqb_nBZUXw"
-  // },
-  // {
-  //   key: "自助服务介绍",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/zzfw.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/Xo7sHxC0I77TLeWQZ0qRqw"
-  // },
-  // {
-  //   key: "carsi",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/carsi.png"),
-  //   url: "https://mp.weixin.qq.com/s/HIs79knB-D8xTwgjvOMivA"
-  // },
-  // {
-  //   key: "健康申报",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/jksb.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/7WqhaWrIUe8ruBjAbFg-Ew"
-  // },
-  // {
-  //   key: "校园网新套路",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/xyw.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/y67Xt1eZvmfF4k0bemjDLg"
-  // },
-  // {
-  //   key: "选课系统",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/xkxt.png"),
-  //   url: "https://mp.weixin.qq.com/s/wRrA9tGymljwpUr6kXd9pQ"
-  // },
-  // {
-  //   key: "年终总结",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/nzzj.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/urL4VIkxp-FjEFYOyBJBKg"
-  // },
-  // {
-  //   key: "共战疫在行动",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/gzyzxd.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/uDEyrLMZCr0IwD8g-l1LTw"
-  // },
-  // {
-  //   key: "寒假快乐",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/hjkl.jpeg"),
-  //   url: "https://mp.weixin.qq.com/s/OJ2CYlhGPp1FJmhDKgK4ZQ"
-  // },
-  // {
-  //   key: "科研创新服务",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/kycxfw.png"),
-  //   url: "https://mp.weixin.qq.com/s/nZ9uQQTa2tE7Odcde69xgA"
-  // },
-  // {
-  //   key: "bx",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/bx.png"),
-  //   url: "https://mp.weixin.qq.com/s/8AyBG-1elFuAbfOUvA4PwQ"
-  // }
+  }
 ];
 const leftItem = [
   {
@@ -411,7 +326,7 @@ export default {
       currentVoice:0,
       voice: [
         {
-          voice:require("~/assets/voice/gyp_2020_3_9.mp3"),
+          voice:require("~/assets/voice/gyp_happy_birthday.mp3"),
           nextHint:'没得换了'
         }, 
 
