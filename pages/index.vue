@@ -104,12 +104,12 @@ const banner = [
     src: require("~/assets/banner/yqfk2.png"),
     url: ""
   },
-  {
-    key: "云校庆",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/xy.jpg"),
-    url: "https://mp.weixin.qq.com/s/PWfcRTdYw-dpEhhh_fXD6g"
-  },
+  // {
+  //   key: "云校庆",
+  //   access: ["1", "2", "3"],
+  //   src: require("~/assets/banner/xy.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/PWfcRTdYw-dpEhhh_fXD6g"
+  // },
   {
     key: "毕业生还书提醒",
     access: ["1", "2", "3"],
