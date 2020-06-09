@@ -153,7 +153,7 @@ const rightItem = {
       access: ["2","1","3"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
     },
     {
       key: "浴室预约",
@@ -169,7 +169,7 @@ const rightItem = {
       access: ["1","3"],
       icon: require("~/assets/right-icon/wcsp.svg"),
       url:
-        "http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do" 
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do" 
     }
   ],
   个人服务: [
