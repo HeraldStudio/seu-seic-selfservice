@@ -68,7 +68,7 @@
           <div
             style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
           >
-            共克时艰，奋进东南！庆祝东南大学建校118周年，祝东大生日快乐。
+            Revit2020新功能培训来袭！专业认证讲师带教，还有Autodesk大礼包免费领！还等什么，快来参与吧！
           </div>
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
@@ -104,17 +104,29 @@ const banner = [
     src: require("~/assets/banner/yqfk2.png"),
     url: ""
   },
-  // {
-  //   key: "云校庆",
-  //   access: ["1", "2", "3"],
-  //   src: require("~/assets/banner/xy.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/PWfcRTdYw-dpEhhh_fXD6g"
-  // },
   {
     key: "毕业生还书提醒",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/hs.jpg"),
     url: "https://mp.weixin.qq.com/s/ZJ47ErkZe993EzLVfYRoCw"
+  },
+  {
+    key: "Autodesk大礼包",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/autodesk.jpg"),
+    url: "https://mp.weixin.qq.com/s/h9wVh5omGVVX8yaUWlWfMg"
+  },
+  {
+    key: "探秘网信中心",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/tm.jpg"),
+    url: "https://mp.weixin.qq.com/s/wdw8da8HHbjdRBkx-JZYaw"
+  },
+  {
+    key: "岗前培训",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/px.jpg"),
+    url: "https://mp.weixin.qq.com/s/eLgPiLx8CotoQUVGHSo20g"
   }
 ];
 const leftItem = [
@@ -326,7 +338,7 @@ export default {
       currentVoice:0,
       voice: [
         {
-          voice:require("~/assets/voice/gyp_happy_birthday.mp3"),
+          voice:require("~/assets/voice/20200611_Autodesk.mp3"),
           nextHint:'没得换了'
         }, 
 
