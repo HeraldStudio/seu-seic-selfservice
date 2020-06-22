@@ -250,8 +250,8 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
     },
     {
-      key: "总务服务",
-      name: "总务服务",
+      key: "学生公寓",
+      name: "学生公寓",
       access: ["1", "2", "3"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: ""
