@@ -81,9 +81,11 @@
         <el-button @click="closeVoiceDialog" type="success" plain>知道啦</el-button>
       </span>
     </el-dialog>
+    <!--
     <div>
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
     </div>
+    -->
     <audio ref="voice" :src="voice[currentVoice].voice" />
   </div>
 </template>
@@ -92,12 +94,12 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog } from "element-ui";
 const banner = [
-  {
-    key: "小猴偷米App",
-    access: ["21"],
-    src: require("~/assets/banner/小猴偷米App.jpg"),
-    url: "https://mp.weixin.qq.com/s/ntWJdaCfHddMrWswTK28aQ"
-  },
+  // {
+  //   key: "小猴偷米App",
+  //   access: ["21"],
+  //   src: require("~/assets/banner/小猴偷米App.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/ntWJdaCfHddMrWswTK28aQ"
+  // },
   {
     key: "自助服务疫情防控",
     access: ["1", "2", "3"],
@@ -105,29 +107,12 @@ const banner = [
     url: ""
   },
   {
-    key: "毕业生还书提醒",
+    key: "CARSI第四弹",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/hs.jpg"),
-    url: "https://mp.weixin.qq.com/s/ZJ47ErkZe993EzLVfYRoCw"
-  },
-  {
-    key: "Autodesk大礼包",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/autodesk.jpg"),
-    url: "https://mp.weixin.qq.com/s/h9wVh5omGVVX8yaUWlWfMg"
-  },
-  {
-    key: "探秘网信中心",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/tm.jpg"),
-    url: "https://mp.weixin.qq.com/s/wdw8da8HHbjdRBkx-JZYaw"
-  },
-  {
-    key: "岗前培训",
-    access: ["1", "2", "3"],
-    src: require("~/assets/banner/px.jpg"),
-    url: "https://mp.weixin.qq.com/s/eLgPiLx8CotoQUVGHSo20g"
+    src: require("~/assets/banner/CARSI4.png"),
+    url: "https://mp.weixin.qq.com/s/uXBKAHoLn6ElA_vMZp_KOQ"
   }
+  
 ];
 const leftItem = [
   {
