@@ -109,7 +109,7 @@ const banner = [
   {
     key: "CARSI第四弹",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/CARSI4.png"),
+    src: require("~/assets/banner/CARSI4.jpg"),
     url: "https://mp.weixin.qq.com/s/uXBKAHoLn6ElA_vMZp_KOQ"
   }
   
