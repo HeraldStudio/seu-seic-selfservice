@@ -47,6 +47,8 @@
       </div>
     </div>
     <!-- 语音早安 -->
+
+    <!--
     <el-dialog :visible.sync="voiceDialogVisible" width="90%" :show-close="false" title="语音留言">
       <div style="display:flex; align-items:flex-start;">
         <div
@@ -73,7 +75,7 @@
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
           >要调大手机音量才能听到哟</div>
-          <!-- <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button> -->
+          <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button> 
         </div>
       </div>
       <span slot="footer" class="dialog-footer">
@@ -81,6 +83,7 @@
         <el-button @click="closeVoiceDialog" type="success" plain>知道啦</el-button>
       </span>
     </el-dialog>
+    -->
     <!--
     <div>
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
@@ -107,10 +110,16 @@ const banner = [
     url: ""
   },
   {
-    key: "CARSI第四弹",
+    key: "暑期安排",
     access: ["1", "2", "3"],
-    src: require("~/assets/banner/CARSI4.jpg"),
-    url: "https://mp.weixin.qq.com/s/uXBKAHoLn6ElA_vMZp_KOQ"
+    src: require("~/assets/banner/sqap.jpg"),
+    url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg"
+  },
+  {
+    key: "新评教",
+    access: ["1", "2", "3"],
+    src: require("~/assets/banner/xpj.jpg"),
+    url: "https://mp.weixin.qq.com/s/zQERAYK3Xr9WYrOLeozUrg"
   }
   
 ];
