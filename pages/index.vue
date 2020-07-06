@@ -244,6 +244,13 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
     },
     {
+      key: "党费缴纳",
+      name: "党费缴纳",
+      access: ["1", "2", "3"],
+      icon: require("~/assets/right-icon/dfjn.svg"),
+      url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
+    },
+    {
       key: "学生公寓",
       name: "学生公寓",
       access: ["1", "2", "3"],
