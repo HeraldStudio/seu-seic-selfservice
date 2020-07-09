@@ -260,9 +260,16 @@ const rightItem = {
     {
       key: "本科招生",
       name: "本科招生",
-      access: ["213171610"],
+      access: ["213171610","103008527","109000473","109000474","310006421","310006422","312001285","220123456","213180720"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglappseu/login/index.do"
+    },
+    {
+      key: "迎新服务",
+      name: "迎新服务",
+      access: ["213171610","103008527","109000473","109000474","310006421","310006422","312001285","220123456","213180720"],
+      icon: require("~/assets/right-icon/zwfw-gray.svg"),
+      url: "http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do"
     }
   ],
   部门服务: [
