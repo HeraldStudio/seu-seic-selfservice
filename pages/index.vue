@@ -244,8 +244,8 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
     },
     {
-      key: "党费缴纳",
-      name: "党费缴纳",
+      key: "党费缴纳(试运行)",
+      name: "党费缴纳(试运行)",
       access: ["1", "2", "3"],
       icon: require("~/assets/right-icon/dfjn.svg"),
       url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
@@ -256,6 +256,13 @@ const rightItem = {
       access: ["1", "2", "3"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: ""
+    },
+    {
+      key: "本科招生",
+      name: "本科招生",
+      access: ["213171610"],
+      icon: require("~/assets/right-icon/zwfw-gray.svg"),
+      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglappseu/login/index.do"
     }
   ],
   部门服务: [
