@@ -262,7 +262,7 @@ const rightItem = {
       name: "本科招生",
       access: ["213171610","103008527","109000473","109000474","310006421","310006422","312001285","220123456","213180720"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglappseu/login/index.do"
+      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html"
     },
     {
       key: "迎新服务",
