@@ -115,7 +115,7 @@ const banner = [
     src: require("~/assets/banner/sqap.jpg"),
     url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg"
   },{
-    key: "党费收缴"
+    key: "党费收缴",
     access: ["1", "2", "3"],
     src: require("~/assets/banner/dfsj.jpg"),
     url: "https://mp.weixin.qq.com/s/Feaqms7U_GINNRZ6xgf_xQ"
