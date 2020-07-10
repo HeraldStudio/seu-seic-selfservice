@@ -461,7 +461,7 @@ export default {
             cardnum: casInfo.data.cas_info.cardnum
           };
         } catch (e) {
-          console.log(e)
+          // console.log(e)
           redirect(
             `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
