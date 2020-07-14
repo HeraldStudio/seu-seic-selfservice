@@ -105,24 +105,24 @@ const banner = [
   // },
   {
     key: "自助服务疫情防控",
-    access: ["1", "2", "3"],
+    access: "all",
     src: require("~/assets/banner/yqfk2.png"),
     url: ""
   },
   {
     key: "暑期安排",
-    access: ["1", "2", "3"],
+    access: "all",
     src: require("~/assets/banner/sqap.jpg"),
     url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg"
   },{
     key: "党费收缴",
-    access: ["1", "2", "3"],
+    access: "all",
     src: require("~/assets/banner/dfsj.jpg"),
     url: "https://mp.weixin.qq.com/s/Feaqms7U_GINNRZ6xgf_xQ"
   },
   {
     key: "新评教",
-    access: ["1", "2", "3"],
+    access: "all",
     src: require("~/assets/banner/xpj.jpg"),
     url: "https://mp.weixin.qq.com/s/zQERAYK3Xr9WYrOLeozUrg"
   }
@@ -130,13 +130,13 @@ const banner = [
 const leftItem = [
   {
     name: "疫情防控",
-    access: ["2", "1", "3"],
+    access: "all",
     activeIcon: require("~/assets/left-icon/yqfk-orange.svg"),
     icon: require("~/assets/left-icon/yqfk-white.svg")
   },
   {
     name: "个人服务",
-    access: ["2", "1", "3"],
+    access: "all",
     activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
     icon: require("~/assets/left-icon/fwlc-white.svg")
   },
@@ -152,7 +152,7 @@ const rightItem = {
     {
       key: "疫情防控",
       name: "健康申报",
-      access: ["2","1","3"],
+      access: "all",
       icon: require("~/assets/right-icon/yqfk.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do"
@@ -160,7 +160,7 @@ const rightItem = {
     {
       key: "入校申请",
       name: "入校申请审批",
-      access: ["2","1","3"],
+      access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
@@ -168,7 +168,7 @@ const rightItem = {
     {
       key: "浴室预约",
       name: "浴室预约",
-      access: ["1","2","3"],
+      access: "all",
       icon: require("~/assets/right-icon/ysyy.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex"
@@ -186,49 +186,49 @@ const rightItem = {
     {
       key: "服务指南",
       name: "服务指南",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
       url: "https://nic.seu.edu.cn/wxfwlc/"
     },
     {
       key: "Skype云会议",
       name: "Skype云会议",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/skype.svg"),
       url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp"
     },
     {
       key: "移动OA",
       name: "移动OA",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/oa.svg"),
       url: "http://mcp.seu.edu.cn/public/download/index.html"
     },
     {
       key: "上网充值",
       name: "上网充值",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/swcz.svg"),
       url: "http://10.64.200.121:8080/Self/sso_login"
     },
     {
       key: "电子邮件",
       name: "电子邮件",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/email.svg"),
       url: "https://mail.seu.edu.cn/coremail/xphone/"
     },
     {
       key: "东大云盘",
       name: "东大云盘",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/yun.svg"),
       url: "https://pan.seu.edu.cn/"
     },
     {
       key: "综合考评",
       name: "综合考评",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/zhkp.svg"),
       url: "http://zhkp.seu.edu.cn/mobile/login/login"
     },
@@ -243,21 +243,21 @@ const rightItem = {
     {
       key: "校车时刻",
       name: "校车查询",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/xcsk.svg"),
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
     },
     {
       key: "党费缴纳(试运行)",
       name: "党费缴纳(试运行)",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
       url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
     },
     {
       key: "学生公寓",
       name: "学生公寓",
-      access: ["1", "2", "3"],
+      access: "all",
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: ""
     },
@@ -414,16 +414,18 @@ export default {
   computed: {
     bannerAvailable() {
       return this.banner.filter(k => {
+        if(k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
-          }
+          } 
         }
         return false;
       });
     },
     leftAvailable() {
       return this.leftItem.filter(k => {
+        if(k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
@@ -434,6 +436,7 @@ export default {
     },
     rightAvailable() {
       let res = this.rightItem[this.leftActive].filter(k => {
+        if(k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
