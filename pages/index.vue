@@ -110,21 +110,22 @@ const banner = [
     url: ""
   },
   {
+    key: "adobe",
+    access: "all",
+    src: require("~assets/banner/adobe.jpg"),
+    url: "https://mp.weixin.qq.com/s/PeU48CJKgEf9oOb5aOLmhw"
+  },
+  {
+    key: "少年",
+    access: "all",
+    src: require("~/assets/banner/younger.jpg"),
+    url: "https://mp.weixin.qq.com/s/02Apf1uxVB8PT53wZvCoow"
+  },
+  {
     key: "暑期安排",
     access: "all",
     src: require("~/assets/banner/sqap.jpg"),
     url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg"
-  },{
-    key: "党费收缴",
-    access: "all",
-    src: require("~/assets/banner/dfsj.jpg"),
-    url: "https://mp.weixin.qq.com/s/Feaqms7U_GINNRZ6xgf_xQ"
-  },
-  {
-    key: "新评教",
-    access: "all",
-    src: require("~/assets/banner/xpj.jpg"),
-    url: "https://mp.weixin.qq.com/s/zQERAYK3Xr9WYrOLeozUrg"
   }
 ];
 const leftItem = [
@@ -176,10 +177,10 @@ const rightItem = {
     {
       key: "外出审批",
       name: "疫情期间外出审批系统",
-      access: ["1","3"],
+      access: ["1", "3"],
       icon: require("~/assets/right-icon/wcsp.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do" 
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do"
     }
   ],
   个人服务: [
@@ -252,7 +253,8 @@ const rightItem = {
       name: "党费缴纳(试运行)",
       access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
-      url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
     },
     {
       key: "学生公寓",
@@ -264,14 +266,36 @@ const rightItem = {
     {
       key: "本科招生",
       name: "本科招生",
-      access: ["213162317","213171610","103008527","109000473","109000474","310006421","310006422","312001285","220123456","213180720"],
+      access: [
+        "213162317",
+        "213171610",
+        "103008527",
+        "109000473",
+        "109000474",
+        "310006421",
+        "310006422",
+        "312001285",
+        "220123456",
+        "213180720"
+      ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html"
     },
     {
       key: "迎新服务",
       name: "迎新服务",
-      access: ["213162317","213171610","103008527","109000473","109000474","310006421","310006422","312001285","220123456","213180720"],
+      access: [
+        "213162317",
+        "213171610",
+        "103008527",
+        "109000473",
+        "109000474",
+        "310006421",
+        "310006422",
+        "312001285",
+        "220123456",
+        "213180720"
+      ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do"
     }
@@ -354,13 +378,12 @@ export default {
       voiceIcon: require("~/assets/voice.png"),
       voicePlayingIcon: require("~/assets/voice-playing.gif"),
       voiceDialogVisible: false,
-      currentVoice:0,
+      currentVoice: 0,
       voice: [
         {
-          voice:require("~/assets/voice/20200611_Autodesk.mp3"),
-          nextHint:'没得换了'
-        }, 
-
+          voice: require("~/assets/voice/20200611_Autodesk.mp3"),
+          nextHint: "没得换了"
+        }
       ],
       voicePlaying: false,
       showVoiceTip: false
@@ -403,29 +426,29 @@ export default {
     },
     disableVoice() {
       window.localStorage.setItem("disable_voice", true);
-      this.closeVoiceDialog()
+      this.closeVoiceDialog();
     },
-    changeVoice(){
+    changeVoice() {
       this.voicePlaying = false;
       this.$refs["voice"].pause();
-      this.currentVoice = (this.currentVoice + 1) % this.voice.length
+      this.currentVoice = (this.currentVoice + 1) % this.voice.length;
     }
   },
   computed: {
     bannerAvailable() {
       return this.banner.filter(k => {
-        if(k.access === 'all') return true
+        if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
-          } 
+          }
         }
         return false;
       });
     },
     leftAvailable() {
       return this.leftItem.filter(k => {
-        if(k.access === 'all') return true
+        if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
@@ -436,7 +459,7 @@ export default {
     },
     rightAvailable() {
       let res = this.rightItem[this.leftActive].filter(k => {
-        if(k.access === 'all') return true
+        if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
             return true;
@@ -452,14 +475,14 @@ export default {
       // 在服务器端
       if (query.ticket) {
         // 如果有 ticket 则验证
-        console.log(query.ticket, '请求到达服务器')
+        console.log(query.ticket, "请求到达服务器");
         try {
           let casInfo = await $axios.get(
             `https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent(
               "https://seicwxbz.seu.edu.cn/self-service"
             )}&ticket=${query.ticket}&json=1`
           );
-          console.log(query.ticket, '验证成功')
+          console.log(query.ticket, "验证成功");
           console.log(
             `${casInfo.data.cas_info.name}-${casInfo.data.cas_info.cardnum} 访问自助服务`
           );
@@ -484,12 +507,11 @@ export default {
         );
       }
     } else {
-
     }
   },
   created() {
     if (process.client) {
-      console.log('执行客户端逻辑')
+      console.log("执行客户端逻辑");
       let lastVoicePlayDate = window.localStorage.getItem(
         "last_voice_play_date"
       );
@@ -498,14 +520,16 @@ export default {
       if (
         !disableVoice &&
         lastVoicePlayDate !== moment().format("YYYY-MM-DD") &&
-        hours >= 6  &&
+        hours >= 6 &&
         hours < 12
       ) {
         window.localStorage.setItem(
           "last_voice_play_date",
           moment().format("YYYY-MM-DD")
         );
-        setTimeout(()=>{this.showVoiceDialog()}, 10)
+        setTimeout(() => {
+          this.showVoiceDialog();
+        }, 10);
       }
     }
     // 检查是否需要播放语音
