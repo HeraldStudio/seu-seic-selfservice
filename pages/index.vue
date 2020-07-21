@@ -112,7 +112,7 @@ const banner = [
   {
     key: "adobe",
     access: "all",
-    src: require("~assets/banner/adobe.jpg"),
+    src: require("~/assets/banner/adobe.jpg"),
     url: "https://mp.weixin.qq.com/s/PeU48CJKgEf9oOb5aOLmhw"
   },
   {
