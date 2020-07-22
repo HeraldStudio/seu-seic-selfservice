@@ -262,7 +262,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmsdhappseu/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmssdhappseu/*default/index.do"
     },
     {
       key: "本科招生",
