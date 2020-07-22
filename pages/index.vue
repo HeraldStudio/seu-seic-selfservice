@@ -257,11 +257,12 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
     },
     {
-      key: "学生公寓",
-      name: "学生公寓",
+      key: "学生公寓（测试）",
+      name: "学生公寓（测试）",
       access: "all",
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: ""
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmsdhappseu/*default/index.do"
     },
     {
       key: "本科招生",
