@@ -107,46 +107,46 @@ const banner = [
     key: "自助服务疫情防控",
     access: "all",
     src: require("~/assets/banner/yqfk2.png"),
-    url: ""
+    url: "",
   },
   {
     key: "adobe",
     access: "all",
     src: require("~/assets/banner/adobe.jpg"),
-    url: "https://mp.weixin.qq.com/s/PeU48CJKgEf9oOb5aOLmhw"
+    url: "https://mp.weixin.qq.com/s/PeU48CJKgEf9oOb5aOLmhw",
   },
   {
     key: "少年",
     access: "all",
     src: require("~/assets/banner/younger.jpg"),
-    url: "https://mp.weixin.qq.com/s/02Apf1uxVB8PT53wZvCoow"
+    url: "https://mp.weixin.qq.com/s/02Apf1uxVB8PT53wZvCoow",
   },
   {
     key: "暑期安排",
     access: "all",
     src: require("~/assets/banner/sqap.jpg"),
-    url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg"
-  }
+    url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg",
+  },
 ];
 const leftItem = [
   {
     name: "疫情防控",
     access: "all",
     activeIcon: require("~/assets/left-icon/yqfk-orange.svg"),
-    icon: require("~/assets/left-icon/yqfk-white.svg")
+    icon: require("~/assets/left-icon/yqfk-white.svg"),
   },
   {
     name: "个人服务",
     access: "all",
     activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
-    icon: require("~/assets/left-icon/fwlc-white.svg")
+    icon: require("~/assets/left-icon/fwlc-white.svg"),
   },
   {
     name: "部门服务",
     access: ["1", "3"],
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
-    icon: require("~/assets/left-icon/gzlc-white.svg")
-  }
+    icon: require("~/assets/left-icon/gzlc-white.svg"),
+  },
 ];
 const rightItem = {
   疫情防控: [
@@ -156,7 +156,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/yqfk.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do",
     },
     {
       key: "入校申请",
@@ -164,7 +164,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do",
     },
     {
       key: "浴室预约",
@@ -172,7 +172,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/ysyy.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex",
     },
     {
       key: "外出审批",
@@ -180,8 +180,16 @@ const rightItem = {
       access: ["1", "3"],
       icon: require("~/assets/right-icon/wcsp.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do"
-    }
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do",
+    },
+    {
+      key: "研究生出校审批",
+      name: "研究生出校审批",
+      access: ["2"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url: "http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do"
+
+    },
   ],
   个人服务: [
     {
@@ -189,49 +197,49 @@ const rightItem = {
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
-      url: "https://nic.seu.edu.cn/wxfwlc/"
+      url: "https://nic.seu.edu.cn/wxfwlc/",
     },
     {
       key: "Skype云会议",
       name: "Skype云会议",
       access: "all",
       icon: require("~/assets/right-icon/skype.svg"),
-      url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp"
+      url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp",
     },
     {
       key: "移动OA",
       name: "移动OA",
       access: "all",
       icon: require("~/assets/right-icon/oa.svg"),
-      url: "http://mcp.seu.edu.cn/public/download/index.html"
+      url: "http://mcp.seu.edu.cn/public/download/index.html",
     },
     {
       key: "上网充值",
       name: "上网充值",
       access: "all",
       icon: require("~/assets/right-icon/swcz.svg"),
-      url: "http://10.64.200.121:8080/Self/sso_login"
+      url: "http://10.64.200.121:8080/Self/sso_login",
     },
     {
       key: "电子邮件",
       name: "电子邮件",
       access: "all",
       icon: require("~/assets/right-icon/email.svg"),
-      url: "https://mail.seu.edu.cn/coremail/xphone/"
+      url: "https://mail.seu.edu.cn/coremail/xphone/",
     },
     {
       key: "东大云盘",
       name: "东大云盘",
       access: "all",
       icon: require("~/assets/right-icon/yun.svg"),
-      url: "https://pan.seu.edu.cn/"
+      url: "https://pan.seu.edu.cn/",
     },
     {
       key: "综合考评",
       name: "综合考评",
       access: "all",
       icon: require("~/assets/right-icon/zhkp.svg"),
-      url: "http://zhkp.seu.edu.cn/mobile/login/login"
+      url: "http://zhkp.seu.edu.cn/mobile/login/login",
     },
     {
       key: "课程表",
@@ -239,14 +247,14 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/kcb.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do",
     },
     {
       key: "校车时刻",
       name: "校车查询",
       access: "all",
       icon: require("~/assets/right-icon/xcsk.svg"),
-      url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm"
+      url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm",
     },
     {
       key: "党费缴纳(试运行)",
@@ -254,7 +262,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do",
     },
     {
       key: "学生公寓（测试）",
@@ -262,7 +270,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmssdhappseu/*default/index.do"
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmssdhappseu/*default/index.do",
     },
     {
       key: "本科招生",
@@ -277,10 +285,10 @@ const rightItem = {
         "310006422",
         "312001285",
         "220123456",
-        "213180720"
+        "213180720",
       ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html"
+      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
     },
     {
       key: "迎新服务",
@@ -295,11 +303,11 @@ const rightItem = {
         "310006422",
         "312001285",
         "220123456",
-        "213180720"
+        "213180720",
       ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: "http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do"
-    }
+      url: "http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
+    },
   ],
   部门服务: [
     {
@@ -308,7 +316,7 @@ const rightItem = {
       access: ["1", "2", "3"],
       icon: require("~/assets/right-icon/ejwz.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0",
     },
     {
       key: "三级网站",
@@ -316,7 +324,7 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/sjwz.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq&appload=0",
     },
     {
       key: "统一通信平台",
@@ -324,7 +332,7 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/tytxpt.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt&appload=0",
     },
     {
       key: "短信接口",
@@ -332,7 +340,7 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/dxjk.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy&appload=0",
     },
     {
       key: "虚拟机申请",
@@ -340,7 +348,7 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/xnjsq.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq&appload=0",
     },
     {
       key: "域名申请",
@@ -348,7 +356,7 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/ymsq.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq&appload=0"
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq&appload=0",
     },
     {
       key: "域名变更",
@@ -356,9 +364,9 @@ const rightItem = {
       access: ["1", "2"],
       icon: require("~/assets/right-icon/ymbg.svg"),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0"
-    }
-  ]
+        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0",
+    },
+  ],
 };
 import moment from "moment";
 export default {
@@ -366,7 +374,7 @@ export default {
     Logo,
     "el-dialog": Dialog,
     "el-carousel": Carousel,
-    "el-carousel-item": CarouselItem
+    "el-carousel-item": CarouselItem,
   },
   data() {
     return {
@@ -383,11 +391,11 @@ export default {
       voice: [
         {
           voice: require("~/assets/voice/20200611_Autodesk.mp3"),
-          nextHint: "没得换了"
-        }
+          nextHint: "没得换了",
+        },
       ],
       voicePlaying: false,
-      showVoiceTip: false
+      showVoiceTip: false,
     };
   },
   methods: {
@@ -433,11 +441,11 @@ export default {
       this.voicePlaying = false;
       this.$refs["voice"].pause();
       this.currentVoice = (this.currentVoice + 1) % this.voice.length;
-    }
+    },
   },
   computed: {
     bannerAvailable() {
-      return this.banner.filter(k => {
+      return this.banner.filter((k) => {
         if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
@@ -448,7 +456,7 @@ export default {
       });
     },
     leftAvailable() {
-      return this.leftItem.filter(k => {
+      return this.leftItem.filter((k) => {
         if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
@@ -459,7 +467,7 @@ export default {
       });
     },
     rightAvailable() {
-      let res = this.rightItem[this.leftActive].filter(k => {
+      let res = this.rightItem[this.leftActive].filter((k) => {
         if (k.access === "all") return true;
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
@@ -469,7 +477,7 @@ export default {
         return false;
       });
       return res;
-    }
+    },
   },
   async asyncData({ req, res, $axios, query, route, redirect }) {
     if (process.server) {
@@ -489,7 +497,7 @@ export default {
           );
           return {
             name: casInfo.data.cas_info.name,
-            cardnum: casInfo.data.cas_info.cardnum
+            cardnum: casInfo.data.cas_info.cardnum,
           };
         } catch (e) {
           // console.log(e)
@@ -534,7 +542,7 @@ export default {
       }
     }
     // 检查是否需要播放语音
-  }
+  },
 };
 </script>
 
