@@ -188,7 +188,7 @@ const rightItem = {
       access: ["2", "1"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
-        "http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
     },
   ],
   个人服务: [
