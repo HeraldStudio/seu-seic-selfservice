@@ -110,6 +110,12 @@ const banner = [
     url: "",
   },
   {
+    key: "zoom",
+    access: ["1"],
+    src: require("~/assets/banner/zoom.png"),
+    url: "https://mp.weixin.qq.com/s/eRYRlbTvqFhFMzL4GxcskA",
+  },
+  {
     key: "adobe",
     access: "all",
     src: require("~/assets/banner/adobe.jpg"),
@@ -126,12 +132,6 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/sqap.jpg"),
     url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg",
-  },
-  {
-    key: "zoom",
-    access: ["1"],
-    src: require("~/assets/banner/zoom.png"),
-    url: "https://mp.weixin.qq.com/s/eRYRlbTvqFhFMzL4GxcskA",
   },
 ];
 const leftItem = [
