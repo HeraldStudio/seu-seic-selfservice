@@ -293,7 +293,7 @@ const rightItem = {
     {
       key: "迎新服务",
       name: "迎新服务",
-      access: ["1", "2"],
+      access: ["2"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
