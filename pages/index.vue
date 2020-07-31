@@ -293,20 +293,10 @@ const rightItem = {
     {
       key: "迎新服务",
       name: "迎新服务",
-      access: [
-        "213162317",
-        "213171610",
-        "103008527",
-        "109000473",
-        "109000474",
-        "310006421",
-        "310006422",
-        "312001285",
-        "220123456",
-        "213180720",
-      ],
+      access: ["1", "2"],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: "http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
     },
   ],
   部门服务: [
