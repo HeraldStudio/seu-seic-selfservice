@@ -279,8 +279,8 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do",
     },
     {
-      key: "学生公寓（测试）",
-      name: "学生公寓（测试）",
+      key: "学生公寓",
+      name: "学生公寓",
       access: "all",
       icon: require("~/assets/right-icon/xsgy.svg"),
       url:
