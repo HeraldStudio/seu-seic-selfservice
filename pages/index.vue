@@ -186,6 +186,13 @@ const rightItem = {
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
+    {
+      key: "校外人员入校申请",
+      name: "校外人员入校申请",
+      access: "all",
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+    },
   ],
   个人服务: [
     {
