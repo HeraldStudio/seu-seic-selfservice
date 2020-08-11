@@ -110,28 +110,10 @@ const banner = [
     url: "",
   },
   {
-    key: "zoom",
-    access: ["1"],
-    src: require("~/assets/banner/zoom.png"),
-    url: "https://mp.weixin.qq.com/s/eRYRlbTvqFhFMzL4GxcskA",
-  },
-  {
-    key: "adobe",
+    key: "新版学生公寓",
     access: "all",
-    src: require("~/assets/banner/adobe.jpg"),
-    url: "https://mp.weixin.qq.com/s/PeU48CJKgEf9oOb5aOLmhw",
-  },
-  {
-    key: "少年",
-    access: "all",
-    src: require("~/assets/banner/younger.jpg"),
-    url: "https://mp.weixin.qq.com/s/02Apf1uxVB8PT53wZvCoow",
-  },
-  {
-    key: "暑期安排",
-    access: "all",
-    src: require("~/assets/banner/sqap.jpg"),
-    url: "https://mp.weixin.qq.com/s/cKGZziw8nn_PirTtP5hHSg",
+    src: require("~/assets/banner/xsgy.jpg"),
+    url: "https://mp.weixin.qq.com/s/RC4J96JGCNQJpftWqyIPGw",
   },
 ];
 const leftItem = [
@@ -191,7 +173,7 @@ const rightItem = {
     {
       key: "研究生出校审批",
       name: "研究生出校审批",
-      access: ["22", "1","23"],
+      access: ["22", "1", "23"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
