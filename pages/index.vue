@@ -110,6 +110,12 @@ const banner = [
     url: "",
   },
   {
+    key: "宿舍网络升级啦！",
+    access: "all",
+    src: require("~/assets/banner/seuwlan.png"),
+    url: "https://mp.weixin.qq.com/s/pyXtgf6XoK-AvckFGKn96w",
+  },
+  {
     key: "新版学生公寓",
     access: "all",
     src: require("~/assets/banner/xsgy.jpg"),
