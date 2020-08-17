@@ -59,7 +59,9 @@
       </span>
     </el-dialog>
     <div>
-      <el-button class="float-logo" @click="showLogoutDialog" type="primary" plain>切换用户</el-button>
+      <el-button class="float-logo" @click="showLogoutDialog" type="primary" plain>
+        <span style="margin:2px auto;">切换用户</span>
+      </el-button>
     </div>
     <!-- 语音早安 -->
 
@@ -688,7 +690,6 @@ export default {
   right: 20px;
   bottom: 20px;
   z-index: 10000;
-  align-items: center;
 }
 .float-logo-tip {
   position: fixed;
