@@ -48,10 +48,10 @@
     </div>
     <el-dialog :visible.sync="logoutDialogVisible" width="90%" :show-close="false" title="切换用户">
       <div
-        style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;font-size: 20px;"
+        style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 90%; margin-top:10px; padding: 10px; color:#000; font-weight: normal;font-size: 20px;"
       >
-        确认切换用户？
-        您将跳转到统一身份认证页面重新认证身份
+        <p>确认切换用户？</p>
+        <p style="font-size:16px;color:rgba(0,0,0,0.5)">您将跳转到统一身份认证页面重新认证身份</p>
       </div>
       <span slot="footer" class="dialog-footer">
         <el-button @click="closeLogoutDialog" type="primary" plain>取消</el-button>
@@ -465,8 +465,7 @@ export default {
       this.logoutDialogVisible = true;
     },
     logout() {
-      window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout`;
-      window.location.reload();
+      window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=https://seicwxbz.seu.edu.cn/self-service`;
     },
   },
   computed: {
@@ -689,6 +688,7 @@ export default {
   right: 20px;
   bottom: 20px;
   z-index: 10000;
+  align-items: center;
 }
 .float-logo-tip {
   position: fixed;
