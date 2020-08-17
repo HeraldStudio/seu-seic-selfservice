@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <el-dialog :visible.sync="logoutDialogVisible" width="90%" :show-close="false" title="切换用户">
+    <!-- <el-dialog :visible.sync="logoutDialogVisible" width="90%" :show-close="false" title="切换用户">
       <div
         style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 90%; margin-top:10px; padding: 10px; color:#000; font-weight: normal;font-size: 20px;"
       >
@@ -57,12 +57,8 @@
         <el-button @click="closeLogoutDialog" type="primary" plain>取消</el-button>
         <el-button @click="logout" type="warning" plain>确认</el-button>
       </span>
-    </el-dialog>
-    <div>
-      <el-button class="float-logo" @click="showLogoutDialog" type="primary" plain>
-        <img src="../assets/logout.svg" />
-      </el-button>
-    </div>
+    </el-dialog>-->
+    <img src="../assets/logout.svg" class="float-logo" @click="logout" />
     <!-- 语音早安 -->
 
     <!--
