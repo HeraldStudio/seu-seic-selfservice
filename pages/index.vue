@@ -46,6 +46,18 @@
         </div>
       </div>
     </div>
+    <el-dialog :visible.sync="logoutDialogVisible" width="90%" :show-close="false" title="切换用户">
+      <div
+        style="border:solid 1px #eee; border-radius:5px; flex-basis: 45px; width: 200px; margin-top:10px; padding: 10px; color:#000; font-weight: normal;"
+      >确认切换用户？您将跳转到统一身份认证页面重新认证身份</div>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="closeLogoutDialog" type="primary" plain>取消</el-button>
+        <el-button @click="logout" type="warning" plain>确认</el-button>
+      </span>
+    </el-dialog>
+    <div>
+      <el-button @click="showLogoutDialog" type="primary" plain>切换用户</el-button>
+    </div>
     <!-- 语音早安 -->
 
     <!--
@@ -95,7 +107,7 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import { Carousel, CarouselItem, Dialog } from "element-ui";
+import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
   // {
   //   key: "小猴偷米App",
@@ -374,6 +386,7 @@ export default {
     "el-dialog": Dialog,
     "el-carousel": Carousel,
     "el-carousel-item": CarouselItem,
+    "el-button": Button,
   },
   data() {
     return {
@@ -395,6 +408,7 @@ export default {
       ],
       voicePlaying: false,
       showVoiceTip: false,
+      logoutDialogVisible: false,
     };
   },
   methods: {
@@ -440,6 +454,15 @@ export default {
       this.voicePlaying = false;
       this.$refs["voice"].pause();
       this.currentVoice = (this.currentVoice + 1) % this.voice.length;
+    },
+    closeLogoutDialog() {
+      this.logoutDialogVisible = false;
+    },
+    showLogoutDialog() {
+      this.logoutDialogVisible = true;
+    },
+    logout() {
+      window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=${window.location}`;
     },
   },
   computed: {
