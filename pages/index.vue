@@ -58,7 +58,7 @@
         <el-button @click="logout" type="warning" plain>确认</el-button>
       </span>
     </el-dialog>-->
-    <img src="../assets/logout.svg" class="float-logo" @click="logout" />
+    <img src="../assets/logout_1.svg" class="float-logo" @click="logout" />
     <!-- 语音早安 -->
 
     <!--
