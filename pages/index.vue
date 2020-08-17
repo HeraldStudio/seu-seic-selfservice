@@ -60,7 +60,7 @@
     </el-dialog>
     <div>
       <el-button class="float-logo" @click="showLogoutDialog" type="primary" plain>
-        <span style="margin:2px auto;">切换用户</span>
+        <span style="margin:0px auto;position:relative;">切换用户</span>
       </el-button>
     </div>
     <!-- 语音早安 -->
