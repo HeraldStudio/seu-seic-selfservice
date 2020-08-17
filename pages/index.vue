@@ -61,7 +61,7 @@
     <img
       src="../assets/logout_1.svg"
       class="float-logo"
-      style="width: 64px;height: 64px;"
+      style="width: 48px;height: 48px;"
       @click="logout"
     />
     <!-- 语音早安 -->
