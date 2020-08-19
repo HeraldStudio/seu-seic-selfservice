@@ -159,6 +159,12 @@ const leftItem = [
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
     icon: require("~/assets/left-icon/gzlc-white.svg"),
   },
+  {
+    name: "迎新服务",
+    access: ["1", "2"],
+    activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
+    icon: require("~/assets/left-icon/yxfw-white.svg"),
+  },
 ];
 const rightItem = {
   疫情防控: [
@@ -220,19 +226,26 @@ const rightItem = {
   ],
   个人服务: [
     {
+      key: "ZOOM云会议",
+      name: "ZOOM云会议",
+      access: "all",
+      icon: require("~/assets/right-icon/zoom.svg"),
+      url: "http://zoom.seu.edu.cn",
+    },
+    {
       key: "服务指南",
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
       url: "https://nic.seu.edu.cn/wxfwlc/",
     },
-    {
-      key: "Skype云会议",
-      name: "Skype云会议",
-      access: "all",
-      icon: require("~/assets/right-icon/skype.svg"),
-      url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp",
-    },
+    // {
+    //   key: "Skype云会议",
+    //   name: "Skype云会议",
+    //   access: "all",
+    //   icon: require("~/assets/right-icon/skype.svg"),
+    //   url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp",
+    // },
     {
       key: "移动OA",
       name: "移动OA",
@@ -317,14 +330,6 @@ const rightItem = {
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
     },
-    {
-      key: "迎新服务",
-      name: "迎新服务",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/yxfw.svg"),
-      url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
-    },
   ],
   部门服务: [
     {
@@ -383,6 +388,30 @@ const rightItem = {
       url:
         "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0",
     },
+  ],
+  迎新服务: [
+    {
+      key: "迎新服务",
+      name: "迎新服务",
+      access: ["1", "2"],
+      icon: require("~/assets/right-icon/yxfw.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
+    },
+    {
+      key: "迎新网",
+      name: "迎新网",
+      access: ["1", "2"],
+      icon: require("~/assets/right-icon/yxw.svg"),
+      url: "https://yingxin.seu.edu.cn",
+    },
+    // {
+    //   key: "小猴偷米APP",
+    //   name: "小猴偷米APP",
+    //   access: ["1", "2"],
+    //   icon: require("~/assets/right-icon/yxw.svg"),
+    //   url: "https://yingxin.seu.edu.cn",
+    // },
   ],
 };
 import moment from "moment";
