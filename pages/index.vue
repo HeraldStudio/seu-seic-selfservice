@@ -148,6 +148,12 @@ const leftItem = [
     icon: require("~/assets/left-icon/yqfk-white.svg"),
   },
   {
+    name: "迎新服务",
+    access: ["1", "2"],
+    activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
+    icon: require("~/assets/left-icon/yxfw-white.svg"),
+  },
+  {
     name: "个人服务",
     access: "all",
     activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
@@ -158,12 +164,6 @@ const leftItem = [
     access: ["1", "3"],
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
     icon: require("~/assets/left-icon/gzlc-white.svg"),
-  },
-  {
-    name: "迎新服务",
-    access: ["1", "2"],
-    activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
-    icon: require("~/assets/left-icon/yxfw-white.svg"),
   },
 ];
 const rightItem = {
