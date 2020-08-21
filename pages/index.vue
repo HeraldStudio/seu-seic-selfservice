@@ -142,7 +142,7 @@ const banner = [
   {
     key: "花果山来啦",
     access: "all",
-    src: require("~/assets/banner/hgs.png"),
+    src: require("~/assets/banner/hgs.jpeg"),
     url: "https://mp.weixin.qq.com/s/RdQoQquM5HBo1bnVpfFJlQ",
   },
 ];
