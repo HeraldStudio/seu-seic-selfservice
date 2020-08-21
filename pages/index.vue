@@ -134,10 +134,16 @@ const banner = [
     url: "https://mp.weixin.qq.com/s/pyXtgf6XoK-AvckFGKn96w",
   },
   {
-    key: "新版学生公寓",
+    key: "校外人员入校管理",
     access: "all",
-    src: require("~/assets/banner/xsgy.jpg"),
-    url: "https://mp.weixin.qq.com/s/RC4J96JGCNQJpftWqyIPGw",
+    src: require("~/assets/banner/xwryrx.png"),
+    url: "https://mp.weixin.qq.com/s/FQhNIiOHkU59BAYrqV6EmQ",
+  },
+  {
+    key: "花果山来啦",
+    access: "all",
+    src: require("~/assets/banner/hgs.png"),
+    url: "https://mp.weixin.qq.com/s/RdQoQquM5HBo1bnVpfFJlQ",
   },
 ];
 const leftItem = [
@@ -148,7 +154,7 @@ const leftItem = [
     icon: require("~/assets/left-icon/yqfk-white.svg"),
   },
   {
-    name: "迎新服务",
+    name: "迎新专栏",
     access: ["1", "2"],
     activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
     icon: require("~/assets/left-icon/yxfw-white.svg"),
@@ -229,7 +235,7 @@ const rightItem = {
       key: "ZOOM云会议",
       name: "ZOOM云会议",
       access: "all",
-      icon: require("~/assets/right-icon/zoom.svg"),
+      icon: require("~/assets/right-icon/zoomfixed.svg"),
       url: "http://zoom.seu.edu.cn",
     },
     {
