@@ -232,18 +232,18 @@ const rightItem = {
   ],
   个人服务: [
     {
-      key: "ZOOM云会议",
-      name: "ZOOM云会议",
-      access: "all",
-      icon: require("~/assets/right-icon/zoomfixed.svg"),
-      url: "http://zoom.seu.edu.cn",
-    },
-    {
       key: "服务指南",
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
       url: "https://nic.seu.edu.cn/wxfwlc/",
+    },
+    {
+      key: "ZOOM云会议",
+      name: "ZOOM云会议",
+      access: "all",
+      icon: require("~/assets/right-icon/zoomfixed.svg"),
+      url: "http://zoom.seu.edu.cn",
     },
     // {
     //   key: "Skype云会议",
@@ -395,7 +395,7 @@ const rightItem = {
         "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0",
     },
   ],
-  迎新服务: [
+  迎新专栏: [
     {
       key: "迎新服务",
       name: "迎新服务",
