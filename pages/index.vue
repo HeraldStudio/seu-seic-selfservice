@@ -128,22 +128,22 @@ const banner = [
     url: "",
   },
   {
-    key: "宿舍网络升级啦！",
+    key: "东南大学，你也太快了",
     access: "all",
-    src: require("~/assets/banner/seuwlan.png"),
-    url: "https://mp.weixin.qq.com/s/pyXtgf6XoK-AvckFGKn96w",
+    src: require("~/assets/banner/tkl.png"),
+    url: "https://mp.weixin.qq.com/s/56ZThlmOfexcL4Avc31zIg",
   },
   {
-    key: "校外人员入校管理",
+    key: "全新迎新服务",
     access: "all",
-    src: require("~/assets/banner/xwryrx.png"),
-    url: "https://mp.weixin.qq.com/s/FQhNIiOHkU59BAYrqV6EmQ",
+    src: require("~/assets/banner/yxfw.png"),
+    url: "https://mp.weixin.qq.com/s/PYPp2FAmXdbOuEY9JINyWw",
   },
   {
-    key: "花果山来啦",
+    key: "wifi的奥秘",
     access: "all",
-    src: require("~/assets/banner/hgs.jpeg"),
-    url: "https://mp.weixin.qq.com/s/RdQoQquM5HBo1bnVpfFJlQ",
+    src: require("~/assets/banner/wifi.png"),
+    url: "https://mp.weixin.qq.com/s/cPy50gRt963U5_GoB0c1_g",
   },
 ];
 const leftItem = [
