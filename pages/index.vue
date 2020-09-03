@@ -551,7 +551,7 @@ export default {
         try {
           let casInfo = await $axios.get(
             `https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent(
-              "https://seicwxbz.seu.edu.cn/self-service"
+              "https://seicwxbz.seu.edu.cn/self-service/"
             )}&ticket=${query.ticket}&json=1`
           );
           console.log(query.ticket, "验证成功");
@@ -566,7 +566,7 @@ export default {
           // console.log(e)
           redirect(
             `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-              "https://seicwxbz.seu.edu.cn/self-service"
+              "https://seicwxbz.seu.edu.cn/self-service/"
             )}&timestamp=${+moment()}`
           );
           // redirect('http://127.0.0.1/')
@@ -575,7 +575,7 @@ export default {
         console.log(req.path);
         redirect(
           `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-            "https://seicwxbz.seu.edu.cn/self-service"
+            "https://seicwxbz.seu.edu.cn/self-service/"
           )}&timestamp=${+moment()}`
         );
       }
