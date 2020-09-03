@@ -572,7 +572,7 @@ export default {
           // redirect('http://127.0.0.1/')
         }
       } else {
-        console.log(11111);
+        console.log(req);
         redirect(
           `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
             "https://seicwxbz.seu.edu.cn/self-service"
