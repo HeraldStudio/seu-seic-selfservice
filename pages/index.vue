@@ -231,12 +231,12 @@ const rightItem = {
     },
   ],
   个人服务: [
-    { 
+    {
       key: "服务指南",
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
-      url: "http://nic.seu.edu.cn/bxs/zxgw.htm",
+      url: "https://nic.seu.edu.cn/bxs/zhxyfwzn.htm",
     },
     {
       key: "ZOOM云会议",
