@@ -124,26 +124,26 @@ const banner = [
   {
     key: "自助服务疫情防控",
     access: "all",
-    src: require("~/assets/banner/yqfk2.png"),
+    src: require("~/assets/banner/newseic.png"),
     url: "",
   },
   {
-    key: "东南大学，你也太快了",
+    key: "新校园网测速篇",
     access: "all",
-    src: require("~/assets/banner/tkl.png"),
-    url: "https://mp.weixin.qq.com/s/56ZThlmOfexcL4Avc31zIg",
+    src: require("~/assets/banner/xxyw.png"),
+    url: "https://mp.weixin.qq.com/s/hCcmgsfkn06xTX39MkBYjA",
   },
   {
-    key: "全新迎新服务",
+    key: "和小猴一起乘风破浪",
     access: "all",
-    src: require("~/assets/banner/yxfw.png"),
-    url: "https://mp.weixin.qq.com/s/PYPp2FAmXdbOuEY9JINyWw",
+    src: require("~/assets/banner/cfpl.jpeg"),
+    url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
   },
   {
-    key: "wifi的奥秘",
+    key: "东大网络服务",
     access: "all",
-    src: require("~/assets/banner/wifi.png"),
-    url: "https://mp.weixin.qq.com/s/cPy50gRt963U5_GoB0c1_g",
+    src: require("~/assets/banner/wlfw.png"),
+    url: "https://mp.weixin.qq.com/s/go50BT4yycP2o7Myv3qjAQ",
   },
 ];
 const leftItem = [
