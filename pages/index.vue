@@ -124,13 +124,13 @@ const banner = [
   {
     key: "自助服务疫情防控",
     access: "all",
-    src: require("~/assets/banner/newseic.png"),
+    src: require("~/assets/banner/zzfw1.png"),
     url: "",
   },
   {
     key: "新校园网测速篇",
     access: "all",
-    src: require("~/assets/banner/xxyw.png"),
+    src: require("~/assets/banner/rwlzflh.png"),
     url: "https://mp.weixin.qq.com/s/hCcmgsfkn06xTX39MkBYjA",
   },
   {
@@ -138,6 +138,12 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/cfpl.jpeg"),
     url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
+  },
+  {
+    key: "盾盾的新家",
+    access: "all",
+    src: require("~/assets/banner/newseic.png"),
+    url: "https://mp.weixin.qq.com/s/SQSIwf3r5auBTY_ul2Sfvg",
   },
   {
     key: "东大网络服务",
