@@ -270,7 +270,7 @@ const rightItem = {
       name: "上网充值",
       access: "all",
       icon: require("~/assets/right-icon/swcz.svg"),
-      url: "http://10.64.200.121:8080/Self/sso_login",
+      url: "http://selfservice.seu.edu.cn/Self",
     },
     {
       key: "电子邮件",
