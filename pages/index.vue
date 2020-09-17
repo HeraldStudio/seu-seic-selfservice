@@ -128,10 +128,10 @@ const banner = [
     url: "",
   },
   {
-    key: "新校园网测速篇",
+    key: "seuWlan上线啦",
     access: "all",
-    src: require("~/assets/banner/rwlzflh.png"),
-    url: "https://mp.weixin.qq.com/s/hCcmgsfkn06xTX39MkBYjA",
+    src: require("~/assets/banner/newseuwlan.png"),
+    url: "https://mp.weixin.qq.com/s/PxwEJBVk9Vqn1i6kKpNfXA",
   },
   {
     key: "和小猴一起乘风破浪",
@@ -140,16 +140,16 @@ const banner = [
     url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
   },
   {
-    key: "盾盾的新家",
+    key: "网络安全防线",
     access: "all",
-    src: require("~/assets/banner/newseic.png"),
-    url: "https://mp.weixin.qq.com/s/SQSIwf3r5auBTY_ul2Sfvg",
+    src: require("~/assets/banner/wlaqfx.png"),
+    url: "https://mp.weixin.qq.com/s/4SI6NYJlpKvtAUCFHcW3qw",
   },
   {
-    key: "东大网络服务",
+    key: "wifi6更新指南",
     access: "all",
-    src: require("~/assets/banner/wlfw.png"),
-    url: "https://mp.weixin.qq.com/s/go50BT4yycP2o7Myv3qjAQ",
+    src: require("~/assets/banner/wifi6.png"),
+    url: "https://mp.weixin.qq.com/s/I1MKxVVX050VYTYe3_lDoQ",
   },
 ];
 const leftItem = [
