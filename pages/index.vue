@@ -350,6 +350,21 @@ const rightItem = {
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
     },
+    {
+      key: "网络安全知识竞赛",
+      name: "网络安全知识竞赛",
+      access: ["1", "2", "320002317"],
+      icon: require("~/assets/right-icon/wlaqjs.svg"),
+      url: "https://seicwxbz.seu.edu.cn/quiz/",
+    },
+    {
+      key: "校外人员财务权限申请",
+      name: "校外人员财务权限申请",
+      access: ["3"],
+      icon: require("~/assets/right-icon/xwrycw.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/infoplus/form/0da3608f-d527-11ea-b752-005056bd7aba/start",
+    },
   ],
   部门服务: [
     {
