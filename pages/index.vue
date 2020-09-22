@@ -229,6 +229,14 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
+      key: "研究生返校申请",
+      name: "研究生返校申请",
+      access: ["22", "1", "23"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
+    },
+    {
       key: "校外人员入校申请",
       name: "校外人员入校申请",
       access: "all",
