@@ -353,7 +353,7 @@ const rightItem = {
     {
       key: "网络安全知识竞赛",
       name: "网络安全知识竞赛",
-      access: ["1", "2", "320002317"],
+      access: ["320002317"],
       icon: require("~/assets/right-icon/wlaqjs.svg"),
       url: "https://seicwxbz.seu.edu.cn/quiz/",
     },
