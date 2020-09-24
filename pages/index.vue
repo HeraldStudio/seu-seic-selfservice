@@ -128,22 +128,16 @@ const banner = [
     url: "",
   },
   {
-    key: "seuWlan上线啦",
+    key: "seuWlan那些事",
     access: "all",
-    src: require("~/assets/banner/newseuwlan.png"),
-    url: "https://mp.weixin.qq.com/s/PxwEJBVk9Vqn1i6kKpNfXA",
+    src: require("~/assets/banner/seuwlannxs.png"),
+    url: "https://mp.weixin.qq.com/s/OcxlVJ1mxd57sUGGM6kWow",
   },
   {
     key: "和小猴一起乘风破浪",
     access: "all",
     src: require("~/assets/banner/cfpl.jpeg"),
     url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
-  },
-  {
-    key: "网络安全防线",
-    access: "all",
-    src: require("~/assets/banner/wlaqfx.png"),
-    url: "https://mp.weixin.qq.com/s/4SI6NYJlpKvtAUCFHcW3qw",
   },
   {
     key: "wifi6更新指南",
