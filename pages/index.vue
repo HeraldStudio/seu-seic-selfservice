@@ -238,22 +238,6 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
-      key: "研究生返校申请",
-      name: "研究生返校申请",
-      access: ["22", "1", "23"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
-    },
-    {
-      key: "本科生返校审批",
-      name: "本科生返校审批",
-      access: ["21", "320002317"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
-    },
-    {
       key: "校外人员入校申请",
       name: "校外人员入校申请",
       access: "all",
@@ -375,12 +359,42 @@ const rightItem = {
       url: "https://seicwxbz.seu.edu.cn/quiz/",
     },
     {
+      key: "研究生返校申请",
+      name: "研究生返校申请",
+      access: ["22", "320002317", "23"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
+    },
+    {
+      key: "本科生返校申请",
+      name: "本科生返校申请",
+      access: ["21", "320002317"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
+    },
+    {
+      key: "本科生返校审批",
+      name: "本科生返校审批",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url: "http://nicspd.seu.edu.cn/infodash/",
+    },
+    {
+      key: "研究生返校审批",
+      name: "研究生返校审批",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url: "http://nicspd.seu.edu.cn/infodash/",
+    },
+    {
       key: "校外人员财务权限申请",
       name: "校外人员财务权限申请",
       access: ["3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
-        "http://infoplus.seu.edu.cn/infoplus/form/0da3608f-d527-11ea-b752-005056bd7aba/start",
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=XWRYCWQXSP&membership=Infoplus_Enterprise",
     },
   ],
   部门服务: [
