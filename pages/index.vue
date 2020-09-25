@@ -6,8 +6,17 @@
       <div id="head-nic">网络与信息中心</div>
     </div>
     <div id="banner">
-      <el-carousel :interval="4000" height="42vw" indicator-position="none" arrow="always">
-        <el-carousel-item class="banner-item" v-for="item in bannerAvailable" :key="item.key">
+      <el-carousel
+        :interval="4000"
+        height="42vw"
+        indicator-position="none"
+        arrow="always"
+      >
+        <el-carousel-item
+          class="banner-item"
+          v-for="item in bannerAvailable"
+          :key="item.key"
+        >
           <img class="banner-img" :src="item.src" @click="openUrl(item.url)" />
         </el-carousel-item>
       </el-carousel>
@@ -24,12 +33,18 @@
           :key="item.name"
           @click="leftChange(item.name)"
         >
-          <img class="left-side-item-icon" v-if="item.name === leftActive" :src="item.activeIcon" />
+          <img
+            class="left-side-item-icon"
+            v-if="item.name === leftActive"
+            :src="item.activeIcon"
+          />
           <img class="left-side-item-icon" v-else :src="item.icon" />
           <div
             class="left-side-item-text"
-            :class="{'left-side-item-text-active': item.name === leftActive }"
-          >{{item.name}}</div>
+            :class="{ 'left-side-item-text-active': item.name === leftActive }"
+          >
+            {{ item.name }}
+          </div>
         </div>
       </div>
       <div id="right-side">
@@ -41,7 +56,7 @@
             @click="openUrl(item.url)"
           >
             <img class="right-item-icon" :src="item.icon" />
-            <div class="right-item-name">{{item.name}}</div>
+            <div class="right-item-name">{{ item.name }}</div>
           </div>
         </div>
       </div>
@@ -61,7 +76,7 @@
     <img
       src="../assets/logout_2.gif"
       class="float-logo"
-      style="width: 48px;height: 48px;"
+      style="width: 48px; height: 48px"
       @click="logout"
     />
     <!-- 语音早安 -->
@@ -229,6 +244,14 @@ const rightItem = {
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
+    },
+    {
+      key: "本科生返校审批",
+      name: "本科生返校审批",
+      access: ["21", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
     },
     {
       key: "校外人员入校申请",
