@@ -244,6 +244,36 @@ const rightItem = {
       icon: require("~/assets/right-icon/rxsq.svg"),
       url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
     },
+    {
+      key: "研究生返校申请",
+      name: "研究生返校申请",
+      access: ["22", "320002317", "23"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
+    },
+    {
+      key: "本科生返校申请",
+      name: "本科生返校申请",
+      access: ["21", "320002317"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
+    },
+    {
+      key: "本科生返校审批",
+      name: "本科生返校审批",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url: "http://nicspd.seu.edu.cn/infodash/",
+    },
+    {
+      key: "研究生返校审批",
+      name: "研究生返校审批",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url: "http://nicspd.seu.edu.cn/infodash/",
+    },
   ],
   个人服务: [
     {
@@ -357,36 +387,6 @@ const rightItem = {
       access: ["320002317"],
       icon: require("~/assets/right-icon/wlaqjs.svg"),
       url: "https://seicwxbz.seu.edu.cn/quiz/",
-    },
-    {
-      key: "研究生返校申请",
-      name: "研究生返校申请",
-      access: ["22", "320002317", "23"],
-      icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
-    },
-    {
-      key: "本科生返校申请",
-      name: "本科生返校申请",
-      access: ["21", "320002317"],
-      icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
-    },
-    {
-      key: "本科生返校审批",
-      name: "本科生返校审批",
-      access: ["1", "320002317"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
-    },
-    {
-      key: "研究生返校审批",
-      name: "研究生返校审批",
-      access: ["1", "320002317"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
     },
     {
       key: "校外人员财务权限申请",
