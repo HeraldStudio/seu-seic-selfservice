@@ -258,7 +258,7 @@ const rightItem = {
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://infoplus.seu.edu.cn/infoplus/form/c97899f5-eb6e-11ea-a039-005056bd7aba/start",
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
     },
     {
       key: "本科生返校审批",
@@ -330,7 +330,7 @@ const rightItem = {
       name: "综合考评",
       access: "all",
       icon: require("~/assets/right-icon/zhkp.svg"),
-      url: "http://zhkp.seu.edu.cn/mobile/login/login",
+      url: "http://zhkp.seu.edu.cn",
     },
     {
       key: "课程表",
