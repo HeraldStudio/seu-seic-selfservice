@@ -224,7 +224,7 @@ const rightItem = {
     {
       key: "研究生出校审批",
       name: "研究生出校审批",
-      access: ["22", "1", "23"],
+      access: ["22", "1", "23", "307"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
