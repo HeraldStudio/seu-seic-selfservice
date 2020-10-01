@@ -142,12 +142,6 @@ const banner = [
     src: require("~/assets/banner/zzfw1.png"),
     url: "",
   },
-  {
-    key: "seuWlan那些事",
-    access: "all",
-    src: require("~/assets/banner/seuwlannxs.png"),
-    url: "https://mp.weixin.qq.com/s/OcxlVJ1mxd57sUGGM6kWow",
-  },
     {
     key: "网信协会招新啦",
     access: "all",
