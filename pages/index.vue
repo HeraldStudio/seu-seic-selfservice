@@ -148,17 +148,17 @@ const banner = [
     src: require("~/assets/banner/seuwlannxs.png"),
     url: "https://mp.weixin.qq.com/s/OcxlVJ1mxd57sUGGM6kWow",
   },
+    {
+    key: "网信协会招新啦",
+    access: "all",
+    src: require("~/assets/banner/wlxh.jpg"),
+    url: "https://mp.weixin.qq.com/s/Q2fDTT5Q3d9LX0t69dPjdA",
+  },
   {
     key: "和小猴一起乘风破浪",
     access: "all",
     src: require("~/assets/banner/cfpl.jpeg"),
     url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
-  },
-  {
-    key: "wifi6更新指南",
-    access: "all",
-    src: require("~/assets/banner/wifi6.png"),
-    url: "https://mp.weixin.qq.com/s/I1MKxVVX050VYTYe3_lDoQ",
   },
 ];
 const leftItem = [
