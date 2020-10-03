@@ -255,6 +255,14 @@ const rightItem = {
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
     },
     {
+      key: "本科生返校申请（备用）",
+      name: "本科生返校申请（备用）",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
+    },
+    {
       key: "本科生返校审批",
       name: "本科生返校审批",
       access: ["1", "320002317"],
