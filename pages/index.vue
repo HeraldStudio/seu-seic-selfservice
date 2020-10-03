@@ -142,7 +142,7 @@ const banner = [
     src: require("~/assets/banner/zzfw1.png"),
     url: "",
   },
-    {
+  {
     key: "网信协会招新啦",
     access: "all",
     src: require("~/assets/banner/wlxh.jpg"),
@@ -255,26 +255,22 @@ const rightItem = {
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
     },
     {
-      key: "学生返校审批（备用）",
-      name: "学生返校审批（备用）",
-      access: ["1", "320002317"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
-    },
-    {
       key: "本科生返校审批",
       name: "本科生返校审批",
       access: ["1", "320002317"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
+      // url: "http://nicspd.seu.edu.cn/infodash/",
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校审批",
       name: "研究生返校审批",
       access: ["1", "320002317"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
+      // url: "http://nicspd.seu.edu.cn/infodash/",
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
     },
   ],
   个人服务: [
