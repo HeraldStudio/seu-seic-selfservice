@@ -142,23 +142,17 @@ const banner = [
     src: require("~/assets/banner/zzfw1.png"),
     url: "",
   },
-  {
-    key: "seuWlan那些事",
+    {
+    key: "网信协会招新啦",
     access: "all",
-    src: require("~/assets/banner/seuwlannxs.png"),
-    url: "https://mp.weixin.qq.com/s/OcxlVJ1mxd57sUGGM6kWow",
+    src: require("~/assets/banner/wlxh.jpg"),
+    url: "https://mp.weixin.qq.com/s/Q2fDTT5Q3d9LX0t69dPjdA",
   },
   {
     key: "和小猴一起乘风破浪",
     access: "all",
     src: require("~/assets/banner/cfpl.jpeg"),
     url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
-  },
-  {
-    key: "wifi6更新指南",
-    access: "all",
-    src: require("~/assets/banner/wifi6.png"),
-    url: "https://mp.weixin.qq.com/s/I1MKxVVX050VYTYe3_lDoQ",
   },
 ];
 const leftItem = [
@@ -259,6 +253,14 @@ const rightItem = {
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
+    },
+    {
+      key: "本科生返校审批（备用）",
+      name: "本科生返校审批（备用）",
+      access: ["1", "320002317"],
+      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "本科生返校审批",
