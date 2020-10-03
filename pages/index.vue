@@ -74,7 +74,7 @@
       </span>
     </el-dialog>-->
     <img
-      src="../assets/logout_2.gif"
+      src="../assets/logout_1.svg"
       class="float-logo"
       style="width: 48px; height: 48px"
       @click="logout"
