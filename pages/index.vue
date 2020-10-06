@@ -266,7 +266,7 @@ const rightItem = {
     {
       key: "研究生返校审批",
       name: "研究生返校审批",
-      access: ["1", "320002317"],
+      access: ["1", "320002317", "307"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
