@@ -143,10 +143,22 @@ const banner = [
     url: "",
   },
   {
-    key: "网信协会招新啦",
+    key: "网信协会招新圆满完成",
     access: "all",
-    src: require("~/assets/banner/wlxh.jpg"),
-    url: "https://mp.weixin.qq.com/s/Q2fDTT5Q3d9LX0t69dPjdA",
+    src: require("~/assets/banner/ymzx.jpg"),
+    url: "",
+  },
+  {
+    key: "暑期学校评教",
+    access: "all",
+    src: require("~/assets/banner/sqpj.jpg"),
+    url: "https://mp.weixin.qq.com/s/C6echQiKNk5lyBdoS6Zzig",
+  },
+  {
+    key: "东大师生体检",
+    access: "all",
+    src: require("~/assets/banner/sstj.jpg"),
+    url: "https://mp.weixin.qq.com/s/eJjlCV6Z5OFEqs0TcnMhQQ",
   },
   {
     key: "和小猴一起乘风破浪",
