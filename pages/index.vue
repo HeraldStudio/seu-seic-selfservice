@@ -406,6 +406,14 @@ const rightItem = {
       url:
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=XWRYCWQXSP&membership=Infoplus_Enterprise",
     },
+    {
+      key: "体检自助服务",
+      name: "体检自助服务",
+      access: ["1", "213183580"],
+      icon: require("~/assets/right-icon/sstj.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
+    },
   ],
   部门服务: [
     {
