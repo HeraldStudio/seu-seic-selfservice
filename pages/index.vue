@@ -786,7 +786,7 @@ export default {
 .float-logo {
   position: fixed;
   width: 80px;
-  right: 20px;
+  left: 20px;
   bottom: 20px;
   z-index: 10000;
 }
