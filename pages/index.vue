@@ -814,7 +814,7 @@ export default {
   border-radius: 10px;
   background-color: #ce5a4c;
   bottom: 80px;
-  right: 20px;
+  left: 20px;
   z-index: 10001;
 }
 </style>
