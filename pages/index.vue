@@ -146,7 +146,7 @@ const banner = [
     key: "网信协会招新圆满完成",
     access: "all",
     src: require("~/assets/banner/ymzx.jpg"),
-    url: "",
+    url: "https://mp.weixin.qq.com/s/ccUq0DFe1fTFqbJJcCoJpA",
   },
   {
     key: "暑期学校评教",
@@ -801,8 +801,8 @@ export default {
 }
 .float-logo {
   position: fixed;
-  left: 20px;
-  bottom: 20px;
+  left: 5px;
+  bottom: 10px;
   z-index: 10000;
 }
 .float-logo-tip {
