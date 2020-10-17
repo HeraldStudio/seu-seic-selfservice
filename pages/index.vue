@@ -74,7 +74,7 @@
       </span>
     </el-dialog>-->
     <img
-      src="../assets/logout_2.gif"
+      src="../assets/logout_1.svg"
       class="float-logo"
       style="width: 48px; height: 48px"
       @click="logout"
@@ -142,11 +142,23 @@ const banner = [
     src: require("~/assets/banner/zzfw1.png"),
     url: "",
   },
-    {
-    key: "网信协会招新啦",
+  {
+    key: "网信协会招新圆满完成",
     access: "all",
-    src: require("~/assets/banner/wlxh.jpg"),
-    url: "https://mp.weixin.qq.com/s/Q2fDTT5Q3d9LX0t69dPjdA",
+    src: require("~/assets/banner/ymzx.jpg"),
+    url: "",
+  },
+  {
+    key: "暑期学校评教",
+    access: "all",
+    src: require("~/assets/banner/sqpj.jpg"),
+    url: "https://mp.weixin.qq.com/s/C6echQiKNk5lyBdoS6Zzig",
+  },
+  {
+    key: "东大师生体检",
+    access: "all",
+    src: require("~/assets/banner/sstj.jpg"),
+    url: "https://mp.weixin.qq.com/s/eJjlCV6Z5OFEqs0TcnMhQQ",
   },
   {
     key: "和小猴一起乘风破浪",
@@ -255,26 +267,22 @@ const rightItem = {
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
     },
     {
-      key: "本科生返校审批（备用）",
-      name: "本科生返校审批（备用）",
-      access: ["1", "320002317"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
-    },
-    {
       key: "本科生返校审批",
       name: "本科生返校审批",
       access: ["1", "320002317"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
+      // url: "http://nicspd.seu.edu.cn/infodash/",
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校审批",
       name: "研究生返校审批",
-      access: ["1", "320002317"],
+      access: ["1", "320002317", "307"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
-      url: "http://nicspd.seu.edu.cn/infodash/",
+      // url: "http://nicspd.seu.edu.cn/infodash/",
+      url:
+        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
     },
   ],
   个人服务: [
@@ -397,6 +405,14 @@ const rightItem = {
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
         "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=XWRYCWQXSP&membership=Infoplus_Enterprise",
+    },
+    {
+      key: "体检自助服务",
+      name: "体检自助服务",
+      access: ["1", "213183580"],
+      icon: require("~/assets/right-icon/sstj.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
     },
   ],
   部门服务: [
