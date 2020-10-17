@@ -800,8 +800,7 @@ export default {
   margin-top: 10px;
 }
 .float-logo {
-  position: absolute;
-  width: 80px;
+  position: fixed;
   left: 20px;
   bottom: 20px;
   z-index: 10000;
