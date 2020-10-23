@@ -149,12 +149,6 @@ const banner = [
     url: "https://mp.weixin.qq.com/s/ccUq0DFe1fTFqbJJcCoJpA",
   },
   {
-    key: "暑期学校评教",
-    access: "all",
-    src: require("~/assets/banner/sqpj.jpg"),
-    url: "https://mp.weixin.qq.com/s/C6echQiKNk5lyBdoS6Zzig",
-  },
-  {
     key: "东大师生体检",
     access: "all",
     src: require("~/assets/banner/sstj.jpg"),
