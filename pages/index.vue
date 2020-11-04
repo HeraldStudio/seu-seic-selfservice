@@ -145,21 +145,9 @@ const banner = [
   {
     key: "网信协会招新圆满完成",
     access: "all",
-    src: require("~/assets/banner/ymzx.jpg"),
-    url: "https://mp.weixin.qq.com/s/ccUq0DFe1fTFqbJJcCoJpA",
-  },
-  {
-    key: "东大师生体检",
-    access: "all",
-    src: require("~/assets/banner/sstj.jpg"),
-    url: "https://mp.weixin.qq.com/s/eJjlCV6Z5OFEqs0TcnMhQQ",
-  },
-  {
-    key: "和小猴一起乘风破浪",
-    access: "all",
-    src: require("~/assets/banner/cfpl.jpeg"),
-    url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
-  },
+    src: require("~/assets/banner/matlab2020b.png"),
+    url: "https://mp.weixin.qq.com/s/ux485uGIiWrMYMUs3ct01w",
+  }
 ];
 const leftItem = [
   {
