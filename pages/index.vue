@@ -130,6 +130,7 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
+  
   // {
   //   key: "小猴偷米App",
   //   access: ["21"],
