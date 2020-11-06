@@ -141,13 +141,13 @@ const banner = [
     access:"all",
     src: require("~/assets/banner/攻防大赛推文.png")
     url:"https://mp.weixin.qq.com/s/Zbt7TAAiZSNIOi_UQ0wjeg"
-  }
+  },
   {
     key:"Matlab教学推广广告"
     access:"all",
     src: require("~/assets/banner/Matlab讲座.png")
     url:"https://mp.weixin.qq.com/s/VAMB0RL4njNLGv9GLaU-5A"
-  }
+  },
   {
     key: "自助服务疫情防控",
     access: "all",
