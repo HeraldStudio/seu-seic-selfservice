@@ -130,13 +130,19 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
-  
+
   // {
   //   key: "小猴偷米App",
   //   access: ["21"],
   //   src: require("~/assets/banner/小猴偷米App.jpg"),
   //   url: "https://mp.weixin.qq.com/s/ntWJdaCfHddMrWswTK28aQ"
   // },
+  {
+    key: "自助服务疫情防控",
+    access: "all",
+    src: require("~/assets/banner/zzfw1.png"),
+    url: "",
+  },
   {
     key:"网络安全攻防大赛广告",
     access:"all",
@@ -148,12 +154,6 @@ const banner = [
     access:"all",
     src: require("~/assets/banner/Matlab讲座.png"),
     url:"https://mp.weixin.qq.com/s/VAMB0RL4njNLGv9GLaU-5A"
-  },
-  {
-    key: "自助服务疫情防控",
-    access: "all",
-    src: require("~/assets/banner/zzfw1.png"),
-    url: "",
   },
   {
     key: "网信协会招新圆满完成",
