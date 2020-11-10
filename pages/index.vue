@@ -353,8 +353,8 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm",
     },
     {
-      key: "党费缴纳(试运行)",
-      name: "党费缴纳(试运行)",
+      key: "党费缴纳",
+      name: "党费缴纳",
       access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
       url:
@@ -382,6 +382,7 @@ const rightItem = {
         "312001285",
         "220123456",
         "213180720",
+        "213193423",
       ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
