@@ -245,8 +245,8 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
-      key: "校外人员入校申请",
-      name: "校外人员入校申请",
+      key: "访客入校申请",
+      name: "访客入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
@@ -401,8 +401,8 @@ const rightItem = {
       url: "https://seicwxbz.seu.edu.cn/quiz/",
     },
     {
-      key: "校外人员财务权限申请",
-      name: "校外人员财务权限申请",
+      key: "访客财务权限申请",
+      name: "访客财务权限申请",
       access: ["3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
