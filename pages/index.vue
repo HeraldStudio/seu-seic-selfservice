@@ -144,11 +144,17 @@ const banner = [
     url: "",
   },
   {
-    key: "双12流量红包",
+    key: "科研经费",
     access: "all",
-    src: require("~/assets/banner/双12流量红包.png"),
-    url: "https://mp.weixin.qq.com/s/LOGTHLhP5t_8-M_V8qs3jQ",
+    src: require("~/assets/banner/kyjf.jpg"),
+    url: "https://mp.weixin.qq.com/s/Boy45MFy1X2ZfIKJKkxmng"
   },
+  {
+    key: "启明星辰",
+    access: "all",
+    src: require("~/assets/banner/qmxc.jpg"),
+    url: "https://mp.weixin.qq.com/s/IbWLqJBX2gbA-4YYpFnIMA"
+  }
   // {
   //   key: "关于Adobe激活的紧急通知",
   //   access: "all",
