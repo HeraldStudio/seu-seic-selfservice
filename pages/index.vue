@@ -149,12 +149,12 @@ const banner = [
     src: require("~/assets/banner/双12流量红包.png"),
     url: "https://mp.weixin.qq.com/s/LOGTHLhP5t_8-M_V8qs3jQ",
   },
-  {
-    key: "关于Adobe激活的紧急通知",
-    access: "all",
-    src: require("~/assets/banner/关于Adobe激活的紧急通知.png"),
-    url: "https://mp.weixin.qq.com/s/Vq2bomxQyxQc6GCfR2vxuw",
-  },
+  // {
+  //   key: "关于Adobe激活的紧急通知",
+  //   access: "all",
+  //   src: require("~/assets/banner/关于Adobe激活的紧急通知.png"),
+  //   url: "https://mp.weixin.qq.com/s/Vq2bomxQyxQc6GCfR2vxuw",
+  // },
   
   // {
   //   key:"网络安全攻防大赛广告",
