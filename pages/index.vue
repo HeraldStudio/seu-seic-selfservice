@@ -144,11 +144,18 @@ const banner = [
     url: "",
   },
   {
+    key: "双12流量红包",
+    access: "all",
+    src: require("~/assets/banner/双12流量红包.png"),
+    url: "https://mp.weixin.qq.com/s/LOGTHLhP5t_8-M_V8qs3jQ",
+  },
+  {
     key: "关于Adobe激活的紧急通知",
     access: "all",
     src: require("~/assets/banner/关于Adobe激活的紧急通知.png"),
     url: "https://mp.weixin.qq.com/s/Vq2bomxQyxQc6GCfR2vxuw",
   },
+  
   // {
   //   key:"网络安全攻防大赛广告",
   //   access:"all",
@@ -245,8 +252,8 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
-      key: "访客入校申请",
-      name: "访客入校申请",
+      key: "校外人员入校申请",
+      name: "校外人员入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
@@ -401,8 +408,8 @@ const rightItem = {
       url: "https://seicwxbz.seu.edu.cn/quiz/",
     },
     {
-      key: "访客财务权限申请",
-      name: "访客财务权限申请",
+      key: "校外人员财务权限申请",
+      name: "校外人员财务权限申请",
       access: ["3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
