@@ -144,23 +144,42 @@ const banner = [
     url: "",
   },
   {
-    key:"网络安全攻防大赛广告",
-    access:"all",
-    src: require("~/assets/banner/攻防大赛推文.png"),
-    url:"https://mp.weixin.qq.com/s/Zbt7TAAiZSNIOi_UQ0wjeg"
-  },
-  {
-    key:"Matlab教学推广广告",
-    access:"all",
-    src: require("~/assets/banner/Matlab讲座.png"),
-    url:"https://mp.weixin.qq.com/s/VAMB0RL4njNLGv9GLaU-5A"
-  },
-  {
-    key: "网信协会招新圆满完成",
+    key: "科研经费",
     access: "all",
-    src: require("~/assets/banner/matlab2020b.png"),
-    url: "https://mp.weixin.qq.com/s/ux485uGIiWrMYMUs3ct01w",
+    src: require("~/assets/banner/kyjf.jpg"),
+    url: "https://mp.weixin.qq.com/s/Boy45MFy1X2ZfIKJKkxmng"
+  },
+  {
+    key: "启明星辰",
+    access: "all",
+    src: require("~/assets/banner/qmxc.jpg"),
+    url: "https://mp.weixin.qq.com/s/IbWLqJBX2gbA-4YYpFnIMA"
   }
+  // {
+  //   key: "关于Adobe激活的紧急通知",
+  //   access: "all",
+  //   src: require("~/assets/banner/关于Adobe激活的紧急通知.png"),
+  //   url: "https://mp.weixin.qq.com/s/Vq2bomxQyxQc6GCfR2vxuw",
+  // },
+  
+  // {
+  //   key:"网络安全攻防大赛广告",
+  //   access:"all",
+  //   src: require("~/assets/banner/攻防大赛推文.png"),
+  //   url:"https://mp.weixin.qq.com/s/Zbt7TAAiZSNIOi_UQ0wjeg"
+  // },
+  // {
+  //   key:"Matlab教学推广广告",
+  //   access:"all",
+  //   src: require("~/assets/banner/Matlab讲座.png"),
+  //   url:"https://mp.weixin.qq.com/s/VAMB0RL4njNLGv9GLaU-5A"
+  // },
+  // {
+  //   key: "网信协会招新圆满完成",
+  //   access: "all",
+  //   src: require("~/assets/banner/matlab2020b.png"),
+  //   url: "https://mp.weixin.qq.com/s/ux485uGIiWrMYMUs3ct01w",
+  // }
 ];
 const leftItem = [
   {
@@ -353,8 +372,8 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm",
     },
     {
-      key: "党费缴纳(试运行)",
-      name: "党费缴纳(试运行)",
+      key: "党费缴纳",
+      name: "党费缴纳",
       access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
       url:
@@ -382,6 +401,7 @@ const rightItem = {
         "312001285",
         "220123456",
         "213180720",
+        "213193423",
       ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
