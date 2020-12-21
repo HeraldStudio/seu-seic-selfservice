@@ -262,7 +262,7 @@ const rightItem = {
       name: "访客入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+      url: "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校申请",
