@@ -144,42 +144,17 @@ const banner = [
     url: "",
   },
   {
-    key: "科研经费",
+    key: "图书馆跨年",
     access: "all",
-    src: require("~/assets/banner/kyjf.jpg"),
-    url: "https://mp.weixin.qq.com/s/Boy45MFy1X2ZfIKJKkxmng"
+    src: require("~/assets/banner/tsgkn.jpeg"),
+    url: "https://mp.weixin.qq.com/s/h6mbIycnCgwZDjBecBX7nw"
   },
   {
-    key: "启明星辰",
+    key: "网信2020",
     access: "all",
-    src: require("~/assets/banner/qmxc.jpg"),
-    url: "https://mp.weixin.qq.com/s/IbWLqJBX2gbA-4YYpFnIMA"
+    src: require("~/assets/banner/wx2020.png"),
+    url: "https://mp.weixin.qq.com/s/3C-UomasL8lZlvHtSiQ8Rw"
   }
-  // {
-  //   key: "关于Adobe激活的紧急通知",
-  //   access: "all",
-  //   src: require("~/assets/banner/关于Adobe激活的紧急通知.png"),
-  //   url: "https://mp.weixin.qq.com/s/Vq2bomxQyxQc6GCfR2vxuw",
-  // },
-  
-  // {
-  //   key:"网络安全攻防大赛广告",
-  //   access:"all",
-  //   src: require("~/assets/banner/攻防大赛推文.png"),
-  //   url:"https://mp.weixin.qq.com/s/Zbt7TAAiZSNIOi_UQ0wjeg"
-  // },
-  // {
-  //   key:"Matlab教学推广广告",
-  //   access:"all",
-  //   src: require("~/assets/banner/Matlab讲座.png"),
-  //   url:"https://mp.weixin.qq.com/s/VAMB0RL4njNLGv9GLaU-5A"
-  // },
-  // {
-  //   key: "网信协会招新圆满完成",
-  //   access: "all",
-  //   src: require("~/assets/banner/matlab2020b.png"),
-  //   url: "https://mp.weixin.qq.com/s/ux485uGIiWrMYMUs3ct01w",
-  // }
 ];
 const leftItem = [
   {
