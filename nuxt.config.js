@@ -53,8 +53,8 @@ module.exports = {
   */
   build: {
     transpile: [/^element-ui/],
-    //publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn-seicwxbz.seu.edu.cn/self-service-static/' : '/_nuxt/',
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://seicwxbz.seu.edu.cn/self-service/' : '/_nuxt/',
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn-seicwxbz.seu.edu.cn/self-service-static/' : '/_nuxt/',
+    // publicPath: process.env.NODE_ENV === 'production' ? 'https://seicwxbz.seu.edu.cn/self-service/' : '/_nuxt/',
     /*
     ** You can extend webpack config here
     */
