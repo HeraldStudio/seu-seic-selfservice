@@ -130,6 +130,7 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
+
   // {
   //   key: "小猴偷米App",
   //   access: ["21"],
@@ -143,29 +144,17 @@ const banner = [
     url: "",
   },
   {
-    key: "网信协会招新圆满完成",
+    key: "图书馆跨年",
     access: "all",
-    src: require("~/assets/banner/ymzx.jpg"),
-    url: "",
+    src: require("~/assets/banner/tsgkn.jpeg"),
+    url: "https://mp.weixin.qq.com/s/h6mbIycnCgwZDjBecBX7nw"
   },
   {
-    key: "暑期学校评教",
+    key: "网信2020",
     access: "all",
-    src: require("~/assets/banner/sqpj.jpg"),
-    url: "https://mp.weixin.qq.com/s/C6echQiKNk5lyBdoS6Zzig",
-  },
-  {
-    key: "东大师生体检",
-    access: "all",
-    src: require("~/assets/banner/sstj.jpg"),
-    url: "https://mp.weixin.qq.com/s/eJjlCV6Z5OFEqs0TcnMhQQ",
-  },
-  {
-    key: "和小猴一起乘风破浪",
-    access: "all",
-    src: require("~/assets/banner/cfpl.jpeg"),
-    url: "https://mp.weixin.qq.com/s/cpO9PeJZ8_ngHKteoy7iFw",
-  },
+    src: require("~/assets/banner/wx2020.png"),
+    url: "https://mp.weixin.qq.com/s/3C-UomasL8lZlvHtSiQ8Rw"
+  }
 ];
 const leftItem = [
   {
@@ -244,11 +233,11 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
-      key: "校外人员入校申请",
-      name: "校外人员入校申请",
+      key: "访客入校申请",
+      name: "访客入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "http://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+      url: "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校申请",
@@ -358,8 +347,8 @@ const rightItem = {
       url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm",
     },
     {
-      key: "党费缴纳(试运行)",
-      name: "党费缴纳(试运行)",
+      key: "党费缴纳",
+      name: "党费缴纳",
       access: "all",
       icon: require("~/assets/right-icon/dfjn.svg"),
       url:
@@ -387,6 +376,7 @@ const rightItem = {
         "312001285",
         "220123456",
         "213180720",
+        "213193423",
       ],
       icon: require("~/assets/right-icon/zwfw-gray.svg"),
       url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
@@ -399,8 +389,8 @@ const rightItem = {
       url: "https://seicwxbz.seu.edu.cn/quiz/",
     },
     {
-      key: "校外人员财务权限申请",
-      name: "校外人员财务权限申请",
+      key: "访客财务权限申请",
+      name: "访客财务权限申请",
       access: ["3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
@@ -801,8 +791,8 @@ export default {
 }
 .float-logo {
   position: fixed;
-  left: 20px;
-  bottom: 20px;
+  left: 5px;
+  bottom: 10px;
   z-index: 10000;
 }
 .float-logo-tip {
