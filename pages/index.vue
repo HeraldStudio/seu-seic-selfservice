@@ -144,16 +144,10 @@ const banner = [
     url: "",
   },
   {
-    key: "图书馆跨年",
+    key: '教师发展培训中心',
     access: "all",
-    src: require("~/assets/banner/tsgkn.jpeg"),
-    url: "https://mp.weixin.qq.com/s/h6mbIycnCgwZDjBecBX7nw"
-  },
-  {
-    key: "网信2020",
-    access: "all",
-    src: require("~/assets/banner/wx2020.png"),
-    url: "https://mp.weixin.qq.com/s/3C-UomasL8lZlvHtSiQ8Rw"
+    src: require("~/assets/banner/jiaoshi.png"),
+    url: "https://mp.weixin.qq.com/s/M6o6JZyD4FwX9wG1xkRzfw",
   }
 ];
 const leftItem = [
