@@ -399,10 +399,18 @@ const rightItem = {
     {
       key: "体检自助服务",
       name: "体检自助服务",
-      access: ["1", "213183580"],
+      access: ["1", "213183580","213181432"],
       icon: require("~/assets/right-icon/sstj.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
+    },
+    {
+      key: "教师发展培训",
+      name: "教师发展培训",
+      access: ["1", "213183580","213181432",],
+      icon: require("~/assets/right-icon/jsfzpx.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://jspx.seu.edu.cn/wx/goWxIndexPage",
     },
   ],
   部门服务: [
