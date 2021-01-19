@@ -130,7 +130,6 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
-
   // {
   //   key: "小猴偷米App",
   //   access: ["21"],
@@ -144,11 +143,11 @@ const banner = [
     url: "",
   },
   {
-    key: '教师发展培训中心',
+    key: "教师发展培训中心",
     access: "all",
     src: require("~/assets/banner/jiaoshi.png"),
     url: "https://mp.weixin.qq.com/s/M6o6JZyD4FwX9wG1xkRzfw",
-  }
+  },
 ];
 const leftItem = [
   {
@@ -231,7 +230,8 @@ const rightItem = {
       name: "访客入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+      url:
+        "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校申请",
@@ -393,7 +393,7 @@ const rightItem = {
     {
       key: "体检自助服务",
       name: "体检自助服务",
-      access: ["1", "213183580","213181432"],
+      access: ["1", "213183580", "213181432"],
       icon: require("~/assets/right-icon/sstj.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
@@ -401,10 +401,18 @@ const rightItem = {
     {
       key: "教师发展培训",
       name: "教师发展培训",
-      access: ["1", "213183580","213181432",],
+      access: ["1", "213183580", "213181432"],
       icon: require("~/assets/right-icon/jsfzpx.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://jspx.seu.edu.cn/wx/goWxIndexPage",
+    },
+    {
+      key: "移动医疗服务",
+      name: "移动医疗服务",
+      access: "all",
+      icon: require("~/assets/right-icon/ydyl.svg"),
+      url:
+        "http://yygh.seu.edu.cn/index2.aspx",
     },
   ],
   部门服务: [
