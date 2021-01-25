@@ -143,10 +143,16 @@ const banner = [
     url: "",
   },
   {
-    key: "教师发展培训中心",
+    key: "onedrive",
     access: "all",
-    src: require("~/assets/banner/jiaoshi.png"),
-    url: "https://mp.weixin.qq.com/s/M6o6JZyD4FwX9wG1xkRzfw",
+    src: require("~/assets/banner/onedrive.jpg"),
+    url: "https://mp.weixin.qq.com/s/qRiPfX0av2aX_FWoZ_85-Q",
+  },
+  {
+    key: "网信寒假计划",
+    access: "all",
+    src: require("~/assets/banner/seicwinter.jpg"),
+    url: "https://mp.weixin.qq.com/s/DX0njnS-PhLwAbFmECkKBA",
   },
 ];
 const leftItem = [
@@ -411,8 +417,7 @@ const rightItem = {
       name: "移动医疗服务",
       access: "all",
       icon: require("~/assets/right-icon/ydyl.svg"),
-      url:
-        "http://yygh.seu.edu.cn/index2.aspx",
+      url: "http://yygh.seu.edu.cn/index2.aspx",
     },
   ],
   部门服务: [
