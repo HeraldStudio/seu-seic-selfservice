@@ -154,6 +154,12 @@ const banner = [
     src: require("~/assets/banner/seicwinter.jpg"),
     url: "https://mp.weixin.qq.com/s/DX0njnS-PhLwAbFmECkKBA",
   },
+  {
+    key: "智慧校园",
+    access: "all",
+    src: require("~/assets/banner/zhxy.png"),
+    url: "https://mp.weixin.qq.com/s/NL0YoLCaXw4jvkBqKeT0tA",
+  },
 ];
 const leftItem = [
   {
