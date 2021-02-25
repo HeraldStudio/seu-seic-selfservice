@@ -251,7 +251,7 @@ const rightItem = {
       access: ["22", "320002317", "23"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
+        "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
@@ -259,7 +259,7 @@ const rightItem = {
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
+        "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
