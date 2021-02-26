@@ -160,6 +160,12 @@ const banner = [
     src: require("~/assets/banner/zhxy.png"),
     url: "https://mp.weixin.qq.com/s/NL0YoLCaXw4jvkBqKeT0tA",
   },
+  {
+    key: "新春贺喜",
+    access: "all",
+    src: require("~/assets/banner/newemoji.png"),
+    url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
+  }
 ];
 const leftItem = [
   {
