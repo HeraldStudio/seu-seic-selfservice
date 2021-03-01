@@ -160,6 +160,12 @@ const banner = [
     src: require("~/assets/banner/zhxy.png"),
     url: "https://mp.weixin.qq.com/s/NL0YoLCaXw4jvkBqKeT0tA",
   },
+  {
+    key: "新春贺喜",
+    access: "all",
+    src: require("~/assets/banner/newemoji.png"),
+    url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
+  }
 ];
 const leftItem = [
   {
@@ -251,7 +257,7 @@ const rightItem = {
       access: ["22", "320002317", "23"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
+        "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
@@ -259,7 +265,7 @@ const rightItem = {
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
+        "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
