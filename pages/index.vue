@@ -590,7 +590,7 @@ export default {
     },
     showLogoutDialog() {
       this.logoutDialogVisible = true;
-    },
+    }, 
     logout() {
       window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=https://seicwxbz.seu.edu.cn/self-service`;
     },
