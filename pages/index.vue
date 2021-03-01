@@ -122,7 +122,7 @@
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
     </div>
     -->
-    <audio ref="voice" :src="voice[currentVoice].voice" />
+    <!-- <audio ref="voice" :src="voice[currentVoice].voice" /> -->
   </div>
 </template>
 
@@ -535,10 +535,10 @@ export default {
       voiceDialogVisible: false,
       currentVoice: 0,
       voice: [
-        {
-          voice: require("~/assets/voice/20200611_Autodesk.mp3"),
-          nextHint: "没得换了",
-        },
+        // {
+        //   voice: require("~/assets/voice/20200611_Autodesk.mp3"),
+        //   nextHint: "没得换了",
+        // },
       ],
       voicePlaying: false,
       showVoiceTip: false,
