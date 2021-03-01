@@ -165,7 +165,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/newemoji.png"),
     url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
-  }
+  },
 ];
 const leftItem = [
   {
@@ -256,16 +256,14 @@ const rightItem = {
       name: "研究生返校申请",
       access: ["22", "320002317", "23"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "https://ywgl.seu.edu.cn/stuapply_mobile",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
       name: "本科生返校申请",
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "https://ywgl.seu.edu.cn/stuapply_mobile",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
@@ -596,7 +594,7 @@ export default {
     },
     showLogoutDialog() {
       this.logoutDialogVisible = true;
-    }, 
+    },
     logout() {
       window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=https://seicwxbz.seu.edu.cn/self-service`;
     },
