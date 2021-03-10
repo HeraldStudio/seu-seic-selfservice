@@ -122,7 +122,7 @@
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
     </div>
     -->
-    <audio ref="voice" :src="voice[currentVoice].voice" />
+    <!-- <audio ref="voice" :src="voice[currentVoice].voice" /> -->
   </div>
 </template>
 
@@ -130,7 +130,6 @@
 import Logo from "~/components/Logo.vue";
 import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
 const banner = [
-
   // {
   //   key: "小猴偷米App",
   //   access: ["21"],
@@ -144,17 +143,29 @@ const banner = [
     url: "",
   },
   {
-    key: "图书馆跨年",
+    key: "onedrive",
     access: "all",
-    src: require("~/assets/banner/tsgkn.jpeg"),
-    url: "https://mp.weixin.qq.com/s/h6mbIycnCgwZDjBecBX7nw"
+    src: require("~/assets/banner/onedrive.jpg"),
+    url: "https://mp.weixin.qq.com/s/qRiPfX0av2aX_FWoZ_85-Q",
   },
   {
-    key: "网信2020",
+    key: "网信寒假计划",
     access: "all",
-    src: require("~/assets/banner/wx2020.png"),
-    url: "https://mp.weixin.qq.com/s/3C-UomasL8lZlvHtSiQ8Rw"
-  }
+    src: require("~/assets/banner/seicwinter.jpg"),
+    url: "https://mp.weixin.qq.com/s/DX0njnS-PhLwAbFmECkKBA",
+  },
+  {
+    key: "智慧校园",
+    access: "all",
+    src: require("~/assets/banner/zhxy.png"),
+    url: "https://mp.weixin.qq.com/s/NL0YoLCaXw4jvkBqKeT0tA",
+  },
+  {
+    key: "新春贺喜",
+    access: "all",
+    src: require("~/assets/banner/newemoji.png"),
+    url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
+  },
 ];
 const leftItem = [
   {
@@ -237,23 +248,22 @@ const rightItem = {
       name: "访客入校申请",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+      url:
+        "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
     },
     {
       key: "研究生返校申请",
       name: "研究生返校申请",
       access: ["22", "320002317", "23"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=YJSFXSQ&membership=Infoplus_Enterprise",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
       name: "本科生返校申请",
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=BKSFXSQ&membership=Infoplus_Enterprise",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
@@ -399,7 +409,7 @@ const rightItem = {
     {
       key: "体检自助服务",
       name: "体检自助服务",
-      access: ["1", "213183580","213181432"],
+      access: ["1", "213183580", "213181432"],
       icon: require("~/assets/right-icon/sstj.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
@@ -407,10 +417,17 @@ const rightItem = {
     {
       key: "教师发展培训",
       name: "教师发展培训",
-      access: ["1", "213183580","213181432",],
+      access: ["1", "213183580", "213181432"],
       icon: require("~/assets/right-icon/jsfzpx.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://jspx.seu.edu.cn/wx/goWxIndexPage",
+    },
+    {
+      key: "移动医疗服务",
+      name: "移动医疗服务",
+      access: "all",
+      icon: require("~/assets/right-icon/ydyl.svg"),
+      url: "http://yygh.seu.edu.cn/index2.aspx",
     },
   ],
   部门服务: [
@@ -518,10 +535,10 @@ export default {
       voiceDialogVisible: false,
       currentVoice: 0,
       voice: [
-        {
-          voice: require("~/assets/voice/20200611_Autodesk.mp3"),
-          nextHint: "没得换了",
-        },
+        // {
+        //   voice: require("~/assets/voice/20200611_Autodesk.mp3"),
+        //   nextHint: "没得换了",
+        // },
       ],
       voicePlaying: false,
       showVoiceTip: false,
