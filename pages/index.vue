@@ -188,7 +188,7 @@ const leftItem = [
   },
   {
     name: "部门服务",
-    access: ["1", "3"],
+    access: ["1", "3", "213183580"],
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
     icon: require("~/assets/left-icon/gzlc-white.svg"),
   },
