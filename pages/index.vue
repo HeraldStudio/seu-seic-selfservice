@@ -438,14 +438,14 @@ const rightItem = {
     }
   ],
   部门服务: [
-    {
-      key: "二级网站",
-      name: "二级网站申请",
-      access: ["1", "2", "3"],
-      icon: require("~/assets/right-icon/ejwz.svg"),
-      url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0",
-    },
+    // {
+    //   key: "二级网站",
+    //   name: "二级网站申请",
+    //   access: ["1", "2", "3"],
+    //   icon: require("~/assets/right-icon/ejwz.svg"),
+    //   url:
+    //     "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0",
+    // },
     {
       key: "三级网站",
       name: "三级网站申请",
