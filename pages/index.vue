@@ -122,7 +122,7 @@
       <img class="float-logo" :src="niclogo" @click="showVoiceDialog" />
     </div>
     -->
-    <audio ref="voice" :src="voice[currentVoice].voice" />
+    <!-- <audio ref="voice" :src="voice[currentVoice].voice" /> -->
   </div>
 </template>
 
@@ -165,7 +165,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/newemoji.png"),
     url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
-  }
+  },
 ];
 const leftItem = [
   {
@@ -188,7 +188,7 @@ const leftItem = [
   },
   {
     name: "部门服务",
-    access: ["1", "3"],
+    access: ["1", "3", "213183580"],
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
     icon: require("~/assets/left-icon/gzlc-white.svg"),
   },
@@ -256,16 +256,14 @@ const rightItem = {
       name: "研究生返校申请",
       access: ["22", "320002317", "23"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "https://ywgl.seu.edu.cn/stuapply_mobile",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
       name: "本科生返校申请",
       access: ["21", "320002317"],
       icon: require("~/assets/right-icon/rxsq.svg"),
-      url:
-        "https://ywgl.seu.edu.cn/stuapply_mobile",
+      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
@@ -544,10 +542,10 @@ export default {
       voiceDialogVisible: false,
       currentVoice: 0,
       voice: [
-        {
-          voice: require("~/assets/voice/20200611_Autodesk.mp3"),
-          nextHint: "没得换了",
-        },
+        // {
+        //   voice: require("~/assets/voice/20200611_Autodesk.mp3"),
+        //   nextHint: "没得换了",
+        // },
       ],
       voicePlaying: false,
       showVoiceTip: false,
@@ -674,7 +672,7 @@ export default {
           // redirect('http://127.0.0.1/')
         }
       } else {
-        console.log(req.path);
+        console.log('前往登录 '+req.path);
         redirect(
           `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
             "https://seicwxbz.seu.edu.cn/self-service/"
