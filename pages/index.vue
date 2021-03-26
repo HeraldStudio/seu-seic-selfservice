@@ -108,7 +108,7 @@
           <div
             style="margin-top:10px; border-radius: 20px; background-color:#eee; color:#888; font-size: 10px; padding: 0px 10px;"
           >要调大手机音量才能听到哟</div>
-          <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button> 
+          <el-button style="margin-top:10px;" @click="changeVoice" type="primary" plain>{{voice[currentVoice].nextHint}}</el-button>
         </div>
       </div>
       <span slot="footer" class="dialog-footer">
@@ -431,6 +431,13 @@ const rightItem = {
       icon: require("~/assets/right-icon/ydyl.svg"),
       url: "http://yygh.seu.edu.cn/index2.aspx",
     },
+    {
+      key: "移动科研",
+      name: "移动科研",
+      access: "all",
+      icon: require("~/assets/right-icon/science.svg"),
+      url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/indexTransit.html",
+    }
   ],
   部门服务: [
     {
