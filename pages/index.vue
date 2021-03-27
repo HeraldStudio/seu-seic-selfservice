@@ -249,7 +249,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
-        "https://infoplus.seu.edu.cn/txm/todo?membership=Infoplus_Enterprise",
+        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3a%2f%2finfoplus.seu.edu.cn%2ftxm%2ftodo",
     },
     {
       key: "研究生返校申请",
@@ -272,7 +272,7 @@ const rightItem = {
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
+        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DBKSFXSQ",
     },
     {
       key: "研究生返校审批",
@@ -281,7 +281,7 @@ const rightItem = {
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?membership=Infoplus_Enterprise",
+        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DYJSFXSQ",
     },
   ],
   个人服务: [
@@ -404,7 +404,7 @@ const rightItem = {
       access: ["3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
-        "http://infoplus.seu.edu.cn/taskcenter/wechat/todo?appCode=XWRYCWQXSP&membership=Infoplus_Enterprise",
+        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DXWRYCWQXSP",
     },
     {
       key: "体检自助服务",
