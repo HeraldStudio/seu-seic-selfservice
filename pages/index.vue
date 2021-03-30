@@ -143,28 +143,16 @@ const banner = [
     url: "",
   },
   {
-    key: "onedrive",
+    key: "科研创新平台",
     access: "all",
-    src: require("~/assets/banner/onedrive.jpg"),
-    url: "https://mp.weixin.qq.com/s/qRiPfX0av2aX_FWoZ_85-Q",
+    src: require("~/assets/banner/kycxpt.jpg"),
+    url: "https://mp.weixin.qq.com/s/5QopSbja7PTm9c3iNiBr_g",
   },
   {
-    key: "网信寒假计划",
+    key: "四牌楼校医院",
     access: "all",
-    src: require("~/assets/banner/seicwinter.jpg"),
-    url: "https://mp.weixin.qq.com/s/DX0njnS-PhLwAbFmECkKBA",
-  },
-  {
-    key: "智慧校园",
-    access: "all",
-    src: require("~/assets/banner/zhxy.png"),
-    url: "https://mp.weixin.qq.com/s/NL0YoLCaXw4jvkBqKeT0tA",
-  },
-  {
-    key: "新春贺喜",
-    access: "all",
-    src: require("~/assets/banner/newemoji.png"),
-    url: "https://mp.weixin.qq.com/s/J3FhRMd31Iry2Jjy9-mpcw",
+    src: require("~/assets/banner/splxyy.jpg"),
+    url: "https://mp.weixin.qq.com/s/BCP0sTDf3lGtHVaro-U-qA",
   },
 ];
 const leftItem = [
@@ -434,7 +422,8 @@ const rightItem = {
       name: "移动科研",
       access: "all",
       icon: require("~/assets/right-icon/science.svg"),
-      url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/indexTransit.html",
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/indexTransit.html",
     },
   ],
   部门服务: [
@@ -672,7 +661,7 @@ export default {
           // redirect('http://127.0.0.1/')
         }
       } else {
-        console.log('前往登录 '+req.path);
+        console.log("前往登录 " + req.path);
         redirect(
           `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
             "https://seicwxbz.seu.edu.cn/self-service/"
