@@ -416,7 +416,9 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/ydyl.svg"),
       url: "http://yygh.seu.edu.cn/index2.aspx",
-    },
+    }
+  ],
+  部门服务: [
     {
       key: "移动科研",
       name: "移动科研",
