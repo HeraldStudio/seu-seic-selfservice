@@ -143,16 +143,10 @@ const banner = [
     url: "",
   },
   {
-    key: "科研创新平台",
+    key: "新冠疫苗接种预约",
     access: "all",
-    src: require("~/assets/banner/kycxpt.jpg"),
-    url: "https://mp.weixin.qq.com/s/5QopSbja7PTm9c3iNiBr_g",
-  },
-  {
-    key: "四牌楼校医院",
-    access: "all",
-    src: require("~/assets/banner/splxyy.jpg"),
-    url: "https://mp.weixin.qq.com/s/BCP0sTDf3lGtHVaro-U-qA",
+    src: require("~/assets/banner/xgymjzyy.png"),
+    url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
   },
 ];
 const leftItem = [
