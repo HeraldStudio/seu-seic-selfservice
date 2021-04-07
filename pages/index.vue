@@ -395,9 +395,9 @@ const rightItem = {
         "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DXWRYCWQXSP",
     },
     {
-      key: "体检自助服务",
-      name: "体检自助服务",
-      access: ["1", "213183580", "213181432"],
+      key: "健康预约服务",
+      name: "健康预约服务",
+      access: "all",
       icon: require("~/assets/right-icon/sstj.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
