@@ -381,9 +381,9 @@ const rightItem = {
     //  url: "https://seicwxbz.seu.edu.cn/quiz/",
     //},
     {
-      key: "临时人员财务权限申请",
-      name: "临时人员财务权限申请",
-      access: ["3"],
+      key: "财务权限申请",
+      name: "财务权限申请",
+      access: ["1","3"],
       icon: require("~/assets/right-icon/xwrycw.svg"),
       url:
         "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DXWRYCWQXSP",
