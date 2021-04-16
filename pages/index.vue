@@ -417,7 +417,7 @@ const rightItem = {
       access: "all",
       icon: require("~/assets/right-icon/science.svg"),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/indexTransit.html",
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/index.html",
     },
   ],
   部门服务: [
