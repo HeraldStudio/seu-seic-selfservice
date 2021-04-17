@@ -409,7 +409,8 @@ const rightItem = {
       name: "移动医疗服务",
       access: "all",
       icon: require("~/assets/right-icon/ydyl.svg"),
-      url: "http://yygh.seu.edu.cn/index2.aspx",
+      url:
+        "http://yygh.seu.edu.cn/index2.aspx",
     },
     {
       key: "移动科研",
