@@ -289,8 +289,8 @@ const rightItem = {
     //   url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp",
     // },
     {
-      key: "移动OA",
-      name: "移动OA",
+      key: "移动OA服务",
+      name: "移动OA服务",
       access: "all",
       icon: require("~/assets/right-icon/oa.svg"),
       url: "http://mcp.seu.edu.cn/public/download/index.html",
