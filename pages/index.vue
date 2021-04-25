@@ -73,12 +73,14 @@
         <el-button @click="logout" type="warning" plain>确认</el-button>
       </span>
     </el-dialog>-->
-    <img
-      src="../assets/logout_1.svg"
-      class="float-logo"
-      style="width: 48px; height: 48px"
-      @click="logout"
-    />
+    <div>
+      <img
+        src="../assets/logout_1.svg"
+        class="float-logo"
+        style="width: 48px; height: 48px"
+        @click="logout"
+      />
+    </div>
     <!-- 语音早安 -->
 
     <!--
