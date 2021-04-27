@@ -277,12 +277,19 @@ const rightItem = {
       url: "https://nic.seu.edu.cn/bxs/zhxyfwzn.htm",
     },
     {
-      key: "ZOOM云会议",
-      name: "ZOOM云会议",
+      key: "云会议申请",
+      name: "云会议申请",
       access: "all",
-      icon: require("~/assets/right-icon/zoomfixed.svg"),
-      url: "http://zoom.seu.edu.cn",
+      icon: require("~/assets/right-icon/hy.svg"),
+      url: "http://meeting.seu.edu.cn/h5",
     },
+    // {
+    //   key: "ZOOM云会议",
+    //   name: "ZOOM云会议",
+    //   access: "all",
+    //   icon: require("~/assets/right-icon/zoomfixed.svg"),
+    //   url: "http://zoom.seu.edu.cn",
+    // },
     // {
     //   key: "Skype云会议",
     //   name: "Skype云会议",
