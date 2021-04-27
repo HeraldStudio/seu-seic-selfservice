@@ -276,13 +276,13 @@ const rightItem = {
       icon: require("~/assets/right-icon/fwzn.svg"),
       url: "https://nic.seu.edu.cn/bxs/zhxyfwzn.htm",
     },
-    {
-      key: "云会议申请",
-      name: "云会议申请",
-      access: "320002594",
-      icon: require("~/assets/right-icon/hy.svg"),
-      url: "http://meeting.seu.edu.cn/h5",
-    },
+    // {
+    //   key: "云会议申请",
+    //   name: "云会议申请",
+    //   access: "320002594",
+    //   icon: require("~/assets/right-icon/hy.svg"),
+    //   url: "http://meeting.seu.edu.cn/h5",
+    // },
     // {
     //   key: "ZOOM云会议",
     //   name: "ZOOM云会议",
