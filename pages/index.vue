@@ -145,10 +145,10 @@ const banner = [
     url: "",
   },
   {
-    key: "新冠疫苗接种预约",
+    key: "微信、浏览器存在高危漏洞",
     access: "all",
-    src: require("~/assets/banner/xgymjzyy.png"),
-    url: "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
+    src: require("~/assets/banner/gwld.png"),
+    url: "",
   },
 ];
 const leftItem = [
@@ -279,8 +279,8 @@ const rightItem = {
     // {
     //   key: "云会议申请",
     //   name: "云会议申请",
-    //   access: "320002594",
-    //   icon: require("~/assets/right-icon/hy.svg"),
+    //   access: "all",
+    //   icon: require("~/assets/right-icon/yhysq.svg"),
     //   url: "http://meeting.seu.edu.cn/h5",
     // },
     // {
