@@ -212,16 +212,16 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do",
     },
     {
-      key: "研究生出校审批",
-      name: "研究生出校审批",
+      key: "研究生请假审批",
+      name: "研究生请假审批",
       access: ["22", "1", "23", "307"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
     },
     {
-      key: "本科生出校审批",
-      name: "本科生出校审批",
+      key: "本科生请假审批",
+      name: "本科生请假审批",
       access: ["1", "21"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
