@@ -321,9 +321,9 @@ const rightItem = {
     {
       key: "东大云盘",
       name: "东大云盘",
-      access: "all",
+      access: ["1","2","320002594"],
       icon: require("~/assets/right-icon/yun.svg"),
-      url: "https://pan.seu.edu.cn/",
+      url: "http://newids.seu.edu.cn/authserver/login?service=https://pan.seu.edu.cn/sso",
     },
     {
       key: "综合考评",
