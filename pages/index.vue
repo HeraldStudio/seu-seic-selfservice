@@ -148,7 +148,7 @@ const banner = [
     key: "东大云盘加速",
     access: "all",
     src: require("~/assets/banner/ddypsx.png"),
-    url: "http://newids.seu.edu.cn/authserver/login?service=https://pan.seu.edu.cn/sso",
+    url: "https://mp.weixin.qq.com/s/YDr8HA2EiBrsMAOcGeLB6w",
   },
 ];
 const leftItem = [
