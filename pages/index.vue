@@ -145,9 +145,9 @@ const banner = [
     url: "",
   },
   {
-    key: "微信、浏览器存在高危漏洞",
+    key: "东大云盘加速",
     access: "all",
-    src: require("~/assets/banner/gwld.png"),
+    src: require("~/assets/banner/ddypsx.png"),
     url: "",
   },
 ];
