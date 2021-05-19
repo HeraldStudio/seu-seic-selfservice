@@ -228,8 +228,8 @@ const rightItem = {
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
     },
     {
-      key: "访客入校申请",
-      name: "访客入校申请",
+      key: "访客入校审批",
+      name: "访客入校审批",
       access: "all",
       icon: require("~/assets/right-icon/rxsq.svg"),
       url:
