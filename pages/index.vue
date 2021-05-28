@@ -145,11 +145,17 @@ const banner = [
     url: "",
   },
   {
-    key: "东大云盘加速",
+    key: "优化网络服务",
     access: "all",
-    src: require("~/assets/banner/ddypsx.png"),
-    url: "https://mp.weixin.qq.com/s/YDr8HA2EiBrsMAOcGeLB6w",
+    src: require("~/assets/banner/qtsssq.png"),
+    url: "https://mp.weixin.qq.com/s/Mk5fuTQsXgoVFlYbSJDORA",
   },
+  {
+    key: "问卷调查",
+    access: "all",
+    src: require("~/assets/banner/wjdc528.png"),
+    url: "https://mp.weixin.qq.com/s/HydJt3q2_z2KJFTmrU_vQg",
+  }
 ];
 const leftItem = [
   {
