@@ -438,7 +438,7 @@ const rightItem = {
     {
       key: "网瑞达工单",
       name: "网瑞达工单",
-      access: "320002594",
+      access: ["320002594","nicservicetest1","nicservicetest2"],
       icon: require("~/assets/right-icon/wrdgd.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn",
