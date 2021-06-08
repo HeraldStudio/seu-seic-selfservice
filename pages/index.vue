@@ -437,7 +437,7 @@ const rightItem = {
     },
     {
       key: "网瑞达工单",
-      name: "网瑞达工单",
+      name: "网络报修（测试）",
       access: ["320002594","nicservicetest1","nicservicetest2","101005090","103008527","320003343","320003344","213191209"],
       icon: require("~/assets/right-icon/wrdgd.svg"),
       url:
