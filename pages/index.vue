@@ -166,7 +166,7 @@ const leftItem = [
   },
   {
     name: "迎新专栏",
-    access: ["1", "2"],
+    access: ["1", "2", "320002594"],
     activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
     icon: require("~/assets/left-icon/yxfw-white.svg"),
   },
@@ -178,7 +178,7 @@ const leftItem = [
   },
   {
     name: "部门服务",
-    access: ["1", "3", "213183580"],
+    access: ["1", "3", "213183580", "320002594"],
     activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
     icon: require("~/assets/left-icon/gzlc-white.svg"),
   },
@@ -220,7 +220,7 @@ const rightItem = {
     {
       key: "研究生请假审批",
       name: "研究生请假审批",
-      access: ["22", "1", "23", "307"],
+      access: ["22", "1", "23", "307", "320002594"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
@@ -228,7 +228,7 @@ const rightItem = {
     {
       key: "本科生请假审批",
       name: "本科生请假审批",
-      access: ["1", "21"],
+      access: ["1", "21", "320002594"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
@@ -244,21 +244,21 @@ const rightItem = {
     {
       key: "研究生返校申请",
       name: "研究生返校申请",
-      access: ["22", "320002317", "23"],
+      access: ["22", "320002317", "23", "320002594"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校申请",
       name: "本科生返校申请",
-      access: ["21", "320002317"],
+      access: ["21", "320002317", "320002594"],
       icon: require("~/assets/right-icon/rxsq.svg"),
       url: "https://ywgl.seu.edu.cn/stuapply_mobile",
     },
     {
       key: "本科生返校审批",
       name: "本科生返校审批",
-      access: ["1", "320002317"],
+      access: ["1", "320002317", "320002594"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
@@ -267,7 +267,7 @@ const rightItem = {
     {
       key: "研究生返校审批",
       name: "研究生返校审批",
-      access: ["1", "320002317", "307"],
+      access: ["1", "320002317", "307", "320002594"],
       icon: require("~/assets/right-icon/cxsp-master.svg"),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
@@ -341,7 +341,7 @@ const rightItem = {
     {
       key: "课程表",
       name: "课表查询",
-      access: ["1", "2"],
+      access: ["1", "2", "320002594"],
       icon: require("~/assets/right-icon/kcb.svg"),
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do",
@@ -435,6 +435,14 @@ const rightItem = {
       url:
         "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/index.html",
     },
+    {
+      key: "网瑞达工单",
+      name: "网瑞达工单",
+      access: "320002594",
+      icon: require("~/assets/right-icon/wrdgd.svg"),
+      url:
+        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn",
+    }
   ],
   部门服务: [
     // {
