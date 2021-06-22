@@ -143,7 +143,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/zzfw1.png"),
     url: "",
-  }/*,
+  },
   {
     key: "离校手续",
     access: "all",
@@ -161,7 +161,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/ymjzxc.png"),
     url: "https://mp.weixin.qq.com/s/ZBdStq2WOhiiBwlmgwfFog",
-  }*/
+  }
 ];
 const leftItem = [
   {
