@@ -145,16 +145,22 @@ const banner = [
     url: "",
   },
   {
-    key: "优化网络服务",
+    key: "离校手续",
     access: "all",
-    src: require("~/assets/banner/qtsssq.png"),
-    url: "https://mp.weixin.qq.com/s/Mk5fuTQsXgoVFlYbSJDORA",
+    src: require("~/assets/banner/lxsx.png"),
+    url: "https://mp.weixin.qq.com/s/aDycpA8vrfqb7oCwnd4_1g",
   },
   {
-    key: "问卷调查",
+    key: "正版软件",
     access: "all",
-    src: require("~/assets/banner/wjdc528.png"),
-    url: "https://mp.weixin.qq.com/s/HydJt3q2_z2KJFTmrU_vQg",
+    src: require("~/assets/banner/zbrj.png"),
+    url: "https://mp.weixin.qq.com/s/rCiFqymQwVLkI974tXomsA",
+  },
+  {
+    key: "疫苗接种现场",
+    access: "all",
+    src: require("~/assets/banner/ymjzxc.png"),
+    url: "https://mp.weixin.qq.com/s/ZBdStq2WOhiiBwlmgwfFog",
   }
 ];
 const leftItem = [
