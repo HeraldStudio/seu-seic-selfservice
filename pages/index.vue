@@ -145,6 +145,12 @@ const banner = [
     url: "",
   },
   {
+    key: "滴滴出行APP下架",
+    access: "all",
+    src:require("~/assets/banner/ddcx.png"),
+    url: "https://mp.weixin.qq.com/s/sT6aPDFvUEuIsXT7UOdlfQ",
+  },
+  /*{
     key: "离校手续",
     access: "all",
     src: require("~/assets/banner/lxsx.png"),
@@ -161,7 +167,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/ymjzxc.png"),
     url: "https://mp.weixin.qq.com/s/ZBdStq2WOhiiBwlmgwfFog",
-  }
+  }*/
 ];
 const leftItem = [
   {
