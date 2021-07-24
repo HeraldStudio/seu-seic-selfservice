@@ -145,11 +145,23 @@ const banner = [
     url: "",
   },
   {
+    key: "云会议平台",
+    access: "all",
+    src: require("~/assets/banner/hypt.png"),
+    url: "https://mp.weixin.qq.com/s/mIaTD1ubFEs3dQqYHJgxNw"
+  },
+  {
+    key: "东大信息化APP",
+    access: "all",
+    src: require("~/assets/banner/xxhapp.png"),
+    url: "https://mp.weixin.qq.com/s/6y4DzVLlmqG3GJst0ovpsg"
+  }
+  /*{
     key: "滴滴出行APP下架",
     access: "all",
     src:require("~/assets/banner/ddcx.png"),
     url: "https://mp.weixin.qq.com/s/sT6aPDFvUEuIsXT7UOdlfQ",
-  },
+  },*/
   /*{
     key: "离校手续",
     access: "all",
