@@ -297,7 +297,7 @@ const rightItem = {
     {
       key: "云会议申请",
       name: "云会议申请",
-      access: ["213181019","320002594","213171780", "101005090", "103008527"],
+      access: ["1", "213181019", "320002594"],
       icon: require("~/assets/right-icon/yhysq.svg"),
       url: "http://meeting.seu.edu.cn/h5/",
     },
