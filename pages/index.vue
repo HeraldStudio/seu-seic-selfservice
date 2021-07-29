@@ -155,6 +155,18 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/xxhapp.png"),
     url: "https://mp.weixin.qq.com/s/6y4DzVLlmqG3GJst0ovpsg"
+  },
+  {
+    key: "Adobe全家桶",
+    access: "all",
+    src: require("~/assets/banner/adobeqjt.png"),
+    url: "https://mp.weixin.qq.com/s/NowsQYxTPrs4GuCOQix6pw"
+  },
+  {
+    key: "信息安全",
+    access: "all",
+    src: require("~/assets/banner/bbdy.png"),
+    url: "https://mp.weixin.qq.com/s/nPUPjsXB9wj9TdbkaNacJg"
   }
   /*{
     key: "滴滴出行APP下架",
