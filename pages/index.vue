@@ -145,6 +145,18 @@ const banner = [
     url: "",
   },
   {
+    key: "腾讯会议使用指南",
+    access: "all",
+    src: require("~/assets/banner/syzn.png"),
+    url: "https://mp.weixin.qq.com/s/TuJHO6Y0ZJSq4hM52QcPLw",
+  },
+  {
+    key: "志愿者招募",
+    access: "all",
+    src: require("~/assets/banner/zyzzm.jpg"),
+    url: "https://mp.weixin.qq.com/s/FZj9grI1IGhcK4yPKp69vQ",
+  },
+  {
     key: "云会议平台",
     access: "all",
     src: require("~/assets/banner/hypt.png"),
