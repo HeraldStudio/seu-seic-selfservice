@@ -145,6 +145,18 @@ const banner = [
     url: "",
   },
   {
+    key: "科研办公助手",
+    access: "all",
+    src: require("~/assets/banner/bgzs.jpg"),
+    url: "https://mp.weixin.qq.com/s/9p47jSNkAMONdqYioKbsbg",
+  },
+  {
+    key: "工作盘点",
+    access: "all",
+    src: require("~/assets/banner/gzpd.png"),
+    url: "https://mp.weixin.qq.com/s/WcbEeZXm8v8uVH3hqrvm7w",
+  }
+  /*{
     key: "腾讯会议使用指南",
     access: "all",
     src: require("~/assets/banner/syzn.png"),
@@ -179,7 +191,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/bbdy.png"),
     url: "https://mp.weixin.qq.com/s/nPUPjsXB9wj9TdbkaNacJg"
-  }
+  }*/
   /*{
     key: "滴滴出行APP下架",
     access: "all",
