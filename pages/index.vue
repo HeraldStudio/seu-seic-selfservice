@@ -145,16 +145,16 @@ const banner = [
     url: "",
   },
   {
-    key: "科研办公助手",
+    key: "服务指南",
     access: "all",
-    src: require("~/assets/banner/bgzs.jpg"),
-    url: "https://mp.weixin.qq.com/s/9p47jSNkAMONdqYioKbsbg",
+    src: require("~/assets/banner/fwzn.jpg"),
+    url: "https://mp.weixin.qq.com/s/Or4jzUcUJTZzRr6NBONibw",
   },
   {
-    key: "工作盘点",
+    key: "IPv6",
     access: "all",
-    src: require("~/assets/banner/gzpd.png"),
-    url: "https://mp.weixin.qq.com/s/WcbEeZXm8v8uVH3hqrvm7w",
+    src: require("~/assets/banner/ipv6.png"),
+    url: "https://mp.weixin.qq.com/s/4aXTawyoTWa0vXeM0zq_Kg",
   }
   /*{
     key: "腾讯会议使用指南",
