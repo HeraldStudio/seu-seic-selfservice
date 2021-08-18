@@ -145,6 +145,12 @@ const banner = [
     url: "",
   },
   {
+    key: "东大云盘",
+    access: "all",
+    src: require("~/assets/banner/ddyp.jpg"),
+    url: "https://mp.weixin.qq.com/s/qB_u8m2pTJsW9G_Sof5A-w",
+  },
+  {
     key: "服务指南",
     access: "all",
     src: require("~/assets/banner/fwzn.jpg"),
