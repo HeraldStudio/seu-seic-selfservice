@@ -145,83 +145,29 @@ const banner = [
     url: "",
   },
   {
-    key: "东大云盘",
+    key: "萌新服务平台",
     access: "all",
-    src: require("~/assets/banner/ddyp.jpg"),
-    url: "https://mp.weixin.qq.com/s/qB_u8m2pTJsW9G_Sof5A-w",
-  },
-  {
-    key: "服务指南",
-    access: "all",
-    src: require("~/assets/banner/fwzn.jpg"),
-    url: "https://mp.weixin.qq.com/s/Or4jzUcUJTZzRr6NBONibw",
-  },
-  {
-    key: "IPv6",
-    access: "all",
-    src: require("~/assets/banner/ipv6.png"),
-    url: "https://mp.weixin.qq.com/s/4aXTawyoTWa0vXeM0zq_Kg",
+    src: require("~/assets/banner/mxfw.png"),
+    url: "https://mp.weixin.qq.com/s/1EN4TAY_RFmQSuPVt29MwQ",
   }
-  /*{
-    key: "腾讯会议使用指南",
-    access: "all",
-    src: require("~/assets/banner/syzn.png"),
-    url: "https://mp.weixin.qq.com/s/TuJHO6Y0ZJSq4hM52QcPLw",
-  },
-  {
-    key: "志愿者招募",
-    access: "all",
-    src: require("~/assets/banner/zyzzm.jpg"),
-    url: "https://mp.weixin.qq.com/s/FZj9grI1IGhcK4yPKp69vQ",
-  },
-  {
-    key: "云会议平台",
-    access: "all",
-    src: require("~/assets/banner/hypt.png"),
-    url: "https://mp.weixin.qq.com/s/mIaTD1ubFEs3dQqYHJgxNw"
-  },
-  {
-    key: "东大信息化APP",
-    access: "all",
-    src: require("~/assets/banner/xxhapp.png"),
-    url: "https://mp.weixin.qq.com/s/6y4DzVLlmqG3GJst0ovpsg"
-  },
-  {
-    key: "Adobe全家桶",
-    access: "all",
-    src: require("~/assets/banner/adobeqjt.png"),
-    url: "https://mp.weixin.qq.com/s/NowsQYxTPrs4GuCOQix6pw"
-  },
-  {
-    key: "信息安全",
-    access: "all",
-    src: require("~/assets/banner/bbdy.png"),
-    url: "https://mp.weixin.qq.com/s/nPUPjsXB9wj9TdbkaNacJg"
-  }*/
-  /*{
-    key: "滴滴出行APP下架",
-    access: "all",
-    src:require("~/assets/banner/ddcx.png"),
-    url: "https://mp.weixin.qq.com/s/sT6aPDFvUEuIsXT7UOdlfQ",
-  },*/
-  /*{
-    key: "离校手续",
-    access: "all",
-    src: require("~/assets/banner/lxsx.png"),
-    url: "https://mp.weixin.qq.com/s/aDycpA8vrfqb7oCwnd4_1g",
-  },
-  {
-    key: "正版软件",
-    access: "all",
-    src: require("~/assets/banner/zbrj.png"),
-    url: "https://mp.weixin.qq.com/s/rCiFqymQwVLkI974tXomsA",
-  },
-  {
-    key: "疫苗接种现场",
-    access: "all",
-    src: require("~/assets/banner/ymjzxc.png"),
-    url: "https://mp.weixin.qq.com/s/ZBdStq2WOhiiBwlmgwfFog",
-  }*/
+  // {
+  //   key: "东大云盘",
+  //   access: "all",
+  //   src: require("~/assets/banner/ddyp.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/qB_u8m2pTJsW9G_Sof5A-w",
+  // },
+  // {
+  //   key: "服务指南",
+  //   access: "all",
+  //   src: require("~/assets/banner/fwzn.jpg"),
+  //   url: "https://mp.weixin.qq.com/s/Or4jzUcUJTZzRr6NBONibw",
+  // },
+  // {
+  //   key: "IPv6",
+  //   access: "all",
+  //   src: require("~/assets/banner/ipv6.png"),
+  //   url: "https://mp.weixin.qq.com/s/4aXTawyoTWa0vXeM0zq_Kg",
+  // }
 ];
 const leftItem = [
   {
