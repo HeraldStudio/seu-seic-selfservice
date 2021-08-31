@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/compat-data": "^7.12.1",
+    "@nuxt/types": "^2.15.7",
     "nodemon": "^1.18.9"
   }
 }
