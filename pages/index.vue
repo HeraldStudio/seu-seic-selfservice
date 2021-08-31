@@ -290,7 +290,7 @@ const rightItem = {
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
-      url: "https://nic.seu.edu.cn/bxs/zhxyfwzn.htm",
+      url: "https://nic.seu.edu.cn/index.htm",
     },
     {
       key: "ZOOM云会议",
