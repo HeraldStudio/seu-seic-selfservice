@@ -285,6 +285,14 @@ const rightItem = {
       url:
         "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DYJSFXSQ",
     },
+    {
+      key: "留学生进出校",
+      name: "留学生进出校",
+      access: ["cisjcxtest001", "320003905", "103006882", "103009104"],
+      icon: require("~/assets/right-icon/rxsq.svg"),
+      url:
+        "http://cisjcx.seu.edu.cn/wui/cas-entrance.jsp?path=%2Fspa%2Fem%2Fmobile.html",
+    },
   ],
   个人服务: [
     {
