@@ -149,6 +149,12 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/mxfw.png"),
     url: "https://mp.weixin.qq.com/s/1EN4TAY_RFmQSuPVt29MwQ",
+  },
+  {
+    key: "网信协会",
+    access: "all",
+    src: require("~/assets/banner/wxxh.jpg"),
+    url: "https://mp.weixin.qq.com/s/aIPfqP40uqMKmWHxHvSjFg",
   }
   // {
   //   key: "东大云盘",
