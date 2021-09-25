@@ -145,6 +145,18 @@ const banner = [
     url: "",
   },
   {
+    key: "新生数据",
+    access: "all",
+    src: require("~/assets/banner/xssj.jpg"),
+    url: "https://mp.weixin.qq.com/s/dfBT1XW_mL1PD0qojrjHag",
+  },
+  {
+    key: "Adobe失效解决办法",
+    access: "all",
+    src: require("~/assets/banner/adobesx.jpg"),
+    url: "https://mp.weixin.qq.com/s/8lODRP6tHg7PtTEHdAIxvQ",
+  },
+  {
     key: "萌新服务平台",
     access: "all",
     src: require("~/assets/banner/mxfw.png"),
