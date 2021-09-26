@@ -145,6 +145,12 @@ const banner = [
     url: "",
   },
   {
+    key: "东大专属背景",
+    access: "all",
+    src: require("~/assets/banner/zsbj.jpg"),
+    url: "https://mp.weixin.qq.com/s/ixgdkBdnp3s7U_3D1Lq9bQ",
+  },
+  {
     key: "新生数据",
     access: "all",
     src: require("~/assets/banner/xssj.jpg"),
