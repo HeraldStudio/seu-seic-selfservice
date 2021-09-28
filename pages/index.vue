@@ -161,37 +161,7 @@ const banner = [
     access: "all",
     src: require("~/assets/banner/adobesx.jpg"),
     url: "https://mp.weixin.qq.com/s/8lODRP6tHg7PtTEHdAIxvQ",
-  },
-  {
-    key: "萌新服务平台",
-    access: "all",
-    src: require("~/assets/banner/mxfw.png"),
-    url: "https://mp.weixin.qq.com/s/1EN4TAY_RFmQSuPVt29MwQ",
-  },
-  {
-    key: "网信协会",
-    access: "all",
-    src: require("~/assets/banner/wxxh.jpg"),
-    url: "https://mp.weixin.qq.com/s/aIPfqP40uqMKmWHxHvSjFg",
   }
-  // {
-  //   key: "东大云盘",
-  //   access: "all",
-  //   src: require("~/assets/banner/ddyp.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/qB_u8m2pTJsW9G_Sof5A-w",
-  // },
-  // {
-  //   key: "服务指南",
-  //   access: "all",
-  //   src: require("~/assets/banner/fwzn.jpg"),
-  //   url: "https://mp.weixin.qq.com/s/Or4jzUcUJTZzRr6NBONibw",
-  // },
-  // {
-  //   key: "IPv6",
-  //   access: "all",
-  //   src: require("~/assets/banner/ipv6.png"),
-  //   url: "https://mp.weixin.qq.com/s/4aXTawyoTWa0vXeM0zq_Kg",
-  // }
 ];
 const leftItem = [
   {
