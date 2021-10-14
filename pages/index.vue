@@ -322,7 +322,7 @@ const rightItem = {
       name: "移动OA服务",
       access: "all",
       icon: require("~/assets/right-icon/oa.svg"),
-      url: "http://mcp.seu.edu.cn/public/download/index.html",
+      url: "https://m.seu.edu.cn",
     },
     {
       key: "上网充值",
