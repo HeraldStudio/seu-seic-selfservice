@@ -294,7 +294,7 @@ const rightItem = {
       name: "服务指南",
       access: "all",
       icon: require("~/assets/right-icon/fwzn.svg"),
-      url: "https://nic.seu.edu.cn/wlyxxzx/bxs/zhxyfwzn.htm",
+      url: "https://nic.seu.edu.cn/zhxyfwzn.htm",
     },
     {
       key: "云会议申请",
