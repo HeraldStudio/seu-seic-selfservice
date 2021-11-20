@@ -336,7 +336,8 @@ const rightItem = {
       name: "电子邮件",
       access: "all",
       icon: require("~/assets/right-icon/email.svg"),
-      url: "https://mail.seu.edu.cn/coremail/xphone/",
+      // url: "https://mail.seu.edu.cn/coremail/xphone/",
+      url: "https://mail.seu.edu.cn",
     },
     {
       key: "东大云盘",
