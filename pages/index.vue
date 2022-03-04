@@ -287,6 +287,13 @@ const rightItem = {
       url:
         "http://cisjcx.seu.edu.cn/wui/cas-entrance.jsp?path=%2Fspa%2Fem%2Fmobile.html",
     },
+    {
+      key: "门禁查询",
+      name: "门禁查询",
+      access: ["320003905","320003919"],
+      icon: require("~/assets/right-icon/mjcx.png"),
+      url: "https://ywgl.seu.edu.cn/stu_info_query",
+    },
   ],
   个人服务: [
     {
