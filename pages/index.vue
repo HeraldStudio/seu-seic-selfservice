@@ -129,8 +129,8 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-import { Carousel, CarouselItem, Dialog, Button } from "element-ui";
+import Logo from '~/components/Logo.vue'
+import { Carousel, CarouselItem, Dialog, Button } from 'element-ui'
 const banner = [
   // {
   //   key: "小猴偷米App",
@@ -139,176 +139,169 @@ const banner = [
   //   url: "https://mp.weixin.qq.com/s/ntWJdaCfHddMrWswTK28aQ"
   // },
   {
-    key: "自助服务疫情防控",
-    access: "all",
-    src: require("~/assets/banner/zzfw1.png"),
-    url: "",
+    key: '自助服务疫情防控',
+    access: 'all',
+    src: require('~/assets/banner/zzfw1.png'),
+    url: ''
   },
   {
-    key: "东大专属背景",
-    access: "all",
-    src: require("~/assets/banner/zsbj.jpg"),
-    url: "https://mp.weixin.qq.com/s/ixgdkBdnp3s7U_3D1Lq9bQ",
+    key: '东大专属背景',
+    access: 'all',
+    src: require('~/assets/banner/zsbj.jpg'),
+    url: 'https://mp.weixin.qq.com/s/ixgdkBdnp3s7U_3D1Lq9bQ'
   },
   {
-    key: "新生数据",
-    access: "all",
-    src: require("~/assets/banner/xssj.jpg"),
-    url: "https://mp.weixin.qq.com/s/dfBT1XW_mL1PD0qojrjHag",
+    key: '新生数据',
+    access: 'all',
+    src: require('~/assets/banner/xssj.jpg'),
+    url: 'https://mp.weixin.qq.com/s/dfBT1XW_mL1PD0qojrjHag'
   },
   {
-    key: "Adobe失效解决办法",
-    access: "all",
-    src: require("~/assets/banner/adobesx.jpg"),
-    url: "https://mp.weixin.qq.com/s/8lODRP6tHg7PtTEHdAIxvQ",
+    key: 'Adobe失效解决办法',
+    access: 'all',
+    src: require('~/assets/banner/adobesx.jpg'),
+    url: 'https://mp.weixin.qq.com/s/8lODRP6tHg7PtTEHdAIxvQ'
   }
-];
+]
 const leftItem = [
   {
-    name: "疫情防控",
-    access: "all",
-    activeIcon: require("~/assets/left-icon/yqfk-orange.svg"),
-    icon: require("~/assets/left-icon/yqfk-white.svg"),
+    name: '疫情防控',
+    access: 'all',
+    activeIcon: require('~/assets/left-icon/yqfk-orange.svg'),
+    icon: require('~/assets/left-icon/yqfk-white.svg')
   },
   {
-    name: "迎新专栏",
-    access: ["1", "2", "320002594"],
-    activeIcon: require("~/assets/left-icon/yxfw-orange.svg"),
-    icon: require("~/assets/left-icon/yxfw-white.svg"),
+    name: '迎新专栏',
+    access: ['1', '2', '320002594'],
+    activeIcon: require('~/assets/left-icon/yxfw-orange.svg'),
+    icon: require('~/assets/left-icon/yxfw-white.svg')
   },
   {
-    name: "个人服务",
-    access: "all",
-    activeIcon: require("~/assets/left-icon/fwlc-orange.svg"),
-    icon: require("~/assets/left-icon/fwlc-white.svg"),
+    name: '个人服务',
+    access: 'all',
+    activeIcon: require('~/assets/left-icon/fwlc-orange.svg'),
+    icon: require('~/assets/left-icon/fwlc-white.svg')
   },
   {
-    name: "部门服务",
-    access: ["1", "3", "213183580", "320002594"],
-    activeIcon: require("~/assets/left-icon/gzlc-orange.svg"),
-    icon: require("~/assets/left-icon/gzlc-white.svg"),
-  },
-];
+    name: '部门服务',
+    access: ['1', '3', '213183580', '320002594'],
+    activeIcon: require('~/assets/left-icon/gzlc-orange.svg'),
+    icon: require('~/assets/left-icon/gzlc-white.svg')
+  }
+]
 const rightItem = {
   疫情防控: [
     {
-      key: "疫情防控",
-      name: "健康申报",
-      access: "all",
-      icon: require("~/assets/right-icon/yqfk.svg"),
+      key: '疫情防控',
+      name: '健康申报',
+      access: 'all',
+      icon: require('~/assets/right-icon/yqfk.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp2/sys/lwReportEpidemicSeu/*default/index.do'
     },
     {
-      key: "入校申请",
-      name: "入校申请审批",
-      access: "all",
-      icon: require("~/assets/right-icon/rxsq.svg"),
+      key: '入校申请',
+      name: '入校申请审批',
+      access: 'all',
+      icon: require('~/assets/right-icon/rxsq.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp3/sys/lwWiseduElectronicPass/*default/index.do'
     },
     {
-      key: "浴室预约",
-      name: "浴室预约",
-      access: "all",
-      icon: require("~/assets/right-icon/ysyy.svg"),
+      key: '浴室预约',
+      name: '浴室预约',
+      access: 'all',
+      icon: require('~/assets/right-icon/ysyy.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://zwys.seu.edu.cn:8080/ddshower/f/wechat/user/showerIndex'
     },
     {
-      key: "外出审批",
-      name: "疫情期间外出审批系统",
-      access: ["1", "3"],
-      icon: require("~/assets/right-icon/wcsp.svg"),
+      key: '外出审批',
+      name: '疫情期间外出审批系统',
+      access: ['1', '3'],
+      icon: require('~/assets/right-icon/wcsp.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/qljfwapp4/sys/lwSeuSpecialPeriodEvection/*default/index.do'
     },
     {
-      key: "研究生请假审批",
-      name: "研究生请假审批",
-      access: ["22", "1", "23", "307", "320002594"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      key: '研究生请假审批',
+      name: '研究生请假审批',
+      access: ['22', '1', '23', '307', '320002594'],
+      icon: require('~/assets/right-icon/cxsp-master.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/ygfw/sys/swmxsqjappseuyangong/*default/index.do'
     },
     {
-      key: "本科生请假审批",
-      name: "本科生请假审批",
-      access: ["1", "21", "320002594"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      key: '本科生请假审批',
+      name: '本科生请假审批',
+      access: ['1', '21', '320002594'],
+      icon: require('~/assets/right-icon/cxsp-master.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmxsqjapp/*default/index.do'
     },
     {
-      key: "访客入校审批",
-      name: "访客入校审批",
-      access: "all",
-      icon: require("~/assets/right-icon/rxsq.svg"),
+      key: '访客入校审批',
+      name: '访客入校审批',
+      access: 'all',
+      icon: require('~/assets/right-icon/rxsq.svg'),
       url:
-        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3a%2f%2finfoplus.seu.edu.cn%2ftxm%2ftodo",
+        'https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3a%2f%2finfoplus.seu.edu.cn%2ftxm%2ftodo'
     },
     {
-      key: "研究生返校申请",
-      name: "研究生返校申请",
-      access: ["22", "320002317", "23", "320002594"],
-      icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
+      key: '研究生返校申请',
+      name: '研究生返校申请',
+      access: ['22', '320002317', '23', '320002594'],
+      icon: require('~/assets/right-icon/rxsq.svg'),
+      url: 'https://ywgl.seu.edu.cn/stuapply_mobile'
     },
     {
-      key: "本科生返校申请",
-      name: "本科生返校申请",
-      access: ["21", "320002317", "320002594"],
-      icon: require("~/assets/right-icon/rxsq.svg"),
-      url: "https://ywgl.seu.edu.cn/stuapply_mobile",
+      key: '本科生返校申请',
+      name: '本科生返校申请',
+      access: ['21', '320002317', '320002594'],
+      icon: require('~/assets/right-icon/rxsq.svg'),
+      url: 'https://ywgl.seu.edu.cn/stuapply_mobile'
     },
     {
-      key: "本科生返校审批",
-      name: "本科生返校审批",
-      access: ["1", "320002317", "320002594"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      key: '本科生返校审批',
+      name: '本科生返校审批',
+      access: ['1', '320002317', '320002594'],
+      icon: require('~/assets/right-icon/cxsp-master.svg'),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
-        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DBKSFXSQ",
+        'https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DBKSFXSQ'
     },
     {
-      key: "研究生返校审批",
-      name: "研究生返校审批",
-      access: ["1", "320002317", "307", "320002594"],
-      icon: require("~/assets/right-icon/cxsp-master.svg"),
+      key: '研究生返校审批',
+      name: '研究生返校审批',
+      access: ['1', '320002317', '307', '320002594'],
+      icon: require('~/assets/right-icon/cxsp-master.svg'),
       // url: "http://nicspd.seu.edu.cn/infodash/",
       url:
-        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DYJSFXSQ",
+        'https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DYJSFXSQ'
     },
     {
-      key: "留学生进出校",
-      name: "留学生进出校",
-      access: ["cisjcxtest001", "320003905", "103006882", "103009104"],
-      icon: require("~/assets/right-icon/rxsq.svg"),
+      key: '留学生进出校',
+      name: '留学生进出校',
+      access: ['cisjcxtest001', '320003905', '103006882', '103009104'],
+      icon: require('~/assets/right-icon/rxsq.svg'),
       url:
-        "http://cisjcx.seu.edu.cn/wui/cas-entrance.jsp?path=%2Fspa%2Fem%2Fmobile.html",
-    },
-    {
-      key: "门禁查询",
-      name: "门禁查询",
-      access: ["320003905","320003919"],
-      icon: require("~/assets/right-icon/mjcx.png"),
-      url: "https://ywgl.seu.edu.cn/stu_info_query",
-    },
+        'http://cisjcx.seu.edu.cn/wui/cas-entrance.jsp?path=%2Fspa%2Fem%2Fmobile.html'
+    }
   ],
   个人服务: [
     {
-      key: "服务指南",
-      name: "服务指南",
-      access: "all",
-      icon: require("~/assets/right-icon/fwzn.svg"),
-      url: "https://nic.seu.edu.cn/zhxyfwzn.htm",
+      key: '服务指南',
+      name: '服务指南',
+      access: 'all',
+      icon: require('~/assets/right-icon/fwzn.svg'),
+      url: 'https://nic.seu.edu.cn/zhxyfwzn.htm'
     },
     {
-      key: "云会议申请",
-      name: "云会议申请",
-      access: ["1", "213181019", "320002594"],
-      icon: require("~/assets/right-icon/yhysq.svg"),
-      url: "http://meeting.seu.edu.cn/h5/",
+      key: '云会议申请',
+      name: '云会议申请',
+      access: ['1', '213181019', '320002594'],
+      icon: require('~/assets/right-icon/yhysq.svg'),
+      url: 'http://meeting.seu.edu.cn/h5/'
     },
     // {
     //   key: "ZOOM云会议",
@@ -325,90 +318,91 @@ const rightItem = {
     //   url: "https://nic.seu.edu.cn/_s21/2020/0130/c27530a316322/pagem.psp",
     // },
     {
-      key: "移动OA服务",
-      name: "移动OA服务",
-      access: "all",
-      icon: require("~/assets/right-icon/oa.svg"),
-      url: "https://m.seu.edu.cn",
+      key: '移动OA服务',
+      name: '移动OA服务',
+      access: 'all',
+      icon: require('~/assets/right-icon/oa.svg'),
+      url: 'https://m.seu.edu.cn'
     },
     {
-      key: "上网充值",
-      name: "上网充值",
-      access: "all",
-      icon: require("~/assets/right-icon/swcz.svg"),
-      url: "http://selfservice.seu.edu.cn/Self",
+      key: '上网充值',
+      name: '上网充值',
+      access: 'all',
+      icon: require('~/assets/right-icon/swcz.svg'),
+      url: 'http://selfservice.seu.edu.cn/Self'
     },
     {
-      key: "电子邮件",
-      name: "电子邮件",
-      access: "all",
-      icon: require("~/assets/right-icon/email.svg"),
+      key: '电子邮件',
+      name: '电子邮件',
+      access: 'all',
+      icon: require('~/assets/right-icon/email.svg'),
       // url: "https://mail.seu.edu.cn/coremail/xphone/",
-      url: "https://mail.seu.edu.cn",
+      url: 'https://mail.seu.edu.cn'
     },
     {
-      key: "东大云盘",
-      name: "东大云盘",
-      access: ["1","2","320002594"],
-      icon: require("~/assets/right-icon/yun.svg"),
-      url: "http://newids.seu.edu.cn/authserver/login?service=https://pan.seu.edu.cn/sso",
-    },
-    {
-      key: "综合考评",
-      name: "综合考评",
-      access: "all",
-      icon: require("~/assets/right-icon/zhkp.svg"),
-      url: "http://zhkp.seu.edu.cn",
-    },
-    {
-      key: "课程表",
-      name: "课表查询",
-      access: ["1", "2", "320002594"],
-      icon: require("~/assets/right-icon/kcb.svg"),
+      key: '东大云盘',
+      name: '东大云盘',
+      access: ['1', '2', '320002594'],
+      icon: require('~/assets/right-icon/yun.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do",
+        'http://newids.seu.edu.cn/authserver/login?service=https://pan.seu.edu.cn/sso'
     },
     {
-      key: "校车时刻",
-      name: "校车查询",
-      access: "all",
-      icon: require("~/assets/right-icon/xcsk.svg"),
-      url: "https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm",
+      key: '综合考评',
+      name: '综合考评',
+      access: 'all',
+      icon: require('~/assets/right-icon/zhkp.svg'),
+      url: 'http://zhkp.seu.edu.cn'
     },
     {
-      key: "党费缴纳",
-      name: "党费缴纳",
-      access: "all",
-      icon: require("~/assets/right-icon/dfjn.svg"),
+      key: '课程表',
+      name: '课表查询',
+      access: ['1', '2', '320002594'],
+      icon: require('~/assets/right-icon/kcb.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/jwapp/sys/bykbseuMobile/*default/index.do'
     },
     {
-      key: "学生公寓",
-      name: "学生公寓",
-      access: "all",
-      icon: require("~/assets/right-icon/xsgy.svg"),
+      key: '校车时刻',
+      name: '校车查询',
+      access: 'all',
+      icon: require('~/assets/right-icon/xcsk.svg'),
+      url: 'https://zwc.seu.edu.cn/2020/0413/c4297a323906/page.htm'
+    },
+    {
+      key: '党费缴纳',
+      name: '党费缴纳',
+      access: 'all',
+      icon: require('~/assets/right-icon/dfjn.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmssdhappseu/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/publiccrowd_bw/sys/pubmdfglseu/index.do'
     },
     {
-      key: "本科招生",
-      name: "本科招生",
+      key: '学生公寓',
+      name: '学生公寓',
+      access: 'all',
+      icon: require('~/assets/right-icon/xsgy.svg'),
+      url:
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/zwfw/sys/swmssdhappseu/*default/index.do'
+    },
+    {
+      key: '本科招生',
+      name: '本科招生',
       access: [
-        "213162317",
-        "213171610",
-        "103008527",
-        "109000473",
-        "109000474",
-        "310006421",
-        "310006422",
-        "312001285",
-        "220123456",
-        "213180720",
-        "213193423",
+        '213162317',
+        '213171610',
+        '103008527',
+        '109000473',
+        '109000474',
+        '310006421',
+        '310006422',
+        '312001285',
+        '220123456',
+        '213180720',
+        '213193423'
       ],
-      icon: require("~/assets/right-icon/zwfw-gray.svg"),
-      url: "http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html",
+      icon: require('~/assets/right-icon/zwfw-gray.svg'),
+      url: 'http://bkzs.seu.edu.cn/bkzs/sys/yxsyglxsdappseu/index.html'
     },
     //{
     //  key: "网络安全知识竞赛",
@@ -418,52 +412,60 @@ const rightItem = {
     //  url: "https://seicwxbz.seu.edu.cn/quiz/",
     //},
     {
-      key: "财务权限申请",
-      name: "财务权限申请",
-      access: ["1","3"],
-      icon: require("~/assets/right-icon/xwrycw.svg"),
+      key: '财务权限申请',
+      name: '财务权限申请',
+      access: ['1', '3'],
+      icon: require('~/assets/right-icon/xwrycw.svg'),
       url:
-        "https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DXWRYCWQXSP",
+        'https://infoplus.seu.edu.cn/sso/login?x_jump_mark=CUSTOM_CAS&redirect_uri=https%3A%2F%2Finfoplus.seu.edu.cn%2Ftaskcenter%2Fwechat%2Ftodo%3FappCode%3DXWRYCWQXSP'
     },
     {
-      key: "健康预约服务",
-      name: "健康预约服务",
-      access: "all",
-      icon: require("~/assets/right-icon/sstj.svg"),
+      key: '健康预约服务',
+      name: '健康预约服务',
+      access: 'all',
+      icon: require('~/assets/right-icon/sstj.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://yytj.seu.edu.cn'
     },
     {
-      key: "教师发展培训",
-      name: "教师发展培训",
-      access: ["1", "213183580", "213181432"],
-      icon: require("~/assets/right-icon/jsfzpx.svg"),
+      key: '教师发展培训',
+      name: '教师发展培训',
+      access: ['1', '213183580', '213181432'],
+      icon: require('~/assets/right-icon/jsfzpx.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://jspx.seu.edu.cn/wx/goWxIndexPage",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://jspx.seu.edu.cn/wx/goWxIndexPage'
     },
     {
-      key: "移动医疗服务",
-      name: "移动医疗服务",
-      access: "all",
-      icon: require("~/assets/right-icon/ydyl.svg"),
-      url:
-        "http://yygh.seu.edu.cn/index2.aspx",
+      key: '移动医疗服务',
+      name: '移动医疗服务',
+      access: 'all',
+      icon: require('~/assets/right-icon/ydyl.svg'),
+      url: 'http://yygh.seu.edu.cn/index2.aspx'
     },
     {
-      key: "移动科研",
-      name: "移动科研",
-      access: "all",
-      icon: require("~/assets/right-icon/science.svg"),
+      key: '移动科研',
+      name: '移动科研',
+      access: 'all',
+      icon: require('~/assets/right-icon/science.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/index.html",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://newky.seu.edu.cn/m/index.html'
     },
     {
-      key: "网瑞达工单",
-      name: "网络报修（测试）",
-      access: ["320002594","nicservicetest1","nicservicetest2","101005090","103008527","320003343","320003344","213191209"],
-      icon: require("~/assets/right-icon/wrdgd.svg"),
+      key: '网瑞达工单',
+      name: '网络报修（测试）',
+      access: [
+        '320002594',
+        'nicservicetest1',
+        'nicservicetest2',
+        '101005090',
+        '103008527',
+        '320003343',
+        '320003344',
+        '213191209'
+      ],
+      icon: require('~/assets/right-icon/wrdgd.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn'
     }
   ],
   部门服务: [
@@ -476,70 +478,70 @@ const rightItem = {
     //     "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.ejwzsq&appload=0",
     // },
     {
-      key: "三级网站",
-      name: "三级网站申请",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/sjwz.svg"),
+      key: '三级网站',
+      name: '三级网站申请',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/sjwz.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq&appload=0",
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.wzkt.sjwzsq&appload=0'
     },
     {
-      key: "统一通信平台",
-      name: "统一通信平台",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/tytxpt.svg"),
+      key: '统一通信平台',
+      name: '统一通信平台',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/tytxpt.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt&appload=0",
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_tytxpt&appload=0'
     },
     {
-      key: "短信接口",
-      name: "短信接口",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/dxjk.svg"),
+      key: '短信接口',
+      name: '短信接口',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/dxjk.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy&appload=0",
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.dxjkfw.dxjkfw_dxjkdy&appload=0'
     },
     {
-      key: "虚拟机申请",
-      name: "虚拟机申请",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/xnjsq.svg"),
+      key: '虚拟机申请',
+      name: '虚拟机申请',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/xnjsq.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq&appload=0",
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.xjsq.xjsq&appload=0'
     },
     {
-      key: "域名申请",
-      name: "域名申请",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/ymsq.svg"),
+      key: '域名申请',
+      name: '域名申请',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/ymsq.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq&appload=0",
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymsq.ymsq&appload=0'
     },
     {
-      key: "域名变更",
-      name: "域名变更",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/ymbg.svg"),
+      key: '域名变更',
+      name: '域名变更',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/ymbg.svg'),
       url:
-        "http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0",
-    },
+        'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0'
+    }
   ],
   迎新专栏: [
     {
-      key: "迎新服务",
-      name: "迎新服务",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/yxfw.svg"),
+      key: '迎新服务',
+      name: '迎新服务',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/yxfw.svg'),
       url:
-        "https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do",
+        'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=http://ehall.seu.edu.cn/xsfw/sys/swmyxapp/*default/index.do'
     },
     {
-      key: "迎新网",
-      name: "迎新网",
-      access: ["1", "2"],
-      icon: require("~/assets/right-icon/yxw.svg"),
-      url: "https://yingxin.seu.edu.cn",
-    },
+      key: '迎新网',
+      name: '迎新网',
+      access: ['1', '2'],
+      icon: require('~/assets/right-icon/yxw.svg'),
+      url: 'https://yingxin.seu.edu.cn'
+    }
     // {
     //   key: "小猴偷米APP",
     //   name: "小猴偷米APP",
@@ -547,27 +549,27 @@ const rightItem = {
     //   icon: require("~/assets/right-icon/yxw.svg"),
     //   url: "https://yingxin.seu.edu.cn",
     // },
-  ],
-};
-import moment from "moment";
+  ]
+}
+import moment from 'moment'
 export default {
   components: {
     Logo,
-    "el-dialog": Dialog,
-    "el-carousel": Carousel,
-    "el-carousel-item": CarouselItem,
-    "el-button": Button,
+    'el-dialog': Dialog,
+    'el-carousel': Carousel,
+    'el-carousel-item': CarouselItem,
+    'el-button': Button
   },
-  data() {
+  data () {
     return {
-      leftActive: "疫情防控",
+      leftActive: '疫情防控',
       bannerIndex: 0,
       banner,
       leftItem,
       rightItem,
-      niclogo: require("~/assets/niclogo.png"),
-      voiceIcon: require("~/assets/voice.png"),
-      voicePlayingIcon: require("~/assets/voice-playing.gif"),
+      niclogo: require('~/assets/niclogo.png'),
+      voiceIcon: require('~/assets/voice.png'),
+      voicePlayingIcon: require('~/assets/voice-playing.gif'),
       voiceDialogVisible: false,
       currentVoice: 0,
       voice: [
@@ -578,165 +580,165 @@ export default {
       ],
       voicePlaying: false,
       showVoiceTip: false,
-      logoutDialogVisible: false,
-    };
+      logoutDialogVisible: false
+    }
   },
   methods: {
-    leftChange(index) {
-      this.leftActive = index;
+    leftChange (index) {
+      this.leftActive = index
     },
-    bannerChange(index) {
-      this.bannerIndex = index;
-      console.log(this.bannerIndex);
+    bannerChange (index) {
+      this.bannerIndex = index
+      console.log(this.bannerIndex)
     },
-    openBannerUrl() {
-      let url = this.banner[this.bannerIndex].url;
+    openBannerUrl () {
+      let url = this.banner[this.bannerIndex].url
       if (url) {
-        window.location = url;
+        window.location = url
       }
     },
-    openUrl(url) {
-      console.log(url);
+    openUrl (url) {
+      console.log(url)
       if (url) {
-        window.location = url;
+        window.location = url
       }
     },
-    playVoice() {
-      this.voicePlaying = true;
+    playVoice () {
+      this.voicePlaying = true
       setTimeout(() => {
-        this.voicePlaying = false;
-      }, 8000);
-      this.$refs["voice"].load();
-      this.$refs["voice"].play();
+        this.voicePlaying = false
+      }, 8000)
+      this.$refs['voice'].load()
+      this.$refs['voice'].play()
     },
-    showVoiceDialog() {
-      this.voiceDialogVisible = true;
+    showVoiceDialog () {
+      this.voiceDialogVisible = true
     },
-    closeVoiceDialog() {
-      this.$refs["voice"].pause();
-      this.voiceDialogVisible = false;
+    closeVoiceDialog () {
+      this.$refs['voice'].pause()
+      this.voiceDialogVisible = false
     },
-    disableVoice() {
-      window.localStorage.setItem("disable_voice", true);
-      this.closeVoiceDialog();
+    disableVoice () {
+      window.localStorage.setItem('disable_voice', true)
+      this.closeVoiceDialog()
     },
-    changeVoice() {
-      this.voicePlaying = false;
-      this.$refs["voice"].pause();
-      this.currentVoice = (this.currentVoice + 1) % this.voice.length;
+    changeVoice () {
+      this.voicePlaying = false
+      this.$refs['voice'].pause()
+      this.currentVoice = (this.currentVoice + 1) % this.voice.length
     },
-    closeLogoutDialog() {
-      this.logoutDialogVisible = false;
+    closeLogoutDialog () {
+      this.logoutDialogVisible = false
     },
-    showLogoutDialog() {
-      this.logoutDialogVisible = true;
+    showLogoutDialog () {
+      this.logoutDialogVisible = true
     },
-    logout() {
-      window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=https://seicwxbz.seu.edu.cn/self-service`;
-    },
+    logout () {
+      window.location = `https://seicwxbz.seu.edu.cn/cas-we-can/logout?goto=https://seicwxbz.seu.edu.cn/self-service`
+    }
   },
   computed: {
-    bannerAvailable() {
-      return this.banner.filter((k) => {
-        if (k.access === "all") return true;
+    bannerAvailable () {
+      return this.banner.filter(k => {
+        if (k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
-            return true;
+            return true
           }
         }
-        return false;
-      });
+        return false
+      })
     },
-    leftAvailable() {
-      return this.leftItem.filter((k) => {
-        if (k.access === "all") return true;
+    leftAvailable () {
+      return this.leftItem.filter(k => {
+        if (k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
-            return true;
+            return true
           }
         }
-        return false;
-      });
+        return false
+      })
     },
-    rightAvailable() {
-      let res = this.rightItem[this.leftActive].filter((k) => {
-        if (k.access === "all") return true;
+    rightAvailable () {
+      let res = this.rightItem[this.leftActive].filter(k => {
+        if (k.access === 'all') return true
         for (let c of k.access) {
           if (this.cardnum.startsWith(c)) {
-            return true;
+            return true
           }
         }
-        return false;
-      });
-      return res;
-    },
+        return false
+      })
+      return res
+    }
   },
-  async asyncData({ req, res, $axios, query, route, redirect }) {
+  async asyncData ({ req, res, $axios, query, route, redirect }) {
     if (process.server) {
       // 在服务器端
       if (query.ticket) {
         // 如果有 ticket 则验证
-        console.log(query.ticket, "请求到达服务器");
+        console.log(query.ticket, '请求到达服务器')
         try {
           let casInfo = await $axios.get(
             `https://seicwxbz.seu.edu.cn/cas-we-can/serviceValidate?service=${encodeURIComponent(
-              "https://seicwxbz.seu.edu.cn/self-service/"
+              'https://seicwxbz.seu.edu.cn/self-service/'
             )}&ticket=${query.ticket}&json=1`
-          );
-          console.log(query.ticket, "验证成功");
+          )
+          console.log(query.ticket, '验证成功')
           console.log(
             `${casInfo.data.cas_info.name}-${casInfo.data.cas_info.cardnum} 访问自助服务`
-          );
+          )
           return {
             name: casInfo.data.cas_info.name,
-            cardnum: casInfo.data.cas_info.cardnum,
-          };
+            cardnum: casInfo.data.cas_info.cardnum
+          }
         } catch (e) {
           // console.log(e)
           redirect(
             `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-              "https://seicwxbz.seu.edu.cn/self-service/"
+              'https://seicwxbz.seu.edu.cn/self-service/'
             )}&timestamp=${+moment()}`
-          );
+          )
           // redirect('http://127.0.0.1/')
         }
       } else {
-        console.log("前往登录 " + req.path);
+        // console.log("前往登录 " + req.path);
         redirect(
           `https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=${encodeURIComponent(
-            "https://seicwxbz.seu.edu.cn/self-service/"
+            'https://seicwxbz.seu.edu.cn/self-service/'
           )}&timestamp=${+moment()}`
-        );
+        )
       }
     } else {
     }
   },
-  created() {
+  created () {
     if (process.client) {
-      console.log("执行客户端逻辑");
+      console.log('执行客户端逻辑')
       let lastVoicePlayDate = window.localStorage.getItem(
-        "last_voice_play_date"
-      );
-      let disableVoice = !!window.localStorage.getItem("disable_voice");
-      let hours = new Date().getHours();
+        'last_voice_play_date'
+      )
+      let disableVoice = !!window.localStorage.getItem('disable_voice')
+      let hours = new Date().getHours()
       if (
         !disableVoice &&
-        lastVoicePlayDate !== moment().format("YYYY-MM-DD") &&
+        lastVoicePlayDate !== moment().format('YYYY-MM-DD') &&
         hours >= 6 &&
         hours < 12
       ) {
         window.localStorage.setItem(
-          "last_voice_play_date",
-          moment().format("YYYY-MM-DD")
-        );
+          'last_voice_play_date',
+          moment().format('YYYY-MM-DD')
+        )
         setTimeout(() => {
-          this.showVoiceDialog();
-        }, 10);
+          this.showVoiceDialog()
+        }, 10)
       }
     }
     // 检查是否需要播放语音
-  },
-};
+  }
+}
 </script>
 
 <style>
