@@ -293,7 +293,7 @@ const rightItem = {
       access: ['320003905', '320003919'],
       icon: require('~/assets/right-icon/mjcx.png'),
       url:
-        'http://ywgl.seu.edu.cn/stu_query_info'
+        'https://ywgl.seu.edu.cn/stu_info_query'
     }
   ],
   个人服务: [
