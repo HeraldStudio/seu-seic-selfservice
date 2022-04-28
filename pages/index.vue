@@ -290,7 +290,7 @@ const rightItem = {
     {
       key: '门禁查询',
       name: '门禁查询',
-      access: ['320003905'],
+      access: 'all',
       icon: require('~/assets/right-icon/mjcx.svg'),
       url:
         'https://ywgl.seu.edu.cn/stu_info_query'
