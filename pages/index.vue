@@ -475,14 +475,14 @@ const rightItem = {
       url:
         'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn'
     },
-    {
-      key: '大型仪器共享',
-      name: '大型仪器共享',
-      access: 'all',
-      icon: require('~/assets/right-icon/dy.png'),
-      url:
-        'https://dyapp.seu.edu.cn/we'
-    }
+    // {
+    //   key: '大型仪器共享',
+    //   name: '大型仪器共享',
+    //   access: 'all',
+    //   icon: require('~/assets/right-icon/dy.png'),
+    //   url:
+    //     'https://dyapp.seu.edu.cn/we'
+    // }
   ],
   部门服务: [
     // {
