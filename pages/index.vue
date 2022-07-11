@@ -475,14 +475,29 @@ const rightItem = {
       url:
         'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn'
     },
-    // {
-    //   key: '大型仪器共享',
-    //   name: '大型仪器共享',
-    //   access: 'all',
-    //   icon: require('~/assets/right-icon/dy.png'),
-    //   url:
-    //     'https://dyapp.seu.edu.cn/we'
-    // }
+    {
+      key: '大型仪器共享',
+      name: '大型仪器共享',
+      access: ['230228541',
+      '213190824',
+      '220203103',
+      '230218121',
+      '220212304',
+      '230228059',
+      '220213245',
+      '101010947',
+      '109000042',
+      '101001178',
+      '103007102',
+      '103008511',
+      '103006729',
+      '101005478',
+      '101003532'
+      ],
+      icon: require('~/assets/right-icon/dy.png'),
+      url:
+        'https://dyapp.seu.edu.cn/we'
+    }
   ],
   部门服务: [
     // {
