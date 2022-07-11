@@ -474,6 +474,14 @@ const rightItem = {
       icon: require('~/assets/right-icon/wrdgd.svg'),
       url:
         'https://seicwxbz.seu.edu.cn/cas-we-can/login?goto=https://nicservice.seu.edu.cn'
+    },
+    {
+      key: '大型仪器共享',
+      name: '大型仪器共享',
+      access: 'all',
+      icon: require('~/assets/right-icon/dy.png'),
+      url:
+        'https://dyapp.seu.edu.cn/we'
     }
   ],
   部门服务: [
@@ -532,14 +540,6 @@ const rightItem = {
       icon: require('~/assets/right-icon/ymbg.svg'),
       url:
         'http://work.seu.edu.cn/default/base/workflow/start.jsp?process=com.sudytech.work.jbhf.ymbgsq.ymbgsq&appload=0'
-    },
-    {
-      key: '大型仪器共享',
-      name: '大型仪器共享',
-      access: 'all',
-      icon: require('~/assets/right-icon/dy.png'),
-      url:
-        'https://dyapp.seu.edu.cn/we'
     }
   ],
   迎新专栏: [
