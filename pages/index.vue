@@ -479,7 +479,7 @@ const rightItem = {
     {
       key: '大型仪器共享',
       name: '大型仪器共享',
-      access: 'all',
+      access: ['1', '2'],
       icon: require('~/assets/right-icon/dy.png'),
       url:
         'https://dyapp.seu.edu.cn/we'
